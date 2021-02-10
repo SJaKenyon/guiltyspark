@@ -1,0 +1,2114 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "projectUuid": "a195dc47-d643-4ac0-80d8-2351d0ce5b78",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Prototype",
+    "author": "SJK",
+    "windowWidth": 640,
+    "windowHeight": 480,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensionProperties": [],
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cloud (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud (1).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Generic Backgrounds/Background Objects/Retina/cloud (1).png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_purple space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_purple space.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Space Shooter/Backgrounds/tiled_purple space.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Final/Assets/Assets.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Final/Assets/Assets.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Final/Assets/Assets-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Final/Assets/Assets-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Assets\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":224,\\\"width\\\":368,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"/Users/stanleykenyon/gameDev/guiltyspark/Game/NewFile-1.png\"],\"name\":\"NewFile\",\"singleFrame\":true}}",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Final/Social/Test_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Final/Social/Test_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Final/Assets/Background_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Final/Assets/Background_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-0-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-0-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/tile003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/OutsideWallRight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/OutsideWallRight.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/InsideWallLeft.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/InsideWallLeft.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/StonePlatRight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/StonePlatRight.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/StonePlatCent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/StonePlatCent.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/StonePlatLeft.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/StonePlatLeft.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/tile073.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/tile073.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/Grass1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/Grass1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/Grass2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/Grass2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/EarthUnder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/EarthUnder.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/EarthUnderRight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/EarthUnderRight.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/Jump/Warrior_Jump_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/Jump/Warrior_Jump_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/Jump/Warrior_Jump_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/Jump/Warrior_Jump_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/Jump/Warrior_Jump_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/Jump/Warrior_Jump_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/Run/Warrior_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/Run/Warrior_Run_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/Run/Warrior_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/Run/Warrior_Run_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/Run/Warrior_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/Run/Warrior_Run_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/Run/Warrior_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/Run/Warrior_Run_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/Run/Warrior_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/Run/Warrior_Run_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/Run/Warrior_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/Run/Warrior_Run_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/Run/Warrior_Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/Run/Warrior_Run_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Warrior/Individual Sprite/Run/Warrior_Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Warrior/Individual Sprite/Run/Warrior_Run_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/Coin1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/Coin1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/Coin2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/Coin2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/Coin3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/Coin3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/Coin4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/Coin4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SoundEffects/Sound_51.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SoundEffects/Sound_51.wav",
+        "userAdded": false
+      },
+      {
+        "file": "assets/SoundEffects/Coin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SoundEffects/Coin.wav",
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 226,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Main_32Scene",
+      "name": "Main Scene",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 74,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 144,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 44,
+          "layer": "",
+          "locked": false,
+          "name": "Player",
+          "persistentUuid": "a4758a60-b368-4f11-9de2-afbc51c39f27",
+          "width": 63,
+          "x": 374,
+          "y": 159,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 173,
+          "layer": "",
+          "locked": false,
+          "name": "LeftWallOutside",
+          "persistentUuid": "4e855c2f-113c-4a0a-8d08-5d13449aa2df",
+          "width": 32,
+          "x": 294,
+          "y": 33,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 173,
+          "layer": "",
+          "locked": false,
+          "name": "LeftWallInside",
+          "persistentUuid": "a10afb49-2240-4634-b448-7e6e4ec005ff",
+          "width": 32,
+          "x": 262,
+          "y": 33,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatformRight",
+          "persistentUuid": "8d96b34b-07aa-453b-94a3-83a400ba490d",
+          "width": 0,
+          "x": 460,
+          "y": 208,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "4557ddab-9a0c-426c-abc5-f5e541923f49",
+          "width": 135,
+          "x": 327,
+          "y": 208,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatformLeft",
+          "persistentUuid": "869d97d2-bcd2-4897-97ba-5c3103848066",
+          "width": 0,
+          "x": 1222,
+          "y": 53,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatformRight",
+          "persistentUuid": "639809ff-333d-455d-9aa5-bd67d2946d41",
+          "width": 0,
+          "x": 1245,
+          "y": 57,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatformLeft",
+          "persistentUuid": "23cf7e38-32b2-4ac9-b06e-d61b2235e14c",
+          "width": 0,
+          "x": 452,
+          "y": 147,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Coin",
+          "persistentUuid": "dda72853-9368-4bd9-87f3-6362c8cadd9b",
+          "width": 32,
+          "x": 1231,
+          "y": 20,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Coin",
+          "persistentUuid": "acae71f3-e4f0-4836-8872-72f23e1dd62f",
+          "width": 0,
+          "x": 1231,
+          "y": 20,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Coin",
+          "persistentUuid": "1306debb-3baf-4c8b-87c2-817516a90037",
+          "width": 0,
+          "x": 1224,
+          "y": 24,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Coin",
+          "persistentUuid": "8fb5ef43-bd80-4ca9-9746-ca60f9f7dbda",
+          "width": 32,
+          "x": 1234,
+          "y": 23,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Coin",
+          "persistentUuid": "9f871e2f-a564-4fca-9398-58c2d129176a",
+          "width": 32,
+          "x": 435,
+          "y": 91,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "locked": false,
+          "name": "Score",
+          "persistentUuid": "b4618a58-fd9c-404a-a339-267debf6e28a",
+          "width": 0,
+          "x": 534,
+          "y": 16,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "Player",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/idle/Warrior_Idle_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jumping",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/Jump/Warrior_Jump_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/Jump/Warrior_Jump_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/Jump/Warrior_Jump_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Running",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/Run/Warrior_Run_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/Run/Warrior_Run_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/Run/Warrior_Run_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/Run/Warrior_Run_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/Run/Warrior_Run_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/Run/Warrior_Run_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/Run/Warrior_Run_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Warrior/Individual Sprite/Run/Warrior_Run_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 6
+                          },
+                          {
+                            "x": 38,
+                            "y": 43
+                          },
+                          {
+                            "x": 16,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "StonePlatform",
+          "tags": "",
+          "texture": "assets/tileMapImages/StonePlatCent.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "LeftWallOutside",
+          "tags": "",
+          "texture": "assets/tileMapImages/OutsideWallRight.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "LeftWallInside",
+          "tags": "",
+          "texture": "assets/tileMapImages/InsideWallLeft.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "StonePlatformRight",
+          "tags": "",
+          "texture": "assets/tileMapImages/StonePlatRight.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "StonePlatformLeft",
+          "tags": "",
+          "texture": "assets/tileMapImages/StonePlatLeft.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "NewObject",
+          "tags": "",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "GrassLeft",
+          "tags": "",
+          "texture": "assets/tileMapImages/Grass1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "GrassRight",
+          "tags": "",
+          "texture": "assets/tileMapImages/Grass2.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "GrassBottom",
+          "tags": "",
+          "texture": "assets/tileMapImages/EarthUnder.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "GrassBottomRight",
+          "tags": "",
+          "texture": "assets/tileMapImages/EarthUnderRight.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "name": "Coin",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Rotation",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/tileMapImages/Coin1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 48,
+                            "y": 16
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 16,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/tileMapImages/Coin2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 48,
+                            "y": 16
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 16,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/tileMapImages/Coin3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 48,
+                            "y": 16
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 16,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/tileMapImages/Coin4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 48,
+                            "y": 16
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 16,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Score",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Score: 0",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "yes",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Jumping\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Idle\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Running\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Coin",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Coin",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/SoundEffects/Coin.wav",
+                "",
+                "",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "\"Score: \" + ToString(Variable(Score))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 36,
+          "ambientLightColorG": 6883168,
+          "ambientLightColorR": 32,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 7121888,
+          "ambientLightColorR": 2,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "UI",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Title",
+      "name": "Title",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 8035136,
+          "ambientLightColorG": 7141968,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
