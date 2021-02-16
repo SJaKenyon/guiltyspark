@@ -802,6 +802,105 @@
         "name": "assets/tileMapImages/PurpleBrick.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_11.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1077,8 +1176,8 @@
           "name": "Skeleton",
           "persistentUuid": "5c7caf39-4692-49ed-9c55-34c92426fca6",
           "width": 0,
-          "x": 139,
-          "y": 155,
+          "x": 138,
+          "y": 173,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -1902,6 +2001,205 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "assets/Player/Individual Sprite/Fall/Warrior_Fall_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Death",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_11.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3128,6 +3426,116 @@
               },
               "parameters": [
                 "Skeleton",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Skeleton",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Death\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Player",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Player",
                 "no"
               ],
               "subInstructions": []
