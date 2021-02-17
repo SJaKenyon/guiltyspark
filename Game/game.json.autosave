@@ -9,7 +9,7 @@
   "properties": {
     "adaptGameResolutionAtRuntime": true,
     "folderProject": false,
-    "orientation": "landscape",
+    "orientation": "portrait",
     "packageName": "com.example.gamename",
     "projectUuid": "a195dc47-d643-4ac0-80d8-2351d0ce5b78",
     "scaleMode": "linear",
@@ -18,8 +18,8 @@
     "version": "1.0.0",
     "name": "Prototype",
     "author": "SJK",
-    "windowWidth": 640,
-    "windowHeight": 480,
+    "windowWidth": 512,
+    "windowHeight": 912,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -1327,6 +1327,33 @@
         "metadata": "",
         "name": "assets/SoundEffects/mixkit-gore-video-game-blood-splash-263.wav",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backGround/layers/night-town-background-sky.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/backGround/layers/night-town-background-sky.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/InsideWallRight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/InsideWallRight.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backGround/layers/night-town-background-mountains.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/backGround/layers/night-town-background-mountains.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1336,18 +1363,18 @@
   "variables": [],
   "layouts": [
     {
-      "b": 226,
+      "b": 59,
       "disableInputWhenNotFocused": true,
       "mangledName": "Main_32Scene",
       "name": "Main Scene",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 74,
+      "r": 40,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 144,
+      "v": 60,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -1378,8 +1405,8 @@
           "name": "Hero",
           "persistentUuid": "a4758a60-b368-4f11-9de2-afbc51c39f27",
           "width": 80,
-          "x": 971,
-          "y": 411,
+          "x": 129,
+          "y": 614,
           "zOrder": 100,
           "numberProperties": [
             {
@@ -1401,22 +1428,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatformRight",
-          "persistentUuid": "8d96b34b-07aa-453b-94a3-83a400ba490d",
-          "width": 0,
-          "x": 889,
-          "y": 436,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 45,
           "layer": "",
@@ -1424,8 +1435,8 @@
           "name": "StonePlatform",
           "persistentUuid": "4557ddab-9a0c-426c-abc5-f5e541923f49",
           "width": 3000,
-          "x": 99,
-          "y": 436,
+          "x": 0,
+          "y": 637,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1465,54 +1476,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 44,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatformLeft",
-          "persistentUuid": "6f2ad9cb-f347-4164-831d-3eaf0c0f1140",
-          "width": 32,
-          "x": 72,
-          "y": 436,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 343,
-          "layer": "",
-          "locked": false,
-          "name": "LeftWallOutside",
-          "persistentUuid": "fdd204ca-7d82-4240-aaee-08da9ff6d8f7",
-          "width": 57,
-          "x": 72,
-          "y": 93,
-          "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 374,
-          "layer": "",
-          "locked": false,
-          "name": "LeftWallInside",
-          "persistentUuid": "c487aa1b-64a9-4727-9293-0a35a8d2733d",
-          "width": 63,
-          "x": 15,
-          "y": 93,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -1520,8 +1483,8 @@
           "name": "Skeleton",
           "persistentUuid": "5c7caf39-4692-49ed-9c55-34c92426fca6",
           "width": 0,
-          "x": 201,
-          "y": 250,
+          "x": 150,
+          "y": 398,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -1584,8 +1547,8 @@
           "name": "StonePlatform",
           "persistentUuid": "940d286a-2f13-4953-9052-371544e12f94",
           "width": 40,
-          "x": 358,
-          "y": 360,
+          "x": 216,
+          "y": 560,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -1600,8 +1563,8 @@
           "name": "StonePlatform",
           "persistentUuid": "d9e80b03-73db-472a-8563-d1b01d4b3040",
           "width": 160,
-          "x": 130,
-          "y": 277,
+          "x": 86,
+          "y": 434,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -1616,8 +1579,8 @@
           "name": "Spikes",
           "persistentUuid": "43774cd1-3069-49e1-860d-9e911ef0222d",
           "width": 0,
-          "x": 140,
-          "y": 373,
+          "x": 551,
+          "y": 571,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -1625,40 +1588,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Skeleton",
-          "persistentUuid": "e47b6a56-6356-412f-b0db-2a1f4ec161ce",
-          "width": 0,
-          "x": 772,
-          "y": 407,
-          "zOrder": 100,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Direction",
-              "value": "left"
-            },
-            {
-              "name": "dead",
-              "value": "0"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 1000,
           "layer": "",
           "locked": false,
           "name": "Left",
           "persistentUuid": "e8719938-cef1-4f54-8fdb-3f65dc9172b9",
-          "width": 0,
-          "x": 264,
-          "y": 251,
+          "width": 10,
+          "x": 406,
+          "y": -314,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -1667,14 +1605,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 500,
+          "height": 1000,
           "layer": "",
           "locked": false,
           "name": "Right",
           "persistentUuid": "42c353d3-ba6a-44b5-939f-157682d25be5",
-          "width": 20,
-          "x": 70,
-          "y": -18,
+          "width": 10,
+          "x": 61,
+          "y": -364,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -1689,8 +1627,8 @@
           "name": "HitBox",
           "persistentUuid": "89b61514-bc25-445b-9a99-ed4184ce6c77",
           "width": 0,
-          "x": 257,
-          "y": 365,
+          "x": 900,
+          "y": 318,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1707,32 +1645,160 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 384,
           "layer": "",
           "locked": false,
-          "name": "Skeleton",
-          "persistentUuid": "5352ece4-6e45-42a8-ba65-84ba82ed3346",
-          "width": 0,
-          "x": 623,
-          "y": 407,
-          "zOrder": 101,
+          "name": "RightWall",
+          "persistentUuid": "fc747467-8263-426f-9d07-96b1c965eec0",
+          "width": 64,
+          "x": 407,
+          "y": 256,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 512,
           "layer": "",
           "locked": false,
-          "name": "Skeleton",
-          "persistentUuid": "6ac09a82-9194-4cd4-9e99-4c937ab49188",
-          "width": 0,
-          "x": 540,
-          "y": 408,
-          "zOrder": 102,
+          "name": "LeftWall",
+          "persistentUuid": "e95019a1-0fed-4674-8f39-9fb31435f0f6",
+          "width": 64,
+          "x": -10,
+          "y": 129,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 24,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "b08d8a82-3abd-4459-a80b-eeed507efc27",
+          "width": 40,
+          "x": 86,
+          "y": 191,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 24,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "53134bf0-c578-457f-bcaa-e874e73ae29e",
+          "width": 40,
+          "x": 309,
+          "y": 339,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 24,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "58f4f669-2b92-4458-9ad9-f4b6c621b2e6",
+          "width": 40,
+          "x": 317,
+          "y": 482,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 24,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "cdcc0b8e-4add-4c22-9e59-6488af43c4f5",
+          "width": 40,
+          "x": 86,
+          "y": 191,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 24,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "050362bf-7f8c-48c8-91ab-f9bbedb06133",
+          "width": 40,
+          "x": 272,
+          "y": 128,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 24,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "bf43af07-2b7e-4d67-b0bc-a4c74c2239bb",
+          "width": 40,
+          "x": 216,
+          "y": 173,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 512,
+          "layer": "Background2",
+          "locked": false,
+          "name": "Background2",
+          "persistentUuid": "3ad42bec-463a-4474-97c9-b4737b1339f0",
+          "width": 352,
+          "x": 53,
+          "y": 124,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 512,
+          "layer": "Background1",
+          "locked": false,
+          "name": "Background1",
+          "persistentUuid": "30cad8c0-b230-4999-9e40-b868a2a3eea6",
+          "width": 352,
+          "x": 53,
+          "y": 125,
+          "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1747,9 +1813,9 @@
           "variables": [],
           "behaviors": [
             {
-              "ignoreDefaultControls": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "ignoreDefaultControls": true,
               "canGrabPlatforms": false,
               "gravity": 600,
               "roundCoordinates": false,
@@ -4079,12 +4145,12 @@
           ]
         },
         {
-          "height": 40,
+          "height": 64,
           "name": "StonePlatform",
           "tags": "",
           "texture": "assets/tileMapImages/StonePlatCent.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 40,
+          "width": 64,
           "variables": [],
           "behaviors": [
             {
@@ -4097,40 +4163,22 @@
           ]
         },
         {
-          "height": 32,
-          "name": "LeftWallOutside",
-          "tags": "",
-          "texture": "assets/tileMapImages/OutsideWallRight.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 32,
+          "height": 64,
           "name": "LeftWallInside",
           "tags": "",
           "texture": "assets/tileMapImages/InsideWallLeft.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
+          "width": 64,
           "variables": [],
           "behaviors": []
         },
         {
-          "height": 32,
+          "height": 64,
           "name": "StonePlatformRight",
           "tags": "",
           "texture": "assets/tileMapImages/StonePlatRight.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
+          "width": 64,
           "variables": [],
           "behaviors": [
             {
@@ -5334,23 +5382,129 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.13858,
-                            "y": 7.97398
+                            "x": 19.5071,
+                            "y": 16.0779
                           },
                           {
-                            "x": 63.6575,
-                            "y": 7.66095
+                            "x": 49.3428,
+                            "y": 15.7481
                           },
                           {
-                            "x": 61.6519,
-                            "y": 57.6444
+                            "x": 49.5935,
+                            "y": 54.7121
                           },
                           {
-                            "x": 6.63509,
-                            "y": 56.377
+                            "x": 17.902,
+                            "y": 55.0486
                           }
                         ]
                       ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 64,
+          "name": "RightWall",
+          "tags": "",
+          "texture": "assets/tileMapImages/InsideWallRight.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 64,
+          "name": "LeftWall",
+          "tags": "",
+          "texture": "assets/tileMapImages/OutsideWallRight.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": false,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "name": "Background2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/backGround/layers/night-town-background-mountains.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Background1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/backGround/layers/night-town-background-sky.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -6827,6 +6981,28 @@
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background1",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 8021296,
+          "ambientLightColorR": -2147483632,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background2",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
         {
           "ambientLightColorB": 36,
           "ambientLightColorG": 6883168,
