@@ -18,7 +18,7 @@
     "version": "1.0.0",
     "name": "Prototype",
     "author": "SJK",
-    "windowWidth": 512,
+    "windowWidth": 720,
     "windowHeight": 512,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
@@ -1459,9 +1459,9 @@
           "name": "Hero",
           "persistentUuid": "a4758a60-b368-4f11-9de2-afbc51c39f27",
           "width": 80,
-          "x": 271,
-          "y": 470,
-          "zOrder": 100,
+          "x": 355,
+          "y": 467,
+          "zOrder": 1,
           "numberProperties": [
             {
               "name": "animation",
@@ -1505,8 +1505,8 @@
           "name": "Score",
           "persistentUuid": "b4618a58-fd9c-404a-a339-267debf6e28a",
           "width": 0,
-          "x": 405,
-          "y": 269,
+          "x": 551,
+          "y": 452,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -1537,8 +1537,8 @@
           "name": "StonePlatform",
           "persistentUuid": "c68380ba-e769-485b-8691-23be08c7f6a6",
           "width": 0,
-          "x": 250,
-          "y": 309,
+          "x": 334,
+          "y": 304,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -1553,8 +1553,8 @@
           "name": "HitBox",
           "persistentUuid": "89b61514-bc25-445b-9a99-ed4184ce6c77",
           "width": 0,
-          "x": 902,
-          "y": 478,
+          "x": 986,
+          "y": 473,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1568,22 +1568,6 @@
               "value": ""
             }
           ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 409,
-          "layer": "Sky",
-          "locked": false,
-          "name": "Bk1",
-          "persistentUuid": "30cad8c0-b230-4999-9e40-b868a2a3eea6",
-          "width": 671,
-          "x": 250,
-          "y": 250,
-          "zOrder": 101,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         },
         {
           "angle": 0,
@@ -1604,14 +1588,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 89,
+          "height": 127,
           "layer": "Forest",
           "locked": false,
           "name": "Bk3",
           "persistentUuid": "41c15001-c447-4c4b-871a-2a0c44b30b1a",
           "width": 1128,
-          "x": -244,
-          "y": 405,
+          "x": -279,
+          "y": 398,
           "zOrder": 105,
           "numberProperties": [],
           "stringProperties": [],
@@ -1636,13 +1620,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 94,
+          "height": 139,
           "layer": "Mountains",
           "locked": false,
           "name": "Bk3",
           "persistentUuid": "80a5923c-2c67-4fb8-99b7-73e88da3adcd",
           "width": 1148,
-          "x": -259,
+          "x": -264,
           "y": 356,
           "zOrder": 113,
           "numberProperties": [],
@@ -1705,9 +1689,9 @@
           "locked": false,
           "name": "testsky",
           "persistentUuid": "a70c2ec6-e215-44f3-937a-049a4263db22",
-          "width": 1160,
-          "x": -261,
-          "y": 100,
+          "width": 1387,
+          "x": -421,
+          "y": 99,
           "zOrder": 122,
           "numberProperties": [],
           "stringProperties": [],
@@ -1725,6 +1709,262 @@
           "x": 366,
           "y": 329,
           "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 99,
+          "layer": "FarBuildings",
+          "locked": false,
+          "name": "FarBuildings",
+          "persistentUuid": "aba88c08-31d6-4744-a120-71f54f236a3f",
+          "width": 341,
+          "x": 364,
+          "y": 370,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "layer": "Mountains",
+          "locked": false,
+          "name": "MountainLights",
+          "persistentUuid": "a66e91c7-214f-4fcd-b951-3e1d87a85830",
+          "width": 188,
+          "x": 269,
+          "y": 338,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 219,
+          "layer": "Mountains",
+          "locked": false,
+          "name": "MountainLights",
+          "persistentUuid": "53f53dd4-0bf5-4750-8a39-0cafd588bd62",
+          "width": 139,
+          "x": 790,
+          "y": 319,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "6ff2b0e3-8d36-4892-b4e7-6f57be9b5796",
+          "width": 0,
+          "x": 166,
+          "y": 369,
+          "zOrder": 124,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "4c35a3de-f359-44cb-9984-e05e6db65bf1",
+          "width": 0,
+          "x": 256,
+          "y": 185,
+          "zOrder": 125,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "d5bde3b4-c662-463a-af4b-169bb927b2a8",
+          "width": 0,
+          "x": 489,
+          "y": 347,
+          "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "b2a169ae-0219-40f3-a0b9-f8ba64895c4d",
+          "width": 0,
+          "x": 520,
+          "y": 150,
+          "zOrder": 127,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "9ca80c3f-42d6-4cc8-a617-9ca05d2be205",
+          "width": 0,
+          "x": 264,
+          "y": 54,
+          "zOrder": 128,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 333,
+          "layer": "",
+          "locked": false,
+          "name": "LeftWallInside",
+          "persistentUuid": "1527bc9e-ebaa-465c-a3ed-b299dd50f21f",
+          "width": 64,
+          "x": 0,
+          "y": 166,
+          "zOrder": 129,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 333,
+          "layer": "",
+          "locked": false,
+          "name": "LeftWallInside",
+          "persistentUuid": "326c80c6-a1d8-4e10-b55e-0e5f804265b4",
+          "width": 64,
+          "x": 684,
+          "y": 159,
+          "zOrder": 129,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "d5ed3344-2027-4dbe-80af-966c9c37493e",
+          "width": 0,
+          "x": 98,
+          "y": 265,
+          "zOrder": 125,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "919f1287-cb85-47b3-b5d8-62ea4a2f5c39",
+          "width": 0,
+          "x": 151,
+          "y": 133,
+          "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "1be967b8-94d2-4171-89d4-0f470b0ba186",
+          "width": 0,
+          "x": 518,
+          "y": 254,
+          "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "cb31769f-623d-4c22-8d95-655f33e7ac16",
+          "width": 0,
+          "x": 340,
+          "y": 382,
+          "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "8bb82199-d11f-4700-a9df-4ad4ee3bf0b8",
+          "width": 0,
+          "x": 367,
+          "y": 235,
+          "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "96be27b5-234a-488d-bf08-d57a42144238",
+          "width": 0,
+          "x": 417,
+          "y": 102,
+          "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4071,12 +4311,12 @@
           ]
         },
         {
-          "height": 64,
+          "height": 16,
           "name": "StonePlatform",
           "tags": "",
           "texture": "assets/tileMapImages/StonePlatCent.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
+          "width": 76,
           "variables": [],
           "behaviors": [
             {
@@ -5622,7 +5862,92 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
+          "name": "Initialization",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 250,
+                "g": 200,
+                "r": 200,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Variables meaning:\n\nincreasedSpeedPerScore: How much the speed is increased per score point\nmaxMovingSpeed: The maximum speed the camera can move at\ntopY: The top position where there's the topmost platform\n",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "topY",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "platformDistance",
+                    "=",
+                    "90"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "randomPlatformDistance",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
           "name": "Play",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5632,7 +5957,22 @@
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Hero.Y()",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             },
             {
@@ -6994,7 +7334,146 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
+          "name": "Platforms",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 250,
+                "g": 200,
+                "r": 200,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "The camera top border is over the last platform position, create a new platform above and update the top platform limit\nAlso set a random value between 1 and 100 to decide if a spring must be created",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraY"
+                  },
+                  "parameters": [
+                    "",
+                    "<",
+                    "Variable(topY) + CameraHeight(\"\",0)/2 + Platform.Height()",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "topY",
+                    "-",
+                    "Variable(platformDistance) + Random(Variable(randomPlatformDistance))"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "randomX",
+                    "=",
+                    "Random(SceneWindowWidth())"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "StonePlatform",
+                    "Variable(randomX)",
+                    "Variable(topY)",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "StonePlatform",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 250,
+                "g": 200,
+                "r": 200,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Delete platforms totally outside the camera view (plus player height so the player can stand in the edge a bit more)",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "StonePlatform",
+                    ">",
+                    "CameraY(\"\",0) + CameraHeight(\"\",0)/2 + Player.Height() + 20"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
           "name": "Parralax",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7013,20 +7492,6 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CameraX"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "Hero.X()",
-                    "",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
                 {
                   "type": {
                     "inverted": false,
@@ -7150,7 +7615,7 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 0,
           "ambientLightColorR": 2,
           "followBaseLayerCamera": false,
@@ -7161,7 +7626,7 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 0,
           "ambientLightColorR": 2,
           "followBaseLayerCamera": false,
@@ -7172,8 +7637,8 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
-          "ambientLightColorG": 1801675074,
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 1801675136,
           "ambientLightColorR": -1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
@@ -7183,8 +7648,8 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
-          "ambientLightColorG": 1333224782,
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 1333224832,
           "ambientLightColorR": 55,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
@@ -7241,63 +7706,6 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         }
       ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Title",
-      "name": "Title",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridB": 255,
-        "gridG": 180,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridR": 158,
-        "gridWidth": 32,
-        "snap": true,
-        "windowMask": false,
-        "zoomFactor": 1
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [],
-      "layers": [
-        {
-          "ambientLightColorB": 8035136,
-          "ambientLightColorG": 7141968,
-          "ambientLightColorR": 0,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
