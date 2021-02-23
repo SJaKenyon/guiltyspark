@@ -1578,8 +1578,8 @@
           "name": "Bk2",
           "persistentUuid": "d13aa7d8-c21b-4ddc-b80c-296806c32801",
           "width": 1175,
-          "x": -222,
-          "y": 208,
+          "x": -482,
+          "y": 199,
           "zOrder": 104,
           "numberProperties": [],
           "stringProperties": [],
@@ -1626,8 +1626,8 @@
           "name": "Bk3",
           "persistentUuid": "80a5923c-2c67-4fb8-99b7-73e88da3adcd",
           "width": 1148,
-          "x": -264,
-          "y": 356,
+          "x": -336,
+          "y": 358,
           "zOrder": 113,
           "numberProperties": [],
           "stringProperties": [],
@@ -1674,8 +1674,8 @@
           "name": "Clouds",
           "persistentUuid": "e9c34aa2-664a-40f6-a06b-de5539305c78",
           "width": 1172,
-          "x": -261,
-          "y": 127,
+          "x": -556,
+          "y": 145,
           "zOrder": 121,
           "numberProperties": [],
           "stringProperties": [],
@@ -1690,8 +1690,8 @@
           "name": "testsky",
           "persistentUuid": "a70c2ec6-e215-44f3-937a-049a4263db22",
           "width": 1387,
-          "x": -421,
-          "y": 99,
+          "x": -595,
+          "y": 110,
           "zOrder": 122,
           "numberProperties": [],
           "stringProperties": [],
@@ -1843,38 +1843,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 333,
-          "layer": "",
-          "locked": false,
-          "name": "LeftWallInside",
-          "persistentUuid": "1527bc9e-ebaa-465c-a3ed-b299dd50f21f",
-          "width": 64,
-          "x": 0,
-          "y": 166,
-          "zOrder": 129,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 333,
-          "layer": "",
-          "locked": false,
-          "name": "LeftWallInside",
-          "persistentUuid": "326c80c6-a1d8-4e10-b55e-0e5f804265b4",
-          "width": 64,
-          "x": 684,
-          "y": 159,
-          "zOrder": 129,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -1965,6 +1933,38 @@
           "x": 417,
           "y": 102,
           "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 499,
+          "layer": "",
+          "locked": false,
+          "name": "RightWall",
+          "persistentUuid": "390b5f56-06bb-450c-82fe-a8c2198fae21",
+          "width": 64,
+          "x": 656,
+          "y": -4,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 503,
+          "layer": "",
+          "locked": false,
+          "name": "LeftWall",
+          "persistentUuid": "dbd7099b-5c31-45a5-90d8-ab14945e1ee0",
+          "width": 64,
+          "x": 0,
+          "y": -2,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4316,7 +4316,7 @@
           "tags": "",
           "texture": "assets/tileMapImages/StonePlatCent.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 76,
+          "width": 128,
           "variables": [],
           "behaviors": [
             {
@@ -5580,7 +5580,15 @@
           "type": "TiledSpriteObject::TiledSprite",
           "width": 64,
           "variables": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
         },
         {
           "height": 64,
@@ -5879,6 +5887,21 @@
                 "textG": 0,
                 "textR": 0
               },
+              "comment": "Variables meaning:\n\ntopY: The top position where there's the topmost platform\nplatformDistance: The distance between created platforms\nrandomPlatformDistance: A small random offset to add to the distance\n",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 250,
+                "g": 200,
+                "r": 200,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "Variables meaning:\n\nincreasedSpeedPerScore: How much the speed is increased per score point\nmaxMovingSpeed: The maximum speed the camera can move at\ntopY: The top position where there's the topmost platform\n",
               "comment2": ""
             },
@@ -5919,7 +5942,7 @@
                   "parameters": [
                     "platformDistance",
                     "=",
-                    "90"
+                    "70"
                   ],
                   "subInstructions": []
                 },
@@ -5947,7 +5970,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Play",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7424,6 +7447,34 @@
                     "1"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "LeftWall",
+                    "0",
+                    "Variable(topY)",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "RightWall",
+                    "SceneWindowWidth()-64",
+                    "Variable(topY)",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -7584,7 +7635,22 @@
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Hero.Y()*1",
+                    "\"Town\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             }
           ],
