@@ -1408,13 +1408,58 @@
         "name": "assets/backGround/layers/night-town-background-clouds.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TutorialTips-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TutorialTips-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TutorialTips-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TutorialTips-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "firstPlay",
+      "value": "1"
+    },
+    {
+      "name": "highScore",
+      "value": "0"
+    }
+  ],
   "layouts": [
     {
       "b": 9,
@@ -1494,7 +1539,12 @@
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "used",
+              "value": "1"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -1768,94 +1818,19 @@
           "layer": "",
           "locked": false,
           "name": "StonePlatform",
-          "persistentUuid": "6ff2b0e3-8d36-4892-b4e7-6f57be9b5796",
-          "width": 0,
-          "x": 166,
-          "y": 369,
-          "zOrder": 124,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatform",
-          "persistentUuid": "4c35a3de-f359-44cb-9984-e05e6db65bf1",
-          "width": 0,
-          "x": 256,
-          "y": 185,
-          "zOrder": 125,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatform",
-          "persistentUuid": "d5bde3b4-c662-463a-af4b-169bb927b2a8",
-          "width": 0,
-          "x": 489,
-          "y": 347,
-          "zOrder": 126,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatform",
           "persistentUuid": "b2a169ae-0219-40f3-a0b9-f8ba64895c4d",
           "width": 0,
-          "x": 520,
-          "y": 150,
+          "x": 134,
+          "y": 72,
           "zOrder": 127,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatform",
-          "persistentUuid": "9ca80c3f-42d6-4cc8-a617-9ca05d2be205",
-          "width": 0,
-          "x": 264,
-          "y": 54,
-          "zOrder": 128,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatform",
-          "persistentUuid": "d5ed3344-2027-4dbe-80af-966c9c37493e",
-          "width": 0,
-          "x": 98,
-          "y": 265,
-          "zOrder": 125,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "id",
+              "value": "4"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -1866,28 +1841,17 @@
           "name": "StonePlatform",
           "persistentUuid": "919f1287-cb85-47b3-b5d8-62ea4a2f5c39",
           "width": 0,
-          "x": 151,
-          "y": 133,
+          "x": 466,
+          "y": 180,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatform",
-          "persistentUuid": "1be967b8-94d2-4171-89d4-0f470b0ba186",
-          "width": 0,
-          "x": 518,
-          "y": 254,
-          "zOrder": 126,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "id",
+              "value": "3"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -1898,12 +1862,17 @@
           "name": "StonePlatform",
           "persistentUuid": "cb31769f-623d-4c22-8d95-655f33e7ac16",
           "width": 0,
-          "x": 340,
-          "y": 382,
+          "x": 430,
+          "y": 402,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "id",
+              "value": "1"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -1914,9 +1883,46 @@
           "name": "StonePlatform",
           "persistentUuid": "8bb82199-d11f-4700-a9df-4ad4ee3bf0b8",
           "width": 0,
-          "x": 367,
-          "y": 235,
+          "x": 137,
+          "y": 260,
           "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 512,
+          "layer": "",
+          "locked": false,
+          "name": "RightWall",
+          "persistentUuid": "390b5f56-06bb-450c-82fe-a8c2198fae21",
+          "width": 64,
+          "x": 656,
+          "y": 0,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 512,
+          "layer": "",
+          "locked": false,
+          "name": "LeftWall",
+          "persistentUuid": "dbd7099b-5c31-45a5-90d8-ab14945e1ee0",
+          "width": 64,
+          "x": 0,
+          "y": 0,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1927,12 +1933,90 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "StonePlatform",
-          "persistentUuid": "96be27b5-234a-488d-bf08-d57a42144238",
+          "name": "TutorialTips",
+          "persistentUuid": "62d685db-610d-47d2-a0fb-ddc54b3971d1",
           "width": 0,
-          "x": 417,
-          "y": 102,
-          "zOrder": 126,
+          "x": 532,
+          "y": 321,
+          "zOrder": 128,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "step",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TutorialTips",
+          "persistentUuid": "896f1e5c-0dd3-474c-b948-9e8a0a4e64a8",
+          "width": 0,
+          "x": 330,
+          "y": 229,
+          "zOrder": 129,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "step",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TutorialTips",
+          "persistentUuid": "223b6488-1855-48fa-bd68-26903021ffa3",
+          "width": 0,
+          "x": 328,
+          "y": 114,
+          "zOrder": 130,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "step",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Coin",
+          "persistentUuid": "734f28a7-d8bd-478b-b4ac-e777baaa9774",
+          "width": 0,
+          "x": 135,
+          "y": 423,
+          "zOrder": 131,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1940,31 +2024,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 499,
+          "height": 10,
           "layer": "",
           "locked": false,
-          "name": "RightWall",
-          "persistentUuid": "390b5f56-06bb-450c-82fe-a8c2198fae21",
-          "width": 64,
-          "x": 656,
-          "y": -4,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 503,
-          "layer": "",
-          "locked": false,
-          "name": "LeftWall",
-          "persistentUuid": "dbd7099b-5c31-45a5-90d8-ab14945e1ee0",
-          "width": 64,
-          "x": 0,
-          "y": -2,
-          "zOrder": 11,
+          "name": "HeroFeet",
+          "persistentUuid": "29079a01-38a3-4c63-a23a-0ad4ba4d34cb",
+          "width": 40,
+          "x": 819,
+          "y": 463,
+          "zOrder": 132,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2012,8 +2080,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2030,20 +2103,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2054,8 +2127,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2072,20 +2150,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2096,8 +2174,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2114,20 +2197,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2138,8 +2221,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2156,20 +2244,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2180,8 +2268,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2198,20 +2291,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2222,8 +2315,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2240,20 +2338,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2276,8 +2374,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2294,20 +2397,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2318,8 +2421,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2336,20 +2444,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2360,8 +2468,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2378,20 +2491,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2402,8 +2515,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2420,20 +2538,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2444,8 +2562,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2462,20 +2585,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2486,8 +2609,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2504,20 +2632,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2528,8 +2656,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2546,20 +2679,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2570,8 +2703,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2588,20 +2726,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2624,8 +2762,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2642,20 +2785,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2666,8 +2809,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2684,20 +2832,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2708,8 +2856,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2726,20 +2879,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2762,8 +2915,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2780,20 +2938,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2804,8 +2962,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2822,20 +2985,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2846,8 +3009,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2864,20 +3032,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2900,8 +3068,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2918,20 +3091,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2942,8 +3115,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -2960,20 +3138,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -2984,8 +3162,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3002,20 +3185,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3026,8 +3209,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3044,20 +3232,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3068,8 +3256,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3086,20 +3279,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3110,8 +3303,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3128,20 +3326,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3152,8 +3350,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3170,20 +3373,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3194,8 +3397,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3212,20 +3420,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3236,8 +3444,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3254,20 +3467,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3278,8 +3491,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3296,20 +3514,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3320,8 +3538,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3338,20 +3561,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3374,8 +3597,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3392,20 +3620,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3416,8 +3644,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3434,20 +3667,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3458,8 +3691,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3476,20 +3714,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3500,8 +3738,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3518,20 +3761,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3542,8 +3785,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3560,20 +3808,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3584,8 +3832,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3602,20 +3855,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3626,8 +3879,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3644,20 +3902,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3668,8 +3926,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3686,20 +3949,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3710,8 +3973,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3728,20 +3996,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3752,8 +4020,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3770,20 +4043,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3794,8 +4067,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3812,20 +4090,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3836,8 +4114,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3854,20 +4137,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3890,8 +4173,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3908,20 +4196,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3932,8 +4220,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3950,20 +4243,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -3974,8 +4267,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -3992,20 +4290,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -4016,8 +4314,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -4034,20 +4337,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -4058,8 +4361,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -4076,20 +4384,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -4100,8 +4408,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -4118,20 +4431,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -4142,8 +4455,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -4160,20 +4478,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -4184,8 +4502,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -4202,20 +4525,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -4226,8 +4549,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -4244,20 +4572,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -4268,8 +4596,13 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 57.0125,
-                          "y": 23.9419
+                          "x": 52.3948,
+                          "y": 21.2881
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 9.02246,
+                          "y": 38.2404
                         }
                       ],
                       "originPoint": {
@@ -4286,20 +4619,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 35,
-                            "y": 10
+                            "x": 30.2952,
+                            "y": 11.2214
                           },
                           {
-                            "x": 35,
-                            "y": 44
+                            "x": 30.2791,
+                            "y": 42.264
                           },
                           {
-                            "x": 20,
-                            "y": 44
+                            "x": 23.0427,
+                            "y": 42.8847
                           },
                           {
-                            "x": 20,
-                            "y": 10
+                            "x": 22.5485,
+                            "y": 11.3998
                           }
                         ]
                       ]
@@ -4317,7 +4650,12 @@
           "texture": "assets/tileMapImages/StonePlatCent.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
-          "variables": [],
+          "variables": [
+            {
+              "name": "used",
+              "value": "0"
+            }
+          ],
           "behaviors": [
             {
               "name": "Platform",
@@ -4340,24 +4678,6 @@
         },
         {
           "height": 64,
-          "name": "StonePlatformRight",
-          "tags": "",
-          "texture": "assets/tileMapImages/StonePlatRight.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 64,
           "name": "StonePlatformLeft",
           "tags": "",
           "texture": "assets/tileMapImages/StonePlatLeft.png",
@@ -4373,72 +4693,6 @@
               "yGrabOffset": 0
             }
           ]
-        },
-        {
-          "height": 32,
-          "name": "NewObject",
-          "tags": "",
-          "texture": "",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "height": 32,
-          "name": "GrassLeft",
-          "tags": "",
-          "texture": "assets/tileMapImages/Grass1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 32,
-          "name": "GrassRight",
-          "tags": "",
-          "texture": "assets/tileMapImages/Grass2.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 32,
-          "name": "GrassBottom",
-          "tags": "",
-          "texture": "assets/tileMapImages/EarthUnder.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "height": 32,
-          "name": "GrassBottomRight",
-          "tags": "",
-          "texture": "assets/tileMapImages/EarthUnderRight.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": []
         },
         {
           "name": "Coin",
@@ -5447,16 +5701,6 @@
           ]
         },
         {
-          "height": 32,
-          "name": "BackGround",
-          "tags": "",
-          "texture": "assets/tileMapImages/PurpleBrick.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": []
-        },
-        {
           "name": "Spikes",
           "tags": "",
           "type": "Sprite",
@@ -5573,7 +5817,7 @@
           ]
         },
         {
-          "height": 64,
+          "height": 512,
           "name": "RightWall",
           "tags": "",
           "texture": "assets/tileMapImages/InsideWallRight.png",
@@ -5582,16 +5826,16 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
         },
         {
-          "height": 64,
+          "height": 512,
           "name": "LeftWall",
           "tags": "",
           "texture": "assets/tileMapImages/OutsideWallRight.png",
@@ -5774,6 +6018,142 @@
           "width": 96,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "name": "TutorialTips",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject2-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TutorialTips-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TutorialTips-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HeroFeet",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -5784,7 +6164,7 @@
           "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "name": "Intialise",
+          "name": "Initialization",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -5824,16 +6204,7 @@
                     "Right"
                   ],
                   "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -5857,71 +6228,17 @@
                     "HitBox"
                   ],
                   "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
-          "name": "Initialization",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 250,
-                "g": 200,
-                "r": 200,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Variables meaning:\n\ntopY: The top position where there's the topmost platform\nplatformDistance: The distance between created platforms\nrandomPlatformDistance: A small random offset to add to the distance\n",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 250,
-                "g": 200,
-                "r": 200,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Variables meaning:\n\nincreasedSpeedPerScore: How much the speed is increased per score point\nmaxMovingSpeed: The maximum speed the camera can move at\ntopY: The top position where there's the topmost platform\n",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+                },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "DepartScene"
+                    "value": "Cache"
                   },
                   "parameters": [
-                    ""
+                    "TutorialTips"
                   ],
                   "subInstructions": []
-                }
-              ],
-              "actions": [
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -5940,9 +6257,9 @@
                     "value": "ModVarScene"
                   },
                   "parameters": [
-                    "platformDistance",
+                    "firstPlay",
                     "=",
-                    "80"
+                    "1"
                   ],
                   "subInstructions": []
                 },
@@ -5957,9 +6274,556 @@
                     "5"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "platformDistance",
+                    "=",
+                    "50"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 250,
+                "g": 200,
+                "r": 200,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Variables meaning:\n\ntopY: The top position where there's the topmost platform\nplatformDistance: The distance between created platforms\nrandomPlatformDistance: A small random offset to add to the distance\n",
+              "comment2": ""
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Scoring",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 250,
+                "g": 200,
+                "r": 200,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "If player steps on a new platform, add score and flag the platform as \"used\" to not give scores anymore\n\n",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "Coin",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/SoundEffects/Coin.wav",
+                    "",
+                    "",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "10"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Score",
+                    "=",
+                    "\"Score: \" + ToString(Variable(Score))"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "HeroFeet",
+                    "StonePlatform",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "StonePlatform",
+                    "used",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Score",
+                    "=",
+                    "\"Score: \" + ToString(Variable(Score))"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "StonePlatform",
+                    "used",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Tutorial",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 250,
+                "g": 200,
+                "r": 200,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "first time to run the tutorial\nfirstPlay is a global variable with a starting value of 1",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "firstPlay",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 250,
+                    "g": 200,
+                    "r": 200,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Show the first tips (controls)",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "TutorialTips",
+                            "step",
+                            "=",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "TutorialTips",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 250,
+                    "g": 200,
+                    "r": 200,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Each time the player is over a new platform, deactivate the previous tips and show the next ones",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "HeroFeet",
+                        "StonePlatform",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Hero",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "StonePlatform",
+                        "used",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "TutorialTips",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "TutorialTips",
+                            "step",
+                            "=",
+                            "StonePlatform.Variable(id)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "TutorialTips"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "TutorialTips",
+                            "step",
+                            "=",
+                            "StonePlatform.Variable(id) + 1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 250,
+                        "g": 200,
+                        "r": 200,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "In the second step (first platform) create a rock",
+                      "comment2": ""
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "StonePlatform",
+                            "id",
+                            "=",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 250,
+                        "g": 200,
+                        "r": 200,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "In the last step flag the tutorial as complete setting the firstPlay global variable to 0, reset the scene since now won't launch the tutorial again\nAlso start moving the camera and throwing rocks",
+                      "comment2": ""
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "StonePlatform",
+                            "id",
+                            "=",
+                            "4"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "firstPlay",
+                            "=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -5992,6 +6856,20 @@
                     "Hero.Y()",
                     "",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "HeroFeet",
+                    "=",
+                    "Hero.PointX(\"Feet\")",
+                    "=",
+                    "Hero.PointY(\"Feet\")"
                   ],
                   "subInstructions": []
                 }
@@ -6880,67 +7758,6 @@
                   "parameters": [
                     "Hero",
                     "\"respawn\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Hero",
-                    "Coin",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Coin",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "assets/SoundEffects/Coin.wav",
-                    "",
-                    "",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Score",
-                    "+",
-                    "1"
                   ],
                   "subInstructions": []
                 }
