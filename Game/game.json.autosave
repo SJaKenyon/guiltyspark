@@ -1443,6 +1443,114 @@
         "metadata": "",
         "name": "NewObject-1.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TUTORIAL/left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/TUTORIAL/left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TUTORIAL/right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/TUTORIAL/right.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TUTORIAL/LEFT.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/TUTORIAL/LEFT.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TUTORIAL/RIGHT.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/TUTORIAL/RIGHT.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TUTORIAL/UP.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/TUTORIAL/UP.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TUTORIAL/SCORE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/TUTORIAL/SCORE.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TUTORIAL/SKELETONS.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/TUTORIAL/SKELETONS.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TUTORIAL/COINS.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/TUTORIAL/COINS.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gameOver/BlackMask.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/gameOver/BlackMask.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gameOver/RESTART.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/gameOver/RESTART.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gameOver/output-onlinetexttools.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/gameOver/output-onlinetexttools.png",
+        "smoothed": true,
         "userAdded": true
       }
     ],
@@ -1456,7 +1564,7 @@
       "value": "1"
     },
     {
-      "name": "highScore",
+      "name": "bestScore",
       "value": "0"
     }
   ],
@@ -1464,8 +1572,8 @@
     {
       "b": 9,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Main_32Scene",
-      "name": "Main Scene",
+      "mangledName": "Game",
+      "name": "Game",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -1555,8 +1663,8 @@
           "name": "Score",
           "persistentUuid": "b4618a58-fd9c-404a-a339-267debf6e28a",
           "width": 0,
-          "x": 551,
-          "y": 452,
+          "x": 74,
+          "y": 6,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -1818,52 +1926,10 @@
           "layer": "",
           "locked": false,
           "name": "StonePlatform",
-          "persistentUuid": "b2a169ae-0219-40f3-a0b9-f8ba64895c4d",
-          "width": 0,
-          "x": 134,
-          "y": 72,
-          "zOrder": 127,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "id",
-              "value": "4"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatform",
-          "persistentUuid": "919f1287-cb85-47b3-b5d8-62ea4a2f5c39",
-          "width": 0,
-          "x": 466,
-          "y": 180,
-          "zOrder": 126,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "id",
-              "value": "3"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatform",
           "persistentUuid": "cb31769f-623d-4c22-8d95-655f33e7ac16",
           "width": 0,
-          "x": 430,
-          "y": 402,
+          "x": 285,
+          "y": 393,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -1871,27 +1937,6 @@
             {
               "name": "id",
               "value": "1"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatform",
-          "persistentUuid": "8bb82199-d11f-4700-a9df-4ad4ee3bf0b8",
-          "width": 0,
-          "x": 137,
-          "y": 260,
-          "zOrder": 126,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "id",
-              "value": "2"
             }
           ]
         },
@@ -1933,16 +1978,163 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "TutorialTips",
-          "persistentUuid": "62d685db-610d-47d2-a0fb-ddc54b3971d1",
+          "name": "Coin",
+          "persistentUuid": "734f28a7-d8bd-478b-b4ac-e777baaa9774",
           "width": 0,
-          "x": 532,
-          "y": 321,
-          "zOrder": 128,
+          "x": 124,
+          "y": 242,
+          "zOrder": 131,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "HeroFeet",
+          "persistentUuid": "18ae931e-cfb5-47f1-97fd-bce309bc720c",
+          "width": 0,
+          "x": 831,
+          "y": 464,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 46,
+          "layer": "",
+          "locked": false,
+          "name": "TutorialTips",
+          "persistentUuid": "97abe031-affc-4d99-b36e-7b2344cd3b08",
+          "width": 297,
+          "x": 90,
+          "y": 32,
+          "zOrder": 138,
           "numberProperties": [
             {
               "name": "animation",
-              "value": 0
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "step",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TutorialTips",
+          "persistentUuid": "238cd9d6-866d-491d-9311-70eb4e88fa6f",
+          "width": 0,
+          "x": 216,
+          "y": 145,
+          "zOrder": 139,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "step",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "5b81cd9d-f32c-46f8-8c26-8af40057d1c3",
+          "width": 0,
+          "x": 432,
+          "y": 270,
+          "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "974a194d-5dac-4690-8062-2b8ae10fff14",
+          "width": 0,
+          "x": 93,
+          "y": 303,
+          "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "6c330b77-8bdb-4468-bad1-d4751bf03463",
+          "width": 0,
+          "x": 163,
+          "y": 116,
+          "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TutorialTips",
+          "persistentUuid": "131b738b-b908-4206-9719-cc21ecd9073c",
+          "width": 0,
+          "x": 197,
+          "y": 349,
+          "zOrder": 140,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
             }
           ],
           "stringProperties": [],
@@ -1960,15 +2152,15 @@
           "layer": "",
           "locked": false,
           "name": "TutorialTips",
-          "persistentUuid": "896f1e5c-0dd3-474c-b948-9e8a0a4e64a8",
+          "persistentUuid": "17286ea6-7efc-42a7-9e75-9fef1f12f7d1",
           "width": 0,
-          "x": 330,
-          "y": 229,
-          "zOrder": 129,
+          "x": 71,
+          "y": 220,
+          "zOrder": 141,
           "numberProperties": [
             {
               "name": "animation",
-              "value": 1
+              "value": 5
             }
           ],
           "stringProperties": [],
@@ -1985,23 +2177,65 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "TutorialTips",
-          "persistentUuid": "223b6488-1855-48fa-bd68-26903021ffa3",
+          "name": "StonePlatform",
+          "persistentUuid": "88ae1f29-40b9-4f79-a286-73436c244715",
           "width": 0,
-          "x": 328,
-          "y": 114,
-          "zOrder": 130,
+          "x": 479,
+          "y": 86,
+          "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "",
+          "locked": false,
+          "name": "TutorialTips",
+          "persistentUuid": "0b2e5395-26e2-4277-b0f1-0b6bbc8ae6ab",
+          "width": 200,
+          "x": 96,
+          "y": 444,
+          "zOrder": 142,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "step",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "",
+          "locked": false,
+          "name": "TutorialTips",
+          "persistentUuid": "9c933343-9e27-4900-a5c1-7b7a38ed4c4b",
+          "width": 200,
+          "x": 438,
+          "y": 443,
+          "zOrder": 142,
           "numberProperties": [
             {
               "name": "animation",
-              "value": 2
+              "value": 1
             }
           ],
           "stringProperties": [],
           "initialVariables": [
             {
               "name": "step",
-              "value": "3"
+              "value": "1"
             }
           ]
         },
@@ -2011,12 +2245,49 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Coin",
-          "persistentUuid": "734f28a7-d8bd-478b-b4ac-e777baaa9774",
+          "name": "Skeleton",
+          "persistentUuid": "f52a272e-02b7-4977-a495-3e156bb5c8ce",
           "width": 0,
-          "x": 135,
-          "y": 423,
-          "zOrder": 131,
+          "x": 496,
+          "y": 238,
+          "zOrder": 143,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "right"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Left",
+          "persistentUuid": "80ba83c9-0d5b-4e99-8ef2-c79414657a74",
+          "width": 0,
+          "x": 537,
+          "y": 237,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Right",
+          "persistentUuid": "81d0f17a-ed6b-4a2e-a7b3-ff45c9043bf2",
+          "width": 0,
+          "x": 427,
+          "y": 234,
+          "zOrder": 148,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2024,15 +2295,79 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 10,
-          "layer": "",
+          "height": 632,
+          "layer": "GameOver",
           "locked": false,
-          "name": "HeroFeet",
-          "persistentUuid": "29079a01-38a3-4c63-a23a-0ad4ba4d34cb",
-          "width": 40,
-          "x": 819,
-          "y": 463,
-          "zOrder": 132,
+          "name": "BlackMask",
+          "persistentUuid": "6913fe51-9a1d-428e-bf66-4189ebb4092b",
+          "width": 907,
+          "x": -91,
+          "y": -58,
+          "zOrder": 150,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "GameOver",
+          "locked": false,
+          "name": "FinalScoreTitle",
+          "persistentUuid": "010a33ea-65db-4491-9d40-c632e9b991ec",
+          "width": 0,
+          "x": 283,
+          "y": 79,
+          "zOrder": 151,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "GameOver",
+          "locked": false,
+          "name": "FinalScore",
+          "persistentUuid": "5c5a542e-93bb-4197-8170-0c779a677d9d",
+          "width": 0,
+          "x": 342,
+          "y": 142,
+          "zOrder": 152,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "GameOver",
+          "locked": false,
+          "name": "BestScore",
+          "persistentUuid": "1868fac9-3196-4942-bfea-d9b9e83c8008",
+          "width": 0,
+          "x": 318,
+          "y": 228,
+          "zOrder": 153,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 44,
+          "layer": "GameOver",
+          "locked": false,
+          "name": "Restart",
+          "persistentUuid": "67fa6ba3-ec0e-4c11-a14a-47e6f5ca64b2",
+          "width": 133,
+          "x": 285,
+          "y": 338,
+          "zOrder": 154,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2049,9 +2384,9 @@
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "gravity": 600,
               "ignoreDefaultControls": true,
               "canGrabPlatforms": false,
-              "gravity": 600,
               "roundCoordinates": false,
               "acceleration": 1500,
               "deceleration": 1500,
@@ -2085,8 +2420,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2132,8 +2467,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2179,8 +2514,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2226,8 +2561,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2273,8 +2608,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2320,8 +2655,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2379,8 +2714,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2426,8 +2761,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2473,8 +2808,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2520,8 +2855,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2567,8 +2902,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2614,8 +2949,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2661,8 +2996,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2708,8 +3043,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2767,8 +3102,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2814,8 +3149,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2861,8 +3196,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2920,8 +3255,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -2967,8 +3302,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3014,8 +3349,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3073,8 +3408,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3120,8 +3455,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3167,8 +3502,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3214,8 +3549,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3261,8 +3596,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3308,8 +3643,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3355,8 +3690,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3402,8 +3737,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3449,8 +3784,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3496,8 +3831,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3543,8 +3878,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3602,8 +3937,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3649,8 +3984,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3696,8 +4031,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3743,8 +4078,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3790,8 +4125,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3837,8 +4172,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3884,8 +4219,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3931,8 +4266,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -3978,8 +4313,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -4025,8 +4360,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -4072,8 +4407,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -4119,8 +4454,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -4178,8 +4513,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -4225,8 +4560,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -4272,8 +4607,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -4319,8 +4654,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -4366,8 +4701,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -4413,8 +4748,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -4460,8 +4795,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -4507,8 +4842,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -4554,8 +4889,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -4601,8 +4936,8 @@
                         },
                         {
                           "name": "Feet",
-                          "x": 9.02246,
-                          "y": 38.2404
+                          "x": 28.16,
+                          "y": 45.5693
                         }
                       ],
                       "originPoint": {
@@ -4650,12 +4985,7 @@
           "texture": "assets/tileMapImages/StonePlatCent.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
-          "variables": [
-            {
-              "name": "used",
-              "value": "0"
-            }
-          ],
+          "variables": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -6028,7 +6358,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "0",
+              "name": "left",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -6037,7 +6367,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1.png",
+                      "image": "assets/TUTORIAL/LEFT.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6057,7 +6387,7 @@
               ]
             },
             {
-              "name": "1",
+              "name": "right",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -6066,7 +6396,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "TutorialTips-1.png",
+                      "image": "assets/TUTORIAL/RIGHT.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6086,7 +6416,7 @@
               ]
             },
             {
-              "name": "2",
+              "name": "jump!",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -6095,7 +6425,94 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "TutorialTips-1-0.png",
+                      "image": "assets/TUTORIAL/UP.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "how high can you get?",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/TUTORIAL/SCORE.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "skeletons",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/TUTORIAL/SKELETONS.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "coins",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/TUTORIAL/COINS.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6133,8 +6550,162 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "NewObject-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 31.9702,
+                        "y": 34.922
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 31.8722,
+                        "y": 35.305
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16.4152,
+                            "y": 37.0006
+                          },
+                          {
+                            "x": 48.8594,
+                            "y": 37.933
+                          },
+                          {
+                            "x": 49.6411,
+                            "y": 58.8802
+                          },
+                          {
+                            "x": 16.9694,
+                            "y": 59.4344
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "FinalScoreTitle",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "SCORE:",
+          "font": "",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
+        },
+        {
+          "name": "BlackMask",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/gameOver/BlackMask.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "FinalScore",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "BestScore",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "BEST: 0",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        },
+        {
+          "name": "Restart",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/gameOver/output-onlinetexttools.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6208,30 +6779,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "HitBox",
-                    "=",
-                    "Hero.PointX(\"HitPoint\")",
-                    "=",
-                    "Hero.PointY(\"HitPoint\")"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HitBox"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Cache"
                   },
                   "parameters": [
@@ -6286,6 +6833,83 @@
                     "50"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "gameRunning",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"GameOver\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Pause\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "HitBox"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "HeroFeet"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "HitBox",
+                    "=",
+                    "Hero.PointX(\"HitPoint\")",
+                    "=",
+                    "Hero.PointY(\"HitPoint\")"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -6314,7 +6938,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Scoring",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6400,6 +7024,17 @@
                     "\"Score: \" + ToString(Variable(Score))"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Coin",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -6457,19 +7092,7 @@
                   "parameters": [
                     "Score",
                     "+",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Score",
-                    "=",
-                    "\"Score: \" + ToString(Variable(Score))"
+                    "Count(StonePlatform)"
                   ],
                   "subInstructions": []
                 },
@@ -6483,6 +7106,18 @@
                     "used",
                     "=",
                     "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Score",
+                    "=",
+                    "\"Score: \" + ToString(Variable(Score))"
                   ],
                   "subInstructions": []
                 }
@@ -6629,6 +7264,19 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "StonePlatform",
+                        "used",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "CollisionNP"
                       },
                       "parameters": [
@@ -6639,45 +7287,9 @@
                         ""
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "Hero",
-                        "PlatformerObject"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "StonePlatform",
-                        "used",
-                        "=",
-                        "0"
-                      ],
-                      "subInstructions": []
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "TutorialTips",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
+                  "actions": [],
                   "events": [
                     {
                       "disabled": false,
@@ -6731,44 +7343,19 @@
                           "subInstructions": []
                         }
                       ],
-                      "actions": [],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 250,
-                        "g": 200,
-                        "r": 200,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "In the second step (first platform) create a rock",
-                      "comment2": ""
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
+                      "actions": [
                         {
                           "type": {
                             "inverted": false,
-                            "value": "VarObjet"
+                            "value": "Montre"
                           },
                           "parameters": [
-                            "StonePlatform",
-                            "id",
-                            "=",
-                            "1"
+                            "TutorialTips",
+                            ""
                           ],
                           "subInstructions": []
                         }
                       ],
-                      "actions": [],
                       "events": []
                     },
                     {
@@ -6783,7 +7370,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "In the last step flag the tutorial as complete setting the firstPlay global variable to 0, reset the scene since now won't launch the tutorial again\nAlso start moving the camera and throwing rocks",
+                      "comment": "In the last step flag the tutorial as complete setting the firstPlay global variable to 0, reset the scene since now won't launch the tutorial again",
                       "comment2": ""
                     },
                     {
@@ -7530,7 +8117,7 @@
               "comment2": ""
             },
             {
-              "disabled": false,
+              "disabled": true,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -7749,17 +8336,6 @@
                     "0"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Hero",
-                    "\"respawn\""
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
@@ -7781,7 +8357,7 @@
             },
             {
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7884,11 +8460,12 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "SetAnimationName"
+                        "value": "ChangeAnimation"
                       },
                       "parameters": [
                         "Skeleton",
-                        "\"Running\""
+                        "=",
+                        "1"
                       ],
                       "subInstructions": []
                     }
@@ -7979,11 +8556,12 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "SetAnimationName"
+                        "value": "ChangeAnimation"
                       },
                       "parameters": [
                         "Skeleton",
-                        "\"Running\""
+                        "=",
+                        "1"
                       ],
                       "subInstructions": []
                     }
@@ -7994,7 +8572,7 @@
             },
             {
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8023,19 +8601,6 @@
                     "2"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Flash::Flash::Flash"
-                  },
-                  "parameters": [
-                    "Skeleton",
-                    "",
-                    "2",
-                    ""
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": [
@@ -8044,39 +8609,54 @@
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
-                  "actions": [],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "AnimationEnded"
-                      },
-                      "parameters": [
-                        "Skeleton"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
                   "actions": [
                     {
                       "type": {
                         "inverted": false,
-                        "value": "Delete"
+                        "value": "Flash::Flash::Flash"
                       },
                       "parameters": [
                         "Skeleton",
+                        "",
+                        "2",
                         ""
                       ],
                       "subInstructions": []
                     }
                   ],
-                  "events": []
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "AnimationEnded"
+                          },
+                          "parameters": [
+                            "Skeleton"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Skeleton",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
                 }
               ]
             },
@@ -8118,11 +8698,23 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetAnimationName"
+                    "value": "PlatformBehavior::MaxSpeed"
                   },
                   "parameters": [
                     "Hero",
-                    "\"death\""
+                    "PlatformerObject",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlayAnimation"
+                  },
+                  "parameters": [
+                    "Hero"
                   ],
                   "subInstructions": []
                 }
@@ -8164,6 +8756,68 @@
                   "events": []
                 }
               ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Hero",
+                    ">",
+                    "500"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "gameRunning",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "\"death\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ]
             }
           ],
           "parameters": []
@@ -8174,7 +8828,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Platforms",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8329,7 +8983,19 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "StonePlatform",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             }
           ],
@@ -8341,7 +9007,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Parralax",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8472,6 +9138,308 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Game over",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 250,
+                "g": 200,
+                "r": 200,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Game over events run only on game over/game not running",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "gameRunning",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 250,
+                    "g": 200,
+                    "r": 200,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "This event and its sub-events will run a single time on game over\nDelete the player (but leave the sprite), show the game over layer and update the final score text",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Hero",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"GameOver\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "FinalScore",
+                        "=",
+                        "ToString(Variable(Score))"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "FinalScore",
+                        "=",
+                        "SceneWindowWidth()/2 - FinalScore.Width()/2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 250,
+                        "g": 200,
+                        "r": 200,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "If the new score is higher than the best score, update the best score and show the new record text",
+                      "comment2": ""
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "Score",
+                            ">",
+                            "GlobalVariable(bestScore)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "bestScore",
+                            "=",
+                            "Variable(Score)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 250,
+                        "g": 200,
+                        "r": 200,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Update the best score text",
+                      "comment2": ""
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "BestScore",
+                            "=",
+                            "\"BEST: \" + ToString(GlobalVariable(bestScore))"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "BestScore",
+                            "=",
+                            "SceneWindowWidth()/2 - BestScore.Width()/2"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 250,
+                    "g": 200,
+                    "r": 200,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Reset button clicked or touched, reset the scene",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "SystemInfo::IsMobile"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "SourisBouton"
+                              },
+                              "parameters": [
+                                "",
+                                "Left"
+                              ],
+                              "subInstructions": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Game\"",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -8571,6 +9539,28 @@
           "isLightingLayer": false,
           "name": "UI",
           "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 6009760,
+          "ambientLightColorR": 117440512,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Pause",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "GameOver",
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
