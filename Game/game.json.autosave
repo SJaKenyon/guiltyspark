@@ -1411,15 +1411,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject2-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "TutorialTips-1.png",
         "kind": "image",
         "metadata": "",
@@ -1570,6 +1561,15 @@
         "name": "assets/devMode/tools.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1946,8 +1946,8 @@
           "name": "StonePlatform",
           "persistentUuid": "cb31769f-623d-4c22-8d95-655f33e7ac16",
           "width": 0,
-          "x": 285,
-          "y": 393,
+          "x": 289,
+          "y": 414,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -1999,8 +1999,8 @@
           "name": "Coin",
           "persistentUuid": "734f28a7-d8bd-478b-b4ac-e777baaa9774",
           "width": 0,
-          "x": 124,
-          "y": 242,
+          "x": 164,
+          "y": 295,
           "zOrder": 131,
           "numberProperties": [],
           "stringProperties": [],
@@ -2031,8 +2031,8 @@
           "name": "TutorialTips",
           "persistentUuid": "97abe031-affc-4d99-b36e-7b2344cd3b08",
           "width": 297,
-          "x": 88,
-          "y": 33,
+          "x": 93,
+          "y": 105,
           "zOrder": 138,
           "numberProperties": [
             {
@@ -2057,8 +2057,8 @@
           "name": "TutorialTips",
           "persistentUuid": "238cd9d6-866d-491d-9311-70eb4e88fa6f",
           "width": 0,
-          "x": 216,
-          "y": 145,
+          "x": 95,
+          "y": 208,
           "zOrder": 139,
           "numberProperties": [
             {
@@ -2083,8 +2083,8 @@
           "name": "StonePlatform",
           "persistentUuid": "5b81cd9d-f32c-46f8-8c26-8af40057d1c3",
           "width": 0,
-          "x": 432,
-          "y": 270,
+          "x": 462,
+          "y": 266,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -2104,8 +2104,8 @@
           "name": "StonePlatform",
           "persistentUuid": "974a194d-5dac-4690-8062-2b8ae10fff14",
           "width": 0,
-          "x": 93,
-          "y": 303,
+          "x": 142,
+          "y": 351,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -2125,8 +2125,8 @@
           "name": "StonePlatform",
           "persistentUuid": "6c330b77-8bdb-4468-bad1-d4751bf03463",
           "width": 0,
-          "x": 119,
-          "y": 117,
+          "x": 222,
+          "y": 164,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -2146,8 +2146,8 @@
           "name": "TutorialTips",
           "persistentUuid": "131b738b-b908-4206-9719-cc21ecd9073c",
           "width": 0,
-          "x": 197,
-          "y": 349,
+          "x": 179,
+          "y": 381,
           "zOrder": 140,
           "numberProperties": [
             {
@@ -2172,8 +2172,8 @@
           "name": "TutorialTips",
           "persistentUuid": "17286ea6-7efc-42a7-9e75-9fef1f12f7d1",
           "width": 0,
-          "x": 71,
-          "y": 196,
+          "x": 156,
+          "y": 379,
           "zOrder": 141,
           "numberProperties": [
             {
@@ -2266,8 +2266,8 @@
           "name": "Skeleton",
           "persistentUuid": "f52a272e-02b7-4977-a495-3e156bb5c8ce",
           "width": 0,
-          "x": 492,
-          "y": 239,
+          "x": 549,
+          "y": 230,
           "zOrder": 143,
           "numberProperties": [],
           "stringProperties": [],
@@ -2277,38 +2277,6 @@
               "value": "right"
             }
           ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Left",
-          "persistentUuid": "80ba83c9-0d5b-4e99-8ef2-c79414657a74",
-          "width": 0,
-          "x": 537,
-          "y": 237,
-          "zOrder": 147,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Right",
-          "persistentUuid": "81d0f17a-ed6b-4a2e-a7b3-ff45c9043bf2",
-          "width": 0,
-          "x": 427,
-          "y": 234,
-          "zOrder": 148,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         },
         {
           "angle": 0,
@@ -2432,18 +2400,18 @@
           "variables": [],
           "behaviors": [
             {
+              "gravity": 700,
+              "jumpSpeed": 550,
+              "maxFallingSpeed": 1500,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "gravity": 600,
               "ignoreDefaultControls": true,
               "canGrabPlatforms": false,
               "roundCoordinates": false,
               "acceleration": 1500,
               "deceleration": 1500,
-              "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
               "maxSpeed": 250,
               "slopeMaxAngle": 60,
               "xGrabTolerance": 10,
@@ -5277,6 +5245,17 @@
               "HalfPeriodTime": 0.1,
               "IsFlashing": false,
               "FlashDuration": 0
+            },
+            {
+              "name": "TimedBackAndForthMirroredMovement",
+              "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
+              "Vertical": false,
+              "Speed": 10,
+              "Distance": 30,
+              "Timeout": 2,
+              "StartPosition": 0,
+              "LastPosition": 0,
+              "stuck": false
             }
           ],
           "animations": [
@@ -6989,6 +6968,30 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "skeletonChance",
+                    "=",
+                    "25"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "coinChance",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "HideLayer"
                   },
                   "parameters": [
@@ -7048,6 +7051,20 @@
                     "Hero.PointX(\"HitPoint\")",
                     "=",
                     "Hero.PointY(\"HitPoint\")"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "HeroFeet",
+                    "=",
+                    "Hero.PointX(\"Feet\")",
+                    "=",
+                    "Hero.PointY(\"Feet\")"
                   ],
                   "subInstructions": []
                 }
@@ -7585,20 +7602,6 @@
                     ""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "HeroFeet",
-                    "=",
-                    "Hero.PointX(\"Feet\")",
-                    "=",
-                    "Hero.PointY(\"Feet\")"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
@@ -7932,6 +7935,14 @@
                   "subInstructions": []
                 }
               ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
               "events": []
             },
             {
@@ -8519,9 +8530,9 @@
                   },
                   "parameters": [
                     "Skeleton",
-                    "dead",
+                    "move",
                     "=",
-                    "0"
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -8917,21 +8928,14 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PosY"
+                    "value": "PlatformBehavior::CurrentFallSpeed"
                   },
                   "parameters": [
                     "Hero",
-                    ">",
-                    "500"
+                    "PlatformerObject",
+                    "=",
+                    "Hero.PlatformerObject::MaxFallingSpeed()"
                   ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -8960,16 +8964,7 @@
                   "subInstructions": []
                 }
               ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [],
-                  "events": []
-                }
-              ]
+              "events": []
             }
           ],
           "parameters": []
@@ -8980,7 +8975,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Platforms",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9013,7 +9008,7 @@
                   "parameters": [
                     "",
                     "<",
-                    "Variable(topY) + CameraHeight(\"\",0)/2 + Platform.Height()",
+                    "Variable(topY) + CameraHeight(\"\",0)/2 + StonePlatform.Height()",
                     "",
                     ""
                   ],
@@ -9041,7 +9036,7 @@
                   "parameters": [
                     "randomX",
                     "=",
-                    "Random(SceneWindowWidth())"
+                    "Random(SceneWindowWidth()-64)"
                   ],
                   "subInstructions": []
                 },
@@ -9098,9 +9093,152 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "skeletonRandom",
+                    "=",
+                    "RandomInRange(1, 100)"
+                  ],
+                  "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "skeletonRandom",
+                        "<=",
+                        "Variable(skeletonChance)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Skeleton",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Skeleton",
+                        "Variable(randomX) + Random(StonePlatform.Width() - 60)",
+                        "Variable(topY)-32",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "skeletonRandom",
+                            "<=",
+                            "Variable(skeletonChance)/2"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "FlipX"
+                          },
+                          "parameters": [
+                            "Skeleton",
+                            "yes"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "skeletonRandom",
+                            "<=",
+                            "Variable(coinChance)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Coin",
+                            "Variable(randomX) + Random(StonePlatform.Width() - 60)",
+                            "Variable(topY)-64",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "Coin",
+                            "=",
+                            "2"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ]
             },
             {
               "disabled": false,
@@ -9130,7 +9268,7 @@
                   "parameters": [
                     "StonePlatform",
                     ">",
-                    "CameraY(\"\",0) + CameraHeight(\"\",0)/2 + Player.Height() + 20"
+                    "CameraY(\"\",0) + CameraHeight(\"\",0)/2 + 20"
                   ],
                   "subInstructions": []
                 }
@@ -9149,6 +9287,39 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Skeleton",
+                    ">",
+                    "CameraY(\"\",0) + CameraHeight(\"\",0)/2 + Hero.Height() + 20"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Skeleton",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -9159,8 +9330,8 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
-          "name": "Dev tools enable",
+          "folded": true,
+          "name": "Dev tools toggle",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -10419,7 +10590,7 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 6009760,
           "ambientLightColorR": 117440512,
           "followBaseLayerCamera": false,
@@ -10430,7 +10601,7 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 0,
           "ambientLightColorR": 1,
           "followBaseLayerCamera": false,
@@ -10453,6 +10624,10 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "TimedBackAndForthMirroredMovement",
+          "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement"
         }
       ]
     }
