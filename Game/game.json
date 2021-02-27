@@ -2146,8 +2146,8 @@
           "name": "TutorialTips",
           "persistentUuid": "131b738b-b908-4206-9719-cc21ecd9073c",
           "width": 0,
-          "x": 179,
-          "y": 381,
+          "x": 185,
+          "y": 382,
           "zOrder": 140,
           "numberProperties": [
             {
@@ -2172,8 +2172,8 @@
           "name": "TutorialTips",
           "persistentUuid": "17286ea6-7efc-42a7-9e75-9fef1f12f7d1",
           "width": 0,
-          "x": 156,
-          "y": 379,
+          "x": 66,
+          "y": 288,
           "zOrder": 141,
           "numberProperties": [
             {
@@ -2212,15 +2212,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
+          "customSize": false,
           "height": 40,
           "layer": "",
           "locked": false,
           "name": "TutorialTips",
           "persistentUuid": "0b2e5395-26e2-4277-b0f1-0b6bbc8ae6ab",
           "width": 200,
-          "x": 96,
-          "y": 444,
+          "x": 73,
+          "y": 436,
           "zOrder": 142,
           "numberProperties": [],
           "stringProperties": [],
@@ -2233,15 +2233,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
+          "customSize": false,
           "height": 40,
           "layer": "",
           "locked": false,
           "name": "TutorialTips",
           "persistentUuid": "9c933343-9e27-4900-a5c1-7b7a38ed4c4b",
           "width": 200,
-          "x": 438,
-          "y": 443,
+          "x": 395,
+          "y": 440,
           "zOrder": 142,
           "numberProperties": [
             {
@@ -2367,8 +2367,8 @@
           "name": "devText",
           "persistentUuid": "d0a9d25f-e158-420d-9b26-29f3db1e6718",
           "width": 409,
-          "x": 149,
-          "y": 462,
+          "x": 338,
+          "y": 485,
           "zOrder": 155,
           "numberProperties": [],
           "stringProperties": [],
@@ -6777,8 +6777,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 487.481,
+                        "y": 26.4999
                       },
                       "centerPoint": {
                         "automatic": true,
