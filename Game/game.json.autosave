@@ -2367,8 +2367,8 @@
           "name": "devText",
           "persistentUuid": "d0a9d25f-e158-420d-9b26-29f3db1e6718",
           "width": 409,
-          "x": 149,
-          "y": 462,
+          "x": 147,
+          "y": 459,
           "zOrder": 155,
           "numberProperties": [],
           "stringProperties": [],
@@ -9479,19 +9479,6 @@
                     ""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "Hero",
-                    "0",
-                    "-300",
-                    "0"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": [
@@ -9532,6 +9519,19 @@
                       "parameters": [
                         "Hero",
                         "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Hero",
+                        "0",
+                        "-300",
+                        "0"
                       ],
                       "subInstructions": []
                     }
