@@ -2266,8 +2266,8 @@
           "name": "Skeleton",
           "persistentUuid": "f52a272e-02b7-4977-a495-3e156bb5c8ce",
           "width": 0,
-          "x": 549,
-          "y": 230,
+          "x": 541,
+          "y": 237,
           "zOrder": 143,
           "numberProperties": [],
           "stringProperties": [],
@@ -2400,11 +2400,11 @@
           "variables": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "gravity": 700,
               "jumpSpeed": 550,
               "maxFallingSpeed": 1500,
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "ignoreDefaultControls": true,
               "canGrabPlatforms": false,
               "roundCoordinates": false,
@@ -6925,7 +6925,7 @@
                   "parameters": [
                     "randomPlatformDistance",
                     "=",
-                    "5"
+                    "10"
                   ],
                   "subInstructions": []
                 },
@@ -6973,7 +6973,7 @@
                   "parameters": [
                     "skeletonChance",
                     "=",
-                    "25"
+                    "20"
                   ],
                   "subInstructions": []
                 },
@@ -8519,8 +8519,8 @@
               "comment2": ""
             },
             {
-              "disabled": false,
-              "folded": false,
+              "disabled": true,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -9148,7 +9148,7 @@
                         "",
                         "Skeleton",
                         "Variable(randomX) + Random(StonePlatform.Width() - 60)",
-                        "Variable(topY)-32",
+                        "Variable(topY)-28",
                         ""
                       ],
                       "subInstructions": []
@@ -9215,7 +9215,7 @@
                           "parameters": [
                             "",
                             "Coin",
-                            "Variable(randomX) + Random(StonePlatform.Width() - 60)",
+                            "Variable(randomX) + Random(StonePlatform.Width()+10)",
                             "Variable(topY)-64",
                             ""
                           ],
@@ -9301,7 +9301,7 @@
                   "parameters": [
                     "Skeleton",
                     ">",
-                    "CameraY(\"\",0) + CameraHeight(\"\",0)/2 + Hero.Height() + 20"
+                    "CameraY(\"\",0) + CameraHeight(\"\",0)/2 + 20"
                   ],
                   "subInstructions": []
                 }
@@ -9330,7 +9330,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Dev tools toggle",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9530,7 +9530,7 @@
                       "parameters": [
                         "Hero",
                         "0",
-                        "300",
+                        "-300",
                         "0"
                       ],
                       "subInstructions": []
