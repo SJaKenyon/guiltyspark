@@ -19,7 +19,7 @@
     "name": "Prototype",
     "author": "SJK",
     "windowWidth": 720,
-    "windowHeight": 512,
+    "windowHeight": 720,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -197,15 +197,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewFile-1.png",
-        "kind": "image",
-        "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Assets\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":224,\\\"width\\\":368,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"/Users/stanleykenyon/gameDev/guiltyspark/Game/NewFile-1.png\"],\"name\":\"NewFile\",\"singleFrame\":true}}",
-        "name": "NewFile-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Final/Social/Test_2.png",
         "kind": "image",
         "metadata": "",
@@ -264,15 +255,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/tileMapImages/OutsideWallRight.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tileMapImages/InsideWallLeft.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/tileMapImages/InsideWallLeft.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1570,6 +1552,382 @@
         "name": "NewObject2-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/SoundEffects/Kevin MacLeod - 8bit Dungeon Level.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SoundEffects/Kevin MacLeod - 8bit Dungeon Level.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/InsideWallLeft.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/InsideWallLeft.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/evenDeeperRight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/evenDeeperRight.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/Flight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/Flight.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/fly/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/fly/tile000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/fly/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/fly/tile001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/fly/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/fly/tile002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/fly/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/fly/tile003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/fly/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/fly/tile004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/fly/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/fly/tile005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/fly/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/fly/tile006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/fly/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/fly/tile007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/death/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/death/tile000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/death/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/death/tile001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/death/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/death/tile002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/death/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/death/tile003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/attack/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/attack/tile000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/attack/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/attack/tile001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/attack/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/attack/tile002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/attack/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/attack/tile003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/attack/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/attack/tile004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/attack/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/attack/tile005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/attack/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/attack/tile006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Flying eye/attack/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Flying eye/attack/tile007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/attack/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/attack/tile000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/attack/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/attack/tile001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/attack/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/attack/tile002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/attack/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/attack/tile003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/attack/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/attack/tile004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/attack/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/attack/tile005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/attack/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/attack/tile006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/attack/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/attack/tile007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/attack/tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/attack/tile008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/attack/tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/attack/tile009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/attack/tile010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/attack/tile010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/idle/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/idle/tile000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/idle/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/idle/tile001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/idle/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/idle/tile002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/idle/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/idle/tile003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/idle/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/idle/tile004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Boss/idle/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Boss/idle/tile005.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1588,18 +1946,18 @@
   ],
   "layouts": [
     {
-      "b": 9,
+      "b": 12,
       "disableInputWhenNotFocused": true,
       "mangledName": "Game",
       "name": "Game",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 18,
+      "r": 8,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 29,
+      "v": 12,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -1630,8 +1988,8 @@
           "name": "Hero",
           "persistentUuid": "a4758a60-b368-4f11-9de2-afbc51c39f27",
           "width": 80,
-          "x": 355,
-          "y": 467,
+          "x": 281,
+          "y": 694,
           "zOrder": 1,
           "numberProperties": [
             {
@@ -1660,8 +2018,8 @@
           "name": "StonePlatform",
           "persistentUuid": "4557ddab-9a0c-426c-abc5-f5e541923f49",
           "width": 3000,
-          "x": -475,
-          "y": 492,
+          "x": -377,
+          "y": 718,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1681,8 +2039,8 @@
           "name": "Score",
           "persistentUuid": "b4618a58-fd9c-404a-a339-267debf6e28a",
           "width": 0,
-          "x": 74,
-          "y": 6,
+          "x": 79,
+          "y": 245,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -1713,8 +2071,8 @@
           "name": "StonePlatform",
           "persistentUuid": "c68380ba-e769-485b-8691-23be08c7f6a6",
           "width": 0,
-          "x": 334,
-          "y": 304,
+          "x": 319,
+          "y": 502,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -1729,8 +2087,8 @@
           "name": "HitBox",
           "persistentUuid": "89b61514-bc25-445b-9a99-ed4184ce6c77",
           "width": 0,
-          "x": 986,
-          "y": 473,
+          "x": 971,
+          "y": 671,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1753,9 +2111,9 @@
           "locked": false,
           "name": "Bk2",
           "persistentUuid": "d13aa7d8-c21b-4ddc-b80c-296806c32801",
-          "width": 1175,
-          "x": -482,
-          "y": 199,
+          "width": 1402,
+          "x": -458,
+          "y": -113,
           "zOrder": 104,
           "numberProperties": [],
           "stringProperties": [],
@@ -1764,14 +2122,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 127,
+          "height": 96,
           "layer": "Forest",
           "locked": false,
           "name": "Bk3",
           "persistentUuid": "41c15001-c447-4c4b-871a-2a0c44b30b1a",
-          "width": 1128,
-          "x": -279,
-          "y": 398,
+          "width": 1547,
+          "x": -555,
+          "y": 104,
           "zOrder": 105,
           "numberProperties": [],
           "stringProperties": [],
@@ -1786,8 +2144,8 @@
           "name": "Bk4",
           "persistentUuid": "3a2384e9-2e95-436e-8e5a-3332091df459",
           "width": 1015,
-          "x": -230,
-          "y": 408,
+          "x": -242,
+          "y": 123,
           "zOrder": 106,
           "numberProperties": [],
           "stringProperties": [],
@@ -1796,31 +2154,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 139,
+          "height": 93,
           "layer": "Mountains",
           "locked": false,
           "name": "Bk3",
           "persistentUuid": "80a5923c-2c67-4fb8-99b7-73e88da3adcd",
-          "width": 1148,
-          "x": -336,
-          "y": 358,
+          "width": 1515,
+          "x": -475,
+          "y": 68,
           "zOrder": 113,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 224,
-          "layer": "Mountains",
-          "locked": false,
-          "name": "MountainLights",
-          "persistentUuid": "6553625a-2e85-4bba-a7d8-556b325c68f7",
-          "width": 216,
-          "x": 209,
-          "y": 323,
-          "zOrder": 108,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1834,8 +2176,8 @@
           "name": "FarBuildings",
           "persistentUuid": "1efc62da-b2e4-488d-bbde-408e73bb5ed5",
           "width": 434,
-          "x": 261,
-          "y": 380,
+          "x": -32,
+          "y": 96,
           "zOrder": 94,
           "numberProperties": [],
           "stringProperties": [],
@@ -1850,8 +2192,8 @@
           "name": "Clouds",
           "persistentUuid": "e9c34aa2-664a-40f6-a06b-de5539305c78",
           "width": 1172,
-          "x": -556,
-          "y": 145,
+          "x": -606,
+          "y": -143,
           "zOrder": 121,
           "numberProperties": [],
           "stringProperties": [],
@@ -1865,9 +2207,9 @@
           "locked": false,
           "name": "testsky",
           "persistentUuid": "a70c2ec6-e215-44f3-937a-049a4263db22",
-          "width": 1387,
-          "x": -595,
-          "y": 110,
+          "width": 1609,
+          "x": -850,
+          "y": -172,
           "zOrder": 122,
           "numberProperties": [],
           "stringProperties": [],
@@ -1876,62 +2218,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 224,
-          "layer": "Mountains",
-          "locked": false,
-          "name": "MountainLights",
-          "persistentUuid": "6c045846-6ad2-44fb-9d08-db6f6e0bb349",
-          "width": 216,
-          "x": 366,
-          "y": 329,
-          "zOrder": 108,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 99,
-          "layer": "FarBuildings",
-          "locked": false,
-          "name": "FarBuildings",
-          "persistentUuid": "aba88c08-31d6-4744-a120-71f54f236a3f",
-          "width": 341,
-          "x": 364,
-          "y": 370,
-          "zOrder": 123,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 224,
-          "layer": "Mountains",
-          "locked": false,
-          "name": "MountainLights",
-          "persistentUuid": "a66e91c7-214f-4fcd-b951-3e1d87a85830",
-          "width": 188,
-          "x": 269,
-          "y": 338,
-          "zOrder": 111,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 219,
+          "height": 104,
           "layer": "Mountains",
           "locked": false,
           "name": "MountainLights",
           "persistentUuid": "53f53dd4-0bf5-4750-8a39-0cafd588bd62",
           "width": 139,
-          "x": 790,
-          "y": 319,
+          "x": 305,
+          "y": 47,
           "zOrder": 111,
           "numberProperties": [],
           "stringProperties": [],
@@ -1946,8 +2240,8 @@
           "name": "StonePlatform",
           "persistentUuid": "cb31769f-623d-4c22-8d95-655f33e7ac16",
           "width": 0,
-          "x": 289,
-          "y": 414,
+          "x": 274,
+          "y": 612,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -1967,8 +2261,8 @@
           "name": "RightWall",
           "persistentUuid": "390b5f56-06bb-450c-82fe-a8c2198fae21",
           "width": 64,
-          "x": 656,
-          "y": 0,
+          "x": 655,
+          "y": 207,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -1983,8 +2277,8 @@
           "name": "LeftWall",
           "persistentUuid": "dbd7099b-5c31-45a5-90d8-ab14945e1ee0",
           "width": 64,
-          "x": 0,
-          "y": 0,
+          "x": -3,
+          "y": 208,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -1999,8 +2293,8 @@
           "name": "Coin",
           "persistentUuid": "734f28a7-d8bd-478b-b4ac-e777baaa9774",
           "width": 0,
-          "x": 164,
-          "y": 295,
+          "x": 149,
+          "y": 493,
           "zOrder": 131,
           "numberProperties": [],
           "stringProperties": [],
@@ -2015,8 +2309,8 @@
           "name": "HeroFeet",
           "persistentUuid": "18ae931e-cfb5-47f1-97fd-bce309bc720c",
           "width": 0,
-          "x": 831,
-          "y": 464,
+          "x": 816,
+          "y": 662,
           "zOrder": 137,
           "numberProperties": [],
           "stringProperties": [],
@@ -2026,7 +2320,7 @@
           "angle": 0,
           "customSize": false,
           "height": 46,
-          "layer": "",
+          "layer": "tutorial",
           "locked": false,
           "name": "TutorialTips",
           "persistentUuid": "97abe031-affc-4d99-b36e-7b2344cd3b08",
@@ -2052,7 +2346,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "tutorial",
           "locked": false,
           "name": "TutorialTips",
           "persistentUuid": "238cd9d6-866d-491d-9311-70eb4e88fa6f",
@@ -2083,8 +2377,8 @@
           "name": "StonePlatform",
           "persistentUuid": "5b81cd9d-f32c-46f8-8c26-8af40057d1c3",
           "width": 0,
-          "x": 462,
-          "y": 266,
+          "x": 447,
+          "y": 464,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -2104,8 +2398,8 @@
           "name": "StonePlatform",
           "persistentUuid": "974a194d-5dac-4690-8062-2b8ae10fff14",
           "width": 0,
-          "x": 142,
-          "y": 351,
+          "x": 127,
+          "y": 549,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -2125,8 +2419,8 @@
           "name": "StonePlatform",
           "persistentUuid": "6c330b77-8bdb-4468-bad1-d4751bf03463",
           "width": 0,
-          "x": 222,
-          "y": 164,
+          "x": 207,
+          "y": 362,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -2141,7 +2435,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "tutorial",
           "locked": false,
           "name": "TutorialTips",
           "persistentUuid": "131b738b-b908-4206-9719-cc21ecd9073c",
@@ -2167,7 +2461,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "tutorial",
           "locked": false,
           "name": "TutorialTips",
           "persistentUuid": "17286ea6-7efc-42a7-9e75-9fef1f12f7d1",
@@ -2198,8 +2492,8 @@
           "name": "StonePlatform",
           "persistentUuid": "88ae1f29-40b9-4f79-a286-73436c244715",
           "width": 0,
-          "x": 479,
-          "y": 63,
+          "x": 464,
+          "y": 261,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -2214,14 +2508,14 @@
           "angle": 0,
           "customSize": false,
           "height": 40,
-          "layer": "",
+          "layer": "tutorial",
           "locked": false,
           "name": "TutorialTips",
           "persistentUuid": "0b2e5395-26e2-4277-b0f1-0b6bbc8ae6ab",
           "width": 200,
           "x": 73,
           "y": 436,
-          "zOrder": 142,
+          "zOrder": 140,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -2235,14 +2529,14 @@
           "angle": 0,
           "customSize": false,
           "height": 40,
-          "layer": "",
+          "layer": "tutorial",
           "locked": false,
           "name": "TutorialTips",
           "persistentUuid": "9c933343-9e27-4900-a5c1-7b7a38ed4c4b",
           "width": 200,
           "x": 395,
           "y": 440,
-          "zOrder": 142,
+          "zOrder": 140,
           "numberProperties": [
             {
               "name": "animation",
@@ -2266,8 +2560,8 @@
           "name": "Skeleton",
           "persistentUuid": "f52a272e-02b7-4977-a495-3e156bb5c8ce",
           "width": 0,
-          "x": 541,
-          "y": 237,
+          "x": 526,
+          "y": 435,
           "zOrder": 143,
           "numberProperties": [],
           "stringProperties": [],
@@ -2362,7 +2656,7 @@
           "angle": 0,
           "customSize": true,
           "height": 53,
-          "layer": "UI",
+          "layer": "tutorial",
           "locked": false,
           "name": "devText",
           "persistentUuid": "d0a9d25f-e158-420d-9b26-29f3db1e6718",
@@ -2378,7 +2672,7 @@
           "angle": 0,
           "customSize": true,
           "height": 77,
-          "layer": "UI",
+          "layer": "tutorial",
           "locked": false,
           "name": "DEVETXT2",
           "persistentUuid": "d98232ca-3e56-40bf-8ba1-aadabf0962e7",
@@ -2389,12 +2683,204 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "Forest",
+          "locked": false,
+          "name": "Bk3",
+          "persistentUuid": "16f5eace-0f1a-4b5d-aa58-837ce2859642",
+          "width": 1550,
+          "x": -559,
+          "y": 158,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 99,
+          "layer": "Clouds",
+          "locked": false,
+          "name": "Bk4",
+          "persistentUuid": "7d0a5361-1b89-49e7-84cd-6f9bdf8c0bc8",
+          "width": 1015,
+          "x": -343,
+          "y": 88,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "layer": "Mountains",
+          "locked": false,
+          "name": "MountainLights",
+          "persistentUuid": "2c0235aa-cda0-45f8-8cd4-519de044945d",
+          "width": 216,
+          "x": 346,
+          "y": 29,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 223,
+          "layer": "Mountains",
+          "locked": false,
+          "name": "Bk2",
+          "persistentUuid": "720f8063-a61e-4228-9d00-e635d177152f",
+          "width": 1402,
+          "x": -495,
+          "y": -88,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "layer": "Mountains",
+          "locked": false,
+          "name": "MountainLights",
+          "persistentUuid": "421b8ffc-3cd2-4fa3-a516-180614464fea",
+          "width": 216,
+          "x": 154,
+          "y": 19,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 98,
+          "layer": "FarBuildings",
+          "locked": false,
+          "name": "FarBuildings",
+          "persistentUuid": "7cfae831-0314-4a1e-af9d-b973558c1433",
+          "width": 434,
+          "x": 23,
+          "y": 101,
+          "zOrder": 94,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 98,
+          "layer": "FarBuildings",
+          "locked": false,
+          "name": "FarBuildings",
+          "persistentUuid": "391180fe-34c9-4497-98bd-f540dc6345f8",
+          "width": 434,
+          "x": -103,
+          "y": 95,
+          "zOrder": 94,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "Town",
+          "locked": false,
+          "name": "Bk3",
+          "persistentUuid": "41263773-468d-4bc9-95cd-7c076b0f1e0f",
+          "width": 1550,
+          "x": -464,
+          "y": 181,
+          "zOrder": 2000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 179.658,
+          "customSize": true,
+          "height": 224,
+          "layer": "Sky",
+          "locked": false,
+          "name": "testsky",
+          "persistentUuid": "0648990d-3e78-4924-bce5-708bd19380bc",
+          "width": 1609,
+          "x": -855,
+          "y": -390,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 167,
+          "layer": "Clouds",
+          "locked": false,
+          "name": "Clouds",
+          "persistentUuid": "c2588b6a-f29e-4dfa-9bf6-e226e0e5351c",
+          "width": 1578,
+          "x": -832,
+          "y": -269,
+          "zOrder": 121,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FlyingEye",
+          "persistentUuid": "3ba4da36-822d-499e-b552-c392df02cf4f",
+          "width": 0,
+          "x": 498,
+          "y": 678,
+          "zOrder": 2001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "demon",
+          "persistentUuid": "aaee5d75-52b3-4d97-a65a-577b26bb42a4",
+          "width": 0,
+          "x": 511,
+          "y": 583,
+          "zOrder": 2002,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
           "name": "Hero",
-          "tags": "",
+          "tags": "things",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -5044,7 +5530,7 @@
         },
         {
           "name": "Coin",
-          "tags": "",
+          "tags": "things",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -5213,7 +5699,7 @@
           "italic": false,
           "name": "Score",
           "smoothed": true,
-          "tags": "",
+          "tags": "text",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -5229,7 +5715,7 @@
         },
         {
           "name": "Skeleton",
-          "tags": "",
+          "tags": "things",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -6380,7 +6866,7 @@
         },
         {
           "name": "TutorialTips",
-          "tags": "",
+          "tags": "text",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6625,7 +7111,7 @@
           "italic": false,
           "name": "FinalScoreTitle",
           "smoothed": true,
-          "tags": "",
+          "tags": "text",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -6683,7 +7169,7 @@
           "italic": false,
           "name": "FinalScore",
           "smoothed": true,
-          "tags": "",
+          "tags": "text",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -6702,7 +7188,7 @@
           "italic": false,
           "name": "BestScore",
           "smoothed": true,
-          "tags": "",
+          "tags": "text",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -6718,7 +7204,7 @@
         },
         {
           "name": "Restart",
-          "tags": "",
+          "tags": "text",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6756,8 +7242,26 @@
           ]
         },
         {
-          "name": "devText",
+          "height": 16,
+          "name": "StoneFloor",
           "tags": "",
+          "texture": "assets/tileMapImages/evenDeeperRight.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "Jumpthru",
+              "canBeGrabbed": true,
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "name": "devText",
+          "tags": "text",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6796,7 +7300,7 @@
         },
         {
           "name": "DEVETXT2",
-          "tags": "",
+          "tags": "text",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6824,6 +7328,867 @@
                         "name": "centre",
                         "x": 0,
                         "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FlyingEye",
+          "tags": "things",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/Flying eye/fly/tile000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 75.0822,
+                        "y": 75.8208
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 60.1517,
+                            "y": 66.8325
+                          },
+                          {
+                            "x": 97.9031,
+                            "y": 67.0588
+                          },
+                          {
+                            "x": 98.8129,
+                            "y": 82.9068
+                          },
+                          {
+                            "x": 61.8924,
+                            "y": 83.5379
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/Flying eye/fly/tile001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 75.0822,
+                        "y": 75.8208
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 60.1517,
+                            "y": 66.8325
+                          },
+                          {
+                            "x": 97.9031,
+                            "y": 67.0588
+                          },
+                          {
+                            "x": 98.8129,
+                            "y": 82.9068
+                          },
+                          {
+                            "x": 61.8924,
+                            "y": 83.5379
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/Flying eye/fly/tile002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 75.0822,
+                        "y": 75.8208
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 60.1517,
+                            "y": 66.8325
+                          },
+                          {
+                            "x": 97.9031,
+                            "y": 67.0588
+                          },
+                          {
+                            "x": 98.8129,
+                            "y": 82.9068
+                          },
+                          {
+                            "x": 61.8924,
+                            "y": 83.5379
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/Flying eye/fly/tile003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 75.0822,
+                        "y": 75.8208
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 60.1517,
+                            "y": 66.8325
+                          },
+                          {
+                            "x": 97.9031,
+                            "y": 67.0588
+                          },
+                          {
+                            "x": 98.8129,
+                            "y": 82.9068
+                          },
+                          {
+                            "x": 61.8924,
+                            "y": 83.5379
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/Flying eye/fly/tile004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 75.0822,
+                        "y": 75.8208
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 60.1517,
+                            "y": 66.8325
+                          },
+                          {
+                            "x": 97.9031,
+                            "y": 67.0588
+                          },
+                          {
+                            "x": 98.8129,
+                            "y": 82.9068
+                          },
+                          {
+                            "x": 61.8924,
+                            "y": 83.5379
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/Flying eye/fly/tile005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 75.0822,
+                        "y": 75.8208
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 60.1517,
+                            "y": 66.8325
+                          },
+                          {
+                            "x": 97.9031,
+                            "y": 67.0588
+                          },
+                          {
+                            "x": 98.8129,
+                            "y": 82.9068
+                          },
+                          {
+                            "x": 61.8924,
+                            "y": 83.5379
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/Flying eye/fly/tile006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 75.0822,
+                        "y": 75.8208
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 60.1517,
+                            "y": 66.8325
+                          },
+                          {
+                            "x": 97.9031,
+                            "y": 67.0588
+                          },
+                          {
+                            "x": 98.8129,
+                            "y": 82.9068
+                          },
+                          {
+                            "x": 61.8924,
+                            "y": 83.5379
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/Flying eye/fly/tile007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 75.0822,
+                        "y": 75.8208
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 60.1517,
+                            "y": 66.8325
+                          },
+                          {
+                            "x": 97.9031,
+                            "y": 67.0588
+                          },
+                          {
+                            "x": 98.8129,
+                            "y": 82.9068
+                          },
+                          {
+                            "x": 61.8924,
+                            "y": 83.5379
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "death",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Flying eye/death/tile000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Flying eye/death/tile001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Flying eye/death/tile002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Flying eye/death/tile003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Flying eye/attack/tile000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Flying eye/attack/tile001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Flying eye/attack/tile002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Flying eye/attack/tile003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Flying eye/attack/tile004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Flying eye/attack/tile005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Flying eye/attack/tile006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Flying eye/attack/tile007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "demon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/idle/tile000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/idle/tile001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/idle/tile002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/idle/tile003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/idle/tile004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/idle/tile005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/attack/tile000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 138.843,
+                        "y": 117.879
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 138.055,
+                        "y": 118.918
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/attack/tile001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 138.843,
+                        "y": 117.879
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 138.055,
+                        "y": 118.918
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/attack/tile002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 138.843,
+                        "y": 117.879
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 138.055,
+                        "y": 118.918
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/attack/tile003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 138.843,
+                        "y": 117.879
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 138.055,
+                        "y": 118.918
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/attack/tile004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 138.843,
+                        "y": 117.879
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 138.055,
+                        "y": 118.918
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/attack/tile005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 138.843,
+                        "y": 117.879
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 138.055,
+                        "y": 118.918
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/attack/tile006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 138.843,
+                        "y": 117.879
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 138.055,
+                        "y": 118.918
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/attack/tile007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 138.843,
+                        "y": 117.879
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 138.055,
+                        "y": 118.918
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/attack/tile008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 138.843,
+                        "y": 117.879
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 138.055,
+                        "y": 118.918
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/attack/tile009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 138.843,
+                        "y": 117.879
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 138.055,
+                        "y": 118.918
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/Boss/attack/tile010.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 138.843,
+                        "y": 117.879
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 138.055,
+                        "y": 118.918
                       },
                       "customCollisionMask": []
                     }
@@ -7028,6 +8393,21 @@
                   },
                   "parameters": [
                     "HeroFeet"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/SoundEffects/Kevin MacLeod - 8bit Dungeon Level.mp3",
+                    "0",
+                    "yes",
+                    "20",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -10054,7 +11434,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Parralax",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10174,8 +11554,78 @@
                   "parameters": [
                     "",
                     "=",
-                    "Hero.Y()*1",
+                    "Hero.Y()*0.1",
                     "\"Town\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Hero.Y()*0.01",
+                    "\"Forest\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Hero.Y()*0.01",
+                    "\"FarBuildings\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Hero.Y()*0.0005",
+                    "\"Clouds\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Hero.Y()*0.0001",
+                    "\"Mountains\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Hero.Y()*0",
+                    "\"Sky\"",
                     ""
                   ],
                   "subInstructions": []
@@ -10192,7 +11642,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Game over",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10497,7 +11947,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Sky",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -10508,7 +11958,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Mountains",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -10519,7 +11969,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Clouds",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -10530,7 +11980,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "FarBuildings",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -10541,7 +11991,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Forest",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -10552,6 +12002,17 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Town",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 6009760,
+          "ambientLightColorR": -2147483632,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "tutorial",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -10574,6 +12035,16 @@
               "viewportRight": 1,
               "viewportTop": 0,
               "width": 0
+            },
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
             }
           ],
           "effects": []
@@ -10585,7 +12056,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "UI",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
