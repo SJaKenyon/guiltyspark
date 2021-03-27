@@ -2293,8 +2293,8 @@
           "name": "Coin",
           "persistentUuid": "734f28a7-d8bd-478b-b4ac-e777baaa9774",
           "width": 0,
-          "x": 149,
-          "y": 493,
+          "x": 164,
+          "y": 483,
           "zOrder": 131,
           "numberProperties": [],
           "stringProperties": [],
@@ -12018,9 +12018,9 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 6009760,
-          "ambientLightColorR": -2147483632,
+          "ambientLightColorR": -2147483648,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "tutorial",
