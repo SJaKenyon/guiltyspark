@@ -1529,24 +1529,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/devMode/output-onlinetexttools.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/devMode/output-onlinetexttools.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/devMode/tools.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/devMode/tools.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewObject2-1.png",
         "kind": "image",
         "metadata": "",
@@ -2309,6 +2291,58 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/devMode/output-onlinetexttools.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/devMode/output-onlinetexttools.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/devMode/tools.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/devMode/tools.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/tile141.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/tile141.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/tile164.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/tile164.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/rightWallDeep.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/rightWallDeep.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/font/Angel wish.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets/font/Angel wish.otf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2352,7 +2386,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.5
+        "zoomFactor": 1
       },
       "objectsGroups": [],
       "variables": [
@@ -2372,8 +2406,8 @@
           "name": "Hero",
           "persistentUuid": "a4758a60-b368-4f11-9de2-afbc51c39f27",
           "width": 80,
-          "x": 281,
-          "y": 694,
+          "x": 253,
+          "y": 697,
           "zOrder": 1,
           "numberProperties": [
             {
@@ -2389,34 +2423,24 @@
               "value": "0"
             },
             {
-              "name": "death",
+              "name": "jumpcount",
               "type": "string",
               "value": "0"
-            },
-            {
-              "name": "health",
-              "type": "string",
-              "value": "10"
-            },
-            {
-              "name": "maxhealth",
-              "type": "string",
-              "value": "10"
             }
           ]
         },
         {
           "angle": 0,
           "customSize": true,
-          "height": 45,
+          "height": 128,
           "layer": "",
           "locked": false,
           "name": "StonePlatform",
           "persistentUuid": "4557ddab-9a0c-426c-abc5-f5e541923f49",
-          "width": 3000,
-          "x": -377,
-          "y": 718,
-          "zOrder": 12,
+          "width": 720,
+          "x": 0,
+          "y": 720,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -2647,7 +2671,7 @@
           "width": 64,
           "x": 656,
           "y": 0,
-          "zOrder": 11,
+          "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2663,7 +2687,7 @@
           "width": 64,
           "x": 0,
           "y": 0,
-          "zOrder": 11,
+          "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2679,7 +2703,7 @@
           "width": 44,
           "x": 171,
           "y": 508,
-          "zOrder": 131,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2956,7 +2980,7 @@
           "width": 0,
           "x": 351,
           "y": 582,
-          "zOrder": 143,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -2976,8 +3000,8 @@
           "name": "BlackMask",
           "persistentUuid": "6913fe51-9a1d-428e-bf66-4189ebb4092b",
           "width": 1105,
-          "x": -172,
-          "y": -100,
+          "x": -234,
+          "y": -119,
           "zOrder": 150,
           "numberProperties": [],
           "stringProperties": [],
@@ -2992,8 +3016,8 @@
           "name": "FinalScoreTitle",
           "persistentUuid": "010a33ea-65db-4491-9d40-c632e9b991ec",
           "width": 0,
-          "x": 256,
-          "y": 224,
+          "x": 243,
+          "y": 186,
           "zOrder": 151,
           "numberProperties": [],
           "stringProperties": [],
@@ -3008,8 +3032,8 @@
           "name": "FinalScore",
           "persistentUuid": "5c5a542e-93bb-4197-8170-0c779a677d9d",
           "width": 0,
-          "x": 330,
-          "y": 280,
+          "x": 388,
+          "y": 185,
           "zOrder": 152,
           "numberProperties": [],
           "stringProperties": [],
@@ -3017,32 +3041,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 25,
           "layer": "GameOver",
           "locked": false,
           "name": "BestScore",
           "persistentUuid": "1868fac9-3196-4942-bfea-d9b9e83c8008",
-          "width": 0,
-          "x": 298,
-          "y": 373,
+          "width": 115,
+          "x": 243,
+          "y": 276,
           "zOrder": 153,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 44,
-          "layer": "GameOver",
-          "locked": false,
-          "name": "Restart",
-          "persistentUuid": "67fa6ba3-ec0e-4c11-a14a-47e6f5ca64b2",
-          "width": 133,
-          "x": 284,
-          "y": 455,
-          "zOrder": 154,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3250,7 +3258,7 @@
           "width": 0,
           "x": 466,
           "y": 767,
-          "zOrder": 2002,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3313,8 +3321,8 @@
           "persistentUuid": "0315af01-e5f0-4223-a91a-98d7f931185f",
           "width": 15,
           "x": 535,
-          "y": 692,
-          "zOrder": 2005,
+          "y": 696,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3328,8 +3336,8 @@
           "name": "YOUDIED",
           "persistentUuid": "ed9026d9-e949-4998-a139-52504e2ea213",
           "width": 406,
-          "x": 181,
-          "y": 116,
+          "x": 148,
+          "y": 49,
           "zOrder": 2006,
           "numberProperties": [],
           "stringProperties": [],
@@ -3363,6 +3371,182 @@
           "x": 58,
           "y": 652,
           "zOrder": 2008,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 179,
+          "layer": "",
+          "locked": false,
+          "name": "floor",
+          "persistentUuid": "5392b82c-c829-4b23-bbee-c67834896975",
+          "width": 720,
+          "x": -1,
+          "y": 909,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "LeftWallInside",
+          "persistentUuid": "25abdc3b-19f1-4e36-a13f-51963a519138",
+          "width": 720,
+          "x": 0,
+          "y": 894,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "60e275bb-79c4-40e5-8af7-cec5a71d08ab",
+          "width": 0,
+          "x": 1461,
+          "y": 419,
+          "zOrder": 2009,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "floo2",
+          "persistentUuid": "538ba336-1d5a-4c79-b393-c6e77baf7230",
+          "width": 0,
+          "x": 1245,
+          "y": 401,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "floo2",
+          "persistentUuid": "7286316b-3d78-404e-80be-0ff6ffc71c12",
+          "width": 720,
+          "x": 0,
+          "y": 839,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "466bb589-b00b-46d9-b7bd-658aabe990ce",
+          "width": 0,
+          "x": 176,
+          "y": 171,
+          "zOrder": 2010,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "ab941252-24eb-41af-a2a0-e573c34a863b",
+          "width": 0,
+          "x": 434,
+          "y": 131,
+          "zOrder": 2011,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "b1503097-cda0-4ce0-bb25-8fba28532f31",
+          "width": 0,
+          "x": 188,
+          "y": 25,
+          "zOrder": 2012,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "1f79bae4-beb5-4c5d-b05c-02e0b4c98b5a",
+          "width": 0,
+          "x": 498,
+          "y": -63,
+          "zOrder": 2013,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "4f2df27b-46eb-413a-aed6-7d967e8b49b8",
+          "width": 0,
+          "x": 124,
+          "y": -83,
+          "zOrder": 2014,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "GameOver",
+          "locked": false,
+          "name": "restart",
+          "persistentUuid": "df3e18af-3b4a-4edd-830c-9cf878e2d0ed",
+          "width": 0,
+          "x": 236,
+          "y": 489,
+          "zOrder": 2015,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7968,12 +8152,12 @@
           "variables": [],
           "behaviors": [],
           "string": "SCORE:",
-          "font": "",
-          "characterSize": 40,
+          "font": "assets/font/Angel wish.otf",
+          "characterSize": 50,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 255
+            "b": 27,
+            "g": 2,
+            "r": 208
           }
         },
         {
@@ -8026,7 +8210,7 @@
           "variables": [],
           "behaviors": [],
           "string": "0",
-          "font": "",
+          "font": "assets/font/Angel wish.otf",
           "characterSize": 50,
           "color": {
             "b": 0,
@@ -8045,8 +8229,8 @@
           "variables": [],
           "behaviors": [],
           "string": "BEST: 0",
-          "font": "",
-          "characterSize": 20,
+          "font": "assets/font/Angel wish.otf",
+          "characterSize": 40,
           "color": {
             "b": 28,
             "g": 231,
@@ -8119,12 +8303,12 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "output-onlinetexttools",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -8158,12 +8342,12 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "tools",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -9464,20 +9648,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -9500,20 +9684,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -9536,20 +9720,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -9572,20 +9756,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -9608,20 +9792,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -9644,20 +9828,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -9680,20 +9864,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -9707,8 +9891,8 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.14000000059604645,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -9728,20 +9912,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -9764,20 +9948,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -9800,20 +9984,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -9836,20 +10020,92 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/ghost/ghostattack/tile002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 31.77825927734375,
+                        "y": 44.0750732421875
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
+                          },
+                          {
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
+                          },
+                          {
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
+                          },
+                          {
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/ghost/ghostattack/tile001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 31.77825927734375,
+                        "y": 44.0750732421875
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
+                          },
+                          {
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
+                          },
+                          {
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
+                          },
+                          {
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -9864,7 +10120,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.14000000059604645,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -9884,20 +10140,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -9920,20 +10176,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -9956,20 +10212,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -9992,20 +10248,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -10028,20 +10284,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -10064,20 +10320,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -10100,20 +10356,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 24
+                            "x": 14.81719970703125,
+                            "y": 14.569976806640625
                           },
                           {
-                            "x": 48,
-                            "y": 24
+                            "x": 49.08795166015625,
+                            "y": 13.428985595703125
                           },
                           {
-                            "x": 45.08837890625,
-                            "y": 69.84996032714844
+                            "x": 48.418212890625,
+                            "y": 71.229736328125
                           },
                           {
-                            "x": 19.4749755859375,
-                            "y": 69.24659729003906
+                            "x": 15.4705810546875,
+                            "y": 70.04364013671875
                           }
                         ]
                       ]
@@ -10125,7 +10381,7 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "YOUDIED",
           "smoothed": true,
@@ -10135,8 +10391,47 @@
           "variables": [],
           "behaviors": [],
           "string": "YOU DIED!",
-          "font": "",
-          "characterSize": 70,
+          "font": "assets/font/Angel wish.otf",
+          "characterSize": 100,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
+        },
+        {
+          "height": 32,
+          "name": "floor",
+          "tags": "",
+          "texture": "assets/tileMapImages/tile164.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 64,
+          "name": "floo2",
+          "tags": "",
+          "texture": "assets/tileMapImages/rightWallDeep.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "restart",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Restart?",
+          "font": "assets/font/Angel wish.otf",
+          "characterSize": 80,
           "color": {
             "b": 27,
             "g": 2,
@@ -10227,7 +10522,7 @@
                   "parameters": [
                     "platformDistance",
                     "=",
-                    "60"
+                    "70"
                   ],
                   "subInstructions": []
                 },
@@ -10367,8 +10662,34 @@
                     "assets/SoundEffects/background/Kevin MacLeod - 8bit Dungeon Level.mp3",
                     "0",
                     "yes",
-                    "20",
+                    "15",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "jumpcount",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "attack",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -11304,6 +11625,137 @@
             {
               "disabled": false,
               "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::IsJumping"
+                      },
+                      "parameters": [
+                        "Hero",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "Hero",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "jumpcount",
+                    "<",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Up"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SetCanJump"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "jumpcount",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "jumpcount",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -11772,7 +12224,7 @@
                       },
                       "parameters": [
                         "",
-                        "assets/SoundEffects/monsters/batattack.wav",
+                        "assets/SoundEffects/mixkit-metal-hit-woosh-1485.wav",
                         "",
                         "",
                         ""
@@ -12039,7 +12491,7 @@
                     "",
                     "assets/SoundEffects/hero/injury.wav",
                     "no",
-                    "50",
+                    "70",
                     ""
                   ],
                   "subInstructions": []
@@ -12123,7 +12575,33 @@
                     "",
                     "assets/SoundEffects/hero/injury.wav",
                     "no",
-                    "50",
+                    "70",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Ghost",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/SoundEffects/monsters/batattack.wav",
+                    "no",
+                    "40",
                     ""
                   ],
                   "subInstructions": []
@@ -12207,7 +12685,7 @@
                     "",
                     "assets/SoundEffects/hero/injury.wav",
                     "no",
-                    "50",
+                    "70",
                     ""
                   ],
                   "subInstructions": []
@@ -12660,7 +13138,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Platforms",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13399,7 +13877,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Dev tools toggle",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13466,7 +13944,7 @@
                       },
                       "parameters": [
                         "",
-                        "d"
+                        "k"
                       ],
                       "subInstructions": []
                     },
@@ -13548,6 +14026,18 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "Health",
+                    "no"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": [
@@ -13559,13 +14049,33 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "PlatformBehavior::IsJumping"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "Hero",
-                        "PlatformerObject"
-                      ],
-                      "subInstructions": []
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlatformBehavior::IsJumping"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "PlatformerObject"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlatformBehavior::IsFalling"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "PlatformerObject"
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
                     }
                   ],
                   "actions": [
@@ -13577,30 +14087,6 @@
                       "parameters": [
                         "Hero",
                         "PlatformerObject"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlatformBehavior::SimulateJumpKey"
-                      },
-                      "parameters": [
-                        "Hero",
-                        "PlatformerObject"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Hero",
-                        "0",
-                        "-300",
-                        "0"
                       ],
                       "subInstructions": []
                     }
@@ -13655,6 +14141,18 @@
                   },
                   "parameters": [
                     "DEVETXT2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "Health",
+                    "yes"
                   ],
                   "subInstructions": []
                 }
@@ -14443,7 +14941,7 @@
                       "parameters": [
                         "FinalScore",
                         "=",
-                        "SceneWindowWidth()/2 - FinalScore.Width()/2"
+                        "SceneWindowWidth()/2 + 64"
                       ],
                       "subInstructions": []
                     },
