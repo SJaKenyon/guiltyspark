@@ -890,15 +890,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tileMapImages/Spikes.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/tileMapImages/Spikes.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Player/Individual Sprite/EdgeGrab/Warrior_Edge-Grab_1.png",
         "kind": "image",
         "metadata": "",
@@ -2156,6 +2147,168 @@
         "name": "assets/Player/Individual Sprite/HurtnoEffect/Warrior_hurt_4.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/SoundEffects/batattack.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SoundEffects/batattack.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/ghost/death/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/ghost/death/tile000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/ghost/death/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/ghost/death/tile001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/ghost/death/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/ghost/death/tile002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/ghost/death/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/ghost/death/tile003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/ghost/death/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/ghost/death/tile004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/ghost/death/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/ghost/death/tile005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/ghost/death/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/ghost/death/tile006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SoundEffects/hero/injury.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SoundEffects/hero/injury.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/SoundEffects/hero/death.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SoundEffects/hero/death.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SoundEffects/skeletondeath.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SoundEffects/skeletondeath.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileMapImages/Spikes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tileMapImages/Spikes.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SoundEffects/monsters/skeletondeath.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SoundEffects/monsters/skeletondeath.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/SoundEffects/monsters/batattack.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SoundEffects/monsters/batattack.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/SoundEffects/background/Kevin MacLeod - 8bit Dungeon Level.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SoundEffects/background/Kevin MacLeod - 8bit Dungeon Level.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/SoundEffects/monsters/batdeath.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SoundEffects/monsters/batdeath.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/SoundEffects/death/evillaugh.swf.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SoundEffects/death/evillaugh.swf.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SoundEffects/death/dark-souls-you-died-sound-effect_hm5sYFG.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SoundEffects/death/dark-souls-you-died-sound-effect_hm5sYFG.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2189,7 +2342,7 @@
       "title": "",
       "v": 12,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -2197,7 +2350,7 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
         "zoomFactor": 0.5
       },
@@ -2485,15 +2638,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 512,
+          "customSize": true,
+          "height": 720,
           "layer": "",
           "locked": false,
           "name": "RightWall",
           "persistentUuid": "390b5f56-06bb-450c-82fe-a8c2198fae21",
           "width": 64,
-          "x": 655,
-          "y": 207,
+          "x": 656,
+          "y": 0,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -2501,15 +2654,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 512,
+          "customSize": true,
+          "height": 720,
           "layer": "",
           "locked": false,
           "name": "LeftWall",
           "persistentUuid": "dbd7099b-5c31-45a5-90d8-ab14945e1ee0",
           "width": 64,
-          "x": -3,
-          "y": 208,
+          "x": 0,
+          "y": 0,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -2839,8 +2992,8 @@
           "name": "FinalScoreTitle",
           "persistentUuid": "010a33ea-65db-4491-9d40-c632e9b991ec",
           "width": 0,
-          "x": 248,
-          "y": 211,
+          "x": 256,
+          "y": 224,
           "zOrder": 151,
           "numberProperties": [],
           "stringProperties": [],
@@ -2855,8 +3008,8 @@
           "name": "FinalScore",
           "persistentUuid": "5c5a542e-93bb-4197-8170-0c779a677d9d",
           "width": 0,
-          "x": 308,
-          "y": 271,
+          "x": 330,
+          "y": 280,
           "zOrder": 152,
           "numberProperties": [],
           "stringProperties": [],
@@ -2871,8 +3024,8 @@
           "name": "BestScore",
           "persistentUuid": "1868fac9-3196-4942-bfea-d9b9e83c8008",
           "width": 0,
-          "x": 281,
-          "y": 356,
+          "x": 298,
+          "y": 373,
           "zOrder": 153,
           "numberProperties": [],
           "stringProperties": [],
@@ -3143,8 +3296,8 @@
           "name": "Ghost",
           "persistentUuid": "9a515bac-527e-4c84-8206-97cb029211a8",
           "width": 0,
-          "x": 595,
-          "y": 678,
+          "x": 575,
+          "y": 434,
           "zOrder": 2004,
           "numberProperties": [],
           "stringProperties": [],
@@ -3159,8 +3312,8 @@
           "name": "HealthPotion",
           "persistentUuid": "0315af01-e5f0-4223-a91a-98d7f931185f",
           "width": 15,
-          "x": 161,
-          "y": 697,
+          "x": 535,
+          "y": 692,
           "zOrder": 2005,
           "numberProperties": [],
           "stringProperties": [],
@@ -3197,6 +3350,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Spikes",
+          "persistentUuid": "a5a2477b-07cc-4c00-be5b-4d623f99f43e",
+          "width": 0,
+          "x": 58,
+          "y": 652,
+          "zOrder": 2008,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3224,10 +3393,10 @@
               "CooldownActive": false
             },
             {
-              "canGrabPlatforms": true,
-              "ignoreDefaultControls": true,
+              "canGrabPlatforms": false,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "ignoreDefaultControls": true,
               "xGrabTolerance": 20,
               "gravity": 700,
               "jumpSpeed": 550,
@@ -4237,7 +4406,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.15000000596046448,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -4664,7 +4833,242 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_9.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 52.394798278808594,
+                          "y": 21.28809928894043
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 28.15999984741211,
+                          "y": 45.56930160522461
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 29.80190086364746,
+                        "y": 24.35890007019043
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30.902542114257812,
+                            "y": 9.685781478881836
+                          },
+                          {
+                            "x": 32.51630783081055,
+                            "y": 42.79450607299805
+                          },
+                          {
+                            "x": 23.042699813842773,
+                            "y": 42.884700775146484
+                          },
+                          {
+                            "x": 22.548500061035156,
+                            "y": 11.399800300598145
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_10.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 52.394798278808594,
+                          "y": 21.28809928894043
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 28.15999984741211,
+                          "y": 45.56930160522461
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 29.80190086364746,
+                        "y": 24.35890007019043
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30.902542114257812,
+                            "y": 9.685781478881836
+                          },
+                          {
+                            "x": 32.51630783081055,
+                            "y": 42.79450607299805
+                          },
+                          {
+                            "x": 23.042699813842773,
+                            "y": 42.884700775146484
+                          },
+                          {
+                            "x": 22.548500061035156,
+                            "y": 11.399800300598145
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_10.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 52.394798278808594,
+                          "y": 21.28809928894043
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 28.15999984741211,
+                          "y": 45.56930160522461
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 29.80190086364746,
+                        "y": 24.35890007019043
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30.902542114257812,
+                            "y": 9.685781478881836
+                          },
+                          {
+                            "x": 32.51630783081055,
+                            "y": 42.79450607299805
+                          },
+                          {
+                            "x": 23.042699813842773,
+                            "y": 42.884700775146484
+                          },
+                          {
+                            "x": 22.548500061035156,
+                            "y": 11.399800300598145
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_11.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 52.394798278808594,
+                          "y": 21.28809928894043
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 28.15999984741211,
+                          "y": 45.56930160522461
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 29.80190086364746,
+                        "y": 24.35890007019043
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30.902542114257812,
+                            "y": 9.685781478881836
+                          },
+                          {
+                            "x": 32.51630783081055,
+                            "y": 42.79450607299805
+                          },
+                          {
+                            "x": 23.042699813842773,
+                            "y": 42.884700775146484
+                          },
+                          {
+                            "x": 22.548500061035156,
+                            "y": 11.399800300598145
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_11.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 52.394798278808594,
+                          "y": 21.28809928894043
+                        },
+                        {
+                          "name": "Feet",
+                          "x": 28.15999984741211,
+                          "y": 45.56930160522461
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 29.80190086364746,
+                        "y": 24.35890007019043
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30.902542114257812,
+                            "y": 9.685781478881836
+                          },
+                          {
+                            "x": 32.51630783081055,
+                            "y": 42.79450607299805
+                          },
+                          {
+                            "x": 23.042699813842773,
+                            "y": 42.884700775146484
+                          },
+                          {
+                            "x": 22.548500061035156,
+                            "y": 11.399800300598145
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Player/Individual Sprite/Death-Effect/Warrior_Death_11.png",
                       "points": [
                         {
                           "name": "HitPoint",
@@ -6008,8 +6412,8 @@
           "behaviors": [
             {
               "name": "Platform",
-              "platformType": "Jumpthru",
               "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "Jumpthru",
               "yGrabOffset": 0,
               "canBeGrabbed": true
             }
@@ -6247,6 +6651,15 @@
               "HalfPeriodTime": 0.1,
               "IsFlashing": false,
               "FlashDuration": 0
+            },
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 200,
+              "DamageCooldown": 0,
+              "MaxHealth": 200,
+              "IsJustDamaged": false,
+              "CooldownActive": false
             },
             {
               "name": "TimedBackAndForthMirroredMovement",
@@ -6992,12 +7405,12 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Spikes",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -7100,7 +7513,7 @@
           ]
         },
         {
-          "height": 512,
+          "height": 96,
           "name": "RightWall",
           "tags": "",
           "texture": "assets/tileMapImages/InsideWallRight.png",
@@ -7118,7 +7531,7 @@
           ]
         },
         {
-          "height": 512,
+          "height": 96,
           "name": "LeftWall",
           "tags": "",
           "texture": "assets/tileMapImages/OutsideWallRight.png",
@@ -7603,7 +8016,7 @@
           ]
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "FinalScore",
           "smoothed": true,
@@ -8997,12 +9410,28 @@
           "variables": [],
           "behaviors": [
             {
+              "name": "Flash",
+              "type": "Flash::Flash",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0
+            },
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 100,
+              "DamageCooldown": 0,
+              "MaxHealth": 100,
+              "IsJustDamaged": false,
+              "CooldownActive": false
+            },
+            {
               "name": "TimedBackAndForthMirroredMovement",
               "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
               "Vertical": false,
-              "Speed": 150,
-              "Distance": 400,
-              "Timeout": 4,
+              "Speed": 250,
+              "Distance": 500,
+              "Timeout": 5,
               "StartPosition": 0,
               "LastPosition": 0,
               "stuck": false
@@ -9043,12 +9472,12 @@
                             "y": 24
                           },
                           {
-                            "x": 48,
-                            "y": 56
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
                           },
                           {
-                            "x": 16,
-                            "y": 56
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
                           }
                         ]
                       ]
@@ -9079,12 +9508,12 @@
                             "y": 24
                           },
                           {
-                            "x": 48,
-                            "y": 56
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
                           },
                           {
-                            "x": 16,
-                            "y": 56
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
                           }
                         ]
                       ]
@@ -9115,12 +9544,12 @@
                             "y": 24
                           },
                           {
-                            "x": 48,
-                            "y": 56
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
                           },
                           {
-                            "x": 16,
-                            "y": 56
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
                           }
                         ]
                       ]
@@ -9151,12 +9580,12 @@
                             "y": 24
                           },
                           {
-                            "x": 48,
-                            "y": 56
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
                           },
                           {
-                            "x": 16,
-                            "y": 56
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
                           }
                         ]
                       ]
@@ -9187,12 +9616,12 @@
                             "y": 24
                           },
                           {
-                            "x": 48,
-                            "y": 56
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
                           },
                           {
-                            "x": 16,
-                            "y": 56
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
                           }
                         ]
                       ]
@@ -9223,12 +9652,12 @@
                             "y": 24
                           },
                           {
-                            "x": 48,
-                            "y": 56
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
                           },
                           {
-                            "x": 16,
-                            "y": 56
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
                           }
                         ]
                       ]
@@ -9259,12 +9688,12 @@
                             "y": 24
                           },
                           {
-                            "x": 48,
-                            "y": 56
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
                           },
                           {
-                            "x": 16,
-                            "y": 56
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
                           }
                         ]
                       ]
@@ -9282,13 +9711,13 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/ghost/ghostattack/tile000.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 31.77825927734375,
+                        "y": 44.0750732421875
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -9296,16 +9725,35 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 24
+                          },
+                          {
+                            "x": 48,
+                            "y": 24
+                          },
+                          {
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
+                          },
+                          {
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/ghost/ghostattack/tile001.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 31.77825927734375,
+                        "y": 44.0750732421875
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -9313,16 +9761,35 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 24
+                          },
+                          {
+                            "x": 48,
+                            "y": 24
+                          },
+                          {
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
+                          },
+                          {
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/ghost/ghostattack/tile002.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 31.77825927734375,
+                        "y": 44.0750732421875
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -9330,16 +9797,35 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 24
+                          },
+                          {
+                            "x": 48,
+                            "y": 24
+                          },
+                          {
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
+                          },
+                          {
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/ghost/ghostattack/tile003.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 31.77825927734375,
+                        "y": 44.0750732421875
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -9347,7 +9833,290 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 24
+                          },
+                          {
+                            "x": 48,
+                            "y": 24
+                          },
+                          {
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
+                          },
+                          {
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/ghost/death/tile000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 31.77825927734375,
+                        "y": 44.0750732421875
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 24
+                          },
+                          {
+                            "x": 48,
+                            "y": 24
+                          },
+                          {
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
+                          },
+                          {
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/ghost/death/tile001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 31.77825927734375,
+                        "y": 44.0750732421875
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 24
+                          },
+                          {
+                            "x": 48,
+                            "y": 24
+                          },
+                          {
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
+                          },
+                          {
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/ghost/death/tile002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 31.77825927734375,
+                        "y": 44.0750732421875
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 24
+                          },
+                          {
+                            "x": 48,
+                            "y": 24
+                          },
+                          {
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
+                          },
+                          {
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/ghost/death/tile003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 31.77825927734375,
+                        "y": 44.0750732421875
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 24
+                          },
+                          {
+                            "x": 48,
+                            "y": 24
+                          },
+                          {
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
+                          },
+                          {
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/ghost/death/tile004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 31.77825927734375,
+                        "y": 44.0750732421875
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 24
+                          },
+                          {
+                            "x": 48,
+                            "y": 24
+                          },
+                          {
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
+                          },
+                          {
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/ghost/death/tile005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 31.77825927734375,
+                        "y": 44.0750732421875
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 24
+                          },
+                          {
+                            "x": 48,
+                            "y": 24
+                          },
+                          {
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
+                          },
+                          {
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Monsters/ghost/death/tile006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 31.77825927734375,
+                        "y": 44.0750732421875
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 24
+                          },
+                          {
+                            "x": 48,
+                            "y": 24
+                          },
+                          {
+                            "x": 45.08837890625,
+                            "y": 69.84996032714844
+                          },
+                          {
+                            "x": 19.4749755859375,
+                            "y": 69.24659729003906
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -9446,7 +10215,7 @@
                   "parameters": [
                     "randomPlatformDistance",
                     "=",
-                    "10"
+                    "20"
                   ],
                   "subInstructions": []
                 },
@@ -9458,7 +10227,7 @@
                   "parameters": [
                     "platformDistance",
                     "=",
-                    "40"
+                    "60"
                   ],
                   "subInstructions": []
                 },
@@ -9494,7 +10263,7 @@
                   "parameters": [
                     "skeletonChance",
                     "=",
-                    "20"
+                    "25"
                   ],
                   "subInstructions": []
                 },
@@ -9505,6 +10274,42 @@
                   },
                   "parameters": [
                     "coinChance",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "ghostChance",
+                    "=",
+                    "10"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "spikeChance",
+                    "=",
+                    "20"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "potionChance",
                     "=",
                     "5"
                   ],
@@ -9559,7 +10364,7 @@
                   },
                   "parameters": [
                     "",
-                    "assets/SoundEffects/Kevin MacLeod - 8bit Dungeon Level.mp3",
+                    "assets/SoundEffects/background/Kevin MacLeod - 8bit Dungeon Level.mp3",
                     "0",
                     "yes",
                     "20",
@@ -9657,7 +10462,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Scoring",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9728,7 +10533,7 @@
                   "parameters": [
                     "Score",
                     "+",
-                    "10"
+                    "20"
                   ],
                   "subInstructions": []
                 },
@@ -10835,24 +11640,142 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ChangePlan"
+                        "value": "Health::Health::Hit"
                       },
                       "parameters": [
                         "Skeleton",
-                        "=",
-                        "-1"
+                        "Health",
+                        "100",
+                        ""
                       ],
                       "subInstructions": []
                     },
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ChangeAnimation"
+                        "value": "Flash::Flash::Flash"
                       },
                       "parameters": [
                         "Skeleton",
+                        "Flash",
+                        "1",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "HitBox",
+                        "Ghost",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "=",
+                            "5"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "=",
+                            "6"
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "Ghost",
                         "=",
                         "2"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Sprite"
+                      },
+                      "parameters": [
+                        "Hero",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::Hit"
+                      },
+                      "parameters": [
+                        "Ghost",
+                        "Health",
+                        "100",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/SoundEffects/monsters/batattack.wav",
+                        "",
+                        "",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -10967,7 +11890,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Collision",
+              "comment": "Collision And Taking Damage",
               "comment2": ""
             },
             {
@@ -11114,9 +12037,9 @@
                   },
                   "parameters": [
                     "",
-                    "assets/SoundEffects/30668039_female-shout-of-pain-18_by_medusamusiclab_preview.mp3",
+                    "assets/SoundEffects/hero/injury.wav",
                     "no",
-                    "30",
+                    "50",
                     ""
                   ],
                   "subInstructions": []
@@ -11127,17 +12050,170 @@
             {
               "disabled": false,
               "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Dying to Enemies",
-              "comment2": ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "Ghost",
+                    "",
+                    "",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Flash::Flash::IsFlashing"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "Flash",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "Flash",
+                    "2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "Health",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/SoundEffects/hero/injury.wav",
+                    "no",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "Spikes",
+                    "",
+                    "",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Flash::Flash::IsFlashing"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "Flash",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "Flash",
+                    "2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "Health",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/SoundEffects/hero/injury.wav",
+                    "no",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             },
             {
               "disabled": false,
@@ -11151,8 +12227,242 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Mobs",
+              "comment": "DamagingAndKillingMobs",
               "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Health::Health::IsDead"
+                  },
+                  "parameters": [
+                    "Ghost",
+                    "Health",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Ghost",
+                    "=",
+                    "-1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Ghost",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Ghost",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/SoundEffects/monsters/batdeath.wav",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Health::Health::IsDead"
+                  },
+                  "parameters": [
+                    "Skeleton",
+                    "Health",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Flash::Flash::Stop"
+                  },
+                  "parameters": [
+                    "Skeleton",
+                    "Flash",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Skeleton",
+                    "=",
+                    "-1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Skeleton",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Skeleton",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/SoundEffects/monsters/skeletondeath.wav",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationEnded"
+                  },
+                  "parameters": [
+                    "Ghost"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Ghost",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationEnded"
+                  },
+                  "parameters": [
+                    "Skeleton"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Skeleton",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             },
             {
               "disabled": false,
@@ -11275,6 +12585,38 @@
                 }
               ],
               "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/SoundEffects/hero/death.wav",
+                        "no",
+                        "30",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
                 {
                   "disabled": false,
                   "folded": false,
@@ -11448,6 +12790,54 @@
                     "RandomInRange(1, 100)"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "ghostRandom",
+                    "=",
+                    "RandomInRange(1, 100)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "coinRandom",
+                    "=",
+                    "RandomInRange(1, 100)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "potionRandom",
+                    "=",
+                    "RandomInRange(1, 100)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "spikeRandom",
+                    "=",
+                    "RandomInRange(1, 100)"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": [
@@ -11530,7 +12920,152 @@
                         }
                       ],
                       "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "ghostRandom",
+                        "<=",
+                        "Variable(ghostChance)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Ghost",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
                     },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Ghost",
+                        "600",
+                        "Variable(topY)",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "coinRandom",
+                        "<=",
+                        "Variable(coinChance)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Coin",
+                        "Variable(randomX) + Random(StonePlatform.Width()+10)",
+                        "Variable(topY)-64",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Coin",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "spikeRandom",
+                        "<=",
+                        "Variable(spikeChance)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Spikes",
+                        "64",
+                        "Variable(topY)",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Coin",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
                     {
                       "disabled": false,
                       "folded": false,
@@ -11542,9 +13077,9 @@
                             "value": "VarScene"
                           },
                           "parameters": [
-                            "skeletonRandom",
+                            "spikeRandom",
                             "<=",
-                            "Variable(coinChance)"
+                            "Variable(spikeChance)/2"
                           ],
                           "subInstructions": []
                         }
@@ -11553,26 +13088,25 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "Create"
+                            "value": "FlipX"
                           },
                           "parameters": [
-                            "",
-                            "Coin",
-                            "Variable(randomX) + Random(StonePlatform.Width()+10)",
-                            "Variable(topY)-64",
-                            ""
+                            "Spikes",
+                            "yes"
                           ],
                           "subInstructions": []
                         },
                         {
                           "type": {
                             "inverted": false,
-                            "value": "ChangePlan"
+                            "value": "MettreXY"
                           },
                           "parameters": [
-                            "Coin",
+                            "Spikes",
                             "=",
-                            "2"
+                            "592",
+                            "=",
+                            "Variable(topY)"
                           ],
                           "subInstructions": []
                         }
@@ -11580,6 +13114,66 @@
                       "events": []
                     }
                   ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "potionRandom",
+                        "<=",
+                        "Variable(potionChance)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "HealthPotion",
+                        "Variable(randomX) + Random(StonePlatform.Width()+10)",
+                        "Variable(topY) - 20",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "HealthPotion",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeScale"
+                      },
+                      "parameters": [
+                        "HealthPotion",
+                        "=",
+                        "1.8"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
                 }
               ]
             },
@@ -11663,6 +13257,138 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Ghost",
+                    ">",
+                    "CameraY(\"\",0) + CameraHeight(\"\",0)/2 + 20"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Ghost",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "HealthPotion",
+                    ">",
+                    "CameraY(\"\",0) + CameraHeight(\"\",0)/2 + 20"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "HealthPotion",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Coin",
+                    ">",
+                    "CameraY(\"\",0) + CameraHeight(\"\",0)/2 + 20"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Coin",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Spikes",
+                    ">",
+                    "CameraY(\"\",0) + CameraHeight(\"\",0)/2 + 20"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Spikes",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -11673,7 +13399,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Dev tools toggle",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12397,7 +14123,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Parralax",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12739,7 +14465,7 @@
                       },
                       "parameters": [
                         "",
-                        "assets/SoundEffects/evillaugh.swf.mp3",
+                        "assets/SoundEffects/death/evillaugh.swf.mp3",
                         "",
                         "50",
                         ".8"
@@ -12753,7 +14479,7 @@
                       },
                       "parameters": [
                         "",
-                        "assets/SoundEffects/dark-souls-you-died-sound-effect_hm5sYFG.mp3",
+                        "assets/SoundEffects/death/dark-souls-you-died-sound-effect_hm5sYFG.mp3",
                         "",
                         "70",
                         ""
@@ -13069,7 +14795,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Pause",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
