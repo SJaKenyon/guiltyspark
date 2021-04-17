@@ -494,78 +494,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Monsters/Skeleton/skeletonIdle/tile000.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Monsters/Skeleton/skeletonIdle/tile000.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Monsters/Skeleton/skeletonIdle/tile001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Monsters/Skeleton/skeletonIdle/tile001.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Monsters/Skeleton/skeletonIdle/tile002.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Monsters/Skeleton/skeletonIdle/tile002.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Monsters/Skeleton/skeletonIdle/tile003.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Monsters/Skeleton/skeletonIdle/tile003.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Monsters/Skeleton/skeletonWalking/tile000.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Monsters/Skeleton/skeletonWalking/tile000.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Monsters/Skeleton/skeletonWalking/tile001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Monsters/Skeleton/skeletonWalking/tile001.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Monsters/Skeleton/skeletonWalking/tile002.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Monsters/Skeleton/skeletonWalking/tile002.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Monsters/Skeleton/skeletonWalking/tile003.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Monsters/Skeleton/skeletonWalking/tile003.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Player/Individual Sprite/idle/Warrior_Idle_1.png",
         "kind": "image",
         "metadata": "",
@@ -1220,42 +1148,6 @@
         "name": "assets/Monsters/Skeleton/death/tile003.jpg",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Monsters/Skeleton/death/tile000.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Monsters/Skeleton/death/tile000.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Monsters/Skeleton/death/tile001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Monsters/Skeleton/death/tile001.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Monsters/Skeleton/death/tile002.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Monsters/Skeleton/death/tile002.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Monsters/Skeleton/death/tile003.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Monsters/Skeleton/death/tile003.png",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -2343,6 +2235,114 @@
         "metadata": "",
         "name": "assets/font/Angel wish.otf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Skeleton/skeletonIdle/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Skeleton/skeletonIdle/tile000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Skeleton/skeletonIdle/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Skeleton/skeletonIdle/tile001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Skeleton/skeletonIdle/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Skeleton/skeletonIdle/tile002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Skeleton/skeletonIdle/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Skeleton/skeletonIdle/tile003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Skeleton/skeletonWalking/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Skeleton/skeletonWalking/tile000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Skeleton/skeletonWalking/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Skeleton/skeletonWalking/tile001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Skeleton/skeletonWalking/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Skeleton/skeletonWalking/tile002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Skeleton/skeletonWalking/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Skeleton/skeletonWalking/tile003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Skeleton/death/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Skeleton/death/tile000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Skeleton/death/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Skeleton/death/tile001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Skeleton/death/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Skeleton/death/tile002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monsters/Skeleton/death/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Monsters/Skeleton/death/tile003.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2383,6 +2383,7 @@
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
+        "gridType": "rectangular",
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
@@ -2406,8 +2407,8 @@
           "name": "Hero",
           "persistentUuid": "a4758a60-b368-4f11-9de2-afbc51c39f27",
           "width": 80,
-          "x": 253,
-          "y": 697,
+          "x": 310,
+          "y": 699,
           "zOrder": 1,
           "numberProperties": [
             {
@@ -2432,7 +2433,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 255,
           "layer": "",
           "locked": false,
           "name": "StonePlatform",
@@ -2978,8 +2979,8 @@
           "name": "Skeleton",
           "persistentUuid": "f52a272e-02b7-4977-a495-3e156bb5c8ce",
           "width": 0,
-          "x": 351,
-          "y": 582,
+          "x": 502,
+          "y": 539,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -3042,12 +3043,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 25,
+          "height": 109,
           "layer": "GameOver",
           "locked": false,
           "name": "BestScore",
           "persistentUuid": "1868fac9-3196-4942-bfea-d9b9e83c8008",
-          "width": 115,
+          "width": 279,
           "x": 243,
           "y": 276,
           "zOrder": 153,
@@ -3321,7 +3322,7 @@
           "persistentUuid": "0315af01-e5f0-4223-a91a-98d7f931185f",
           "width": 15,
           "x": 535,
-          "y": 696,
+          "y": 698,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -3377,38 +3378,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 179,
-          "layer": "",
-          "locked": false,
-          "name": "floor",
-          "persistentUuid": "5392b82c-c829-4b23-bbee-c67834896975",
-          "width": 720,
-          "x": -1,
-          "y": 909,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "LeftWallInside",
-          "persistentUuid": "25abdc3b-19f1-4e36-a13f-51963a519138",
-          "width": 720,
-          "x": 0,
-          "y": 894,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -3434,22 +3403,6 @@
           "width": 0,
           "x": 1245,
           "y": 401,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "floo2",
-          "persistentUuid": "7286316b-3d78-404e-80be-0ff6ffc71c12",
-          "width": 720,
-          "x": 0,
-          "y": 839,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3571,15 +3524,15 @@
               "name": "Health",
               "type": "Health::Health",
               "Health": 200,
-              "DamageCooldown": 2,
+              "DamageCooldown": 3,
               "MaxHealth": 200,
               "IsJustDamaged": false,
               "CooldownActive": false
             },
             {
-              "canGrabPlatforms": false,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "canGrabPlatforms": false,
               "ignoreDefaultControls": true,
               "xGrabTolerance": 20,
               "gravity": 700,
@@ -6850,8 +6803,8 @@
               "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
               "Vertical": false,
               "Speed": 10,
-              "Distance": 20,
-              "Timeout": 3,
+              "Distance": 30,
+              "Timeout": 1.5,
               "StartPosition": 0,
               "LastPosition": 0,
               "stuck": false
@@ -6864,7 +6817,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.14000000059604645,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -7020,7 +6973,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.10000000149011612,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -7176,7 +7129,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -9163,13 +9116,13 @@
                   "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/idle/tile000.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 78.30712890625,
+                        "y": 73.00057983398438
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -9177,16 +9130,35 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/idle/tile001.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 78.30712890625,
+                        "y": 73.00057983398438
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -9194,16 +9166,35 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/idle/tile002.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 78.30712890625,
+                        "y": 73.00057983398438
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -9211,16 +9202,35 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/idle/tile003.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 78.30712890625,
+                        "y": 73.00057983398438
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -9228,16 +9238,35 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/idle/tile004.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 78.30712890625,
+                        "y": 73.00057983398438
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -9245,16 +9274,35 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/idle/tile005.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 78.30712890625,
+                        "y": 73.00057983398438
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -9262,7 +9310,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -9277,7 +9344,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/attack/tile000.png",
                       "points": [],
                       "originPoint": {
@@ -9291,10 +9358,29 @@
                         "x": 138.05499267578125,
                         "y": 118.91799926757812
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/attack/tile001.png",
                       "points": [],
                       "originPoint": {
@@ -9308,10 +9394,29 @@
                         "x": 138.05499267578125,
                         "y": 118.91799926757812
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/attack/tile002.png",
                       "points": [],
                       "originPoint": {
@@ -9325,10 +9430,29 @@
                         "x": 138.05499267578125,
                         "y": 118.91799926757812
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/attack/tile003.png",
                       "points": [],
                       "originPoint": {
@@ -9342,10 +9466,29 @@
                         "x": 138.05499267578125,
                         "y": 118.91799926757812
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/attack/tile004.png",
                       "points": [],
                       "originPoint": {
@@ -9359,10 +9502,29 @@
                         "x": 138.05499267578125,
                         "y": 118.91799926757812
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/attack/tile005.png",
                       "points": [],
                       "originPoint": {
@@ -9376,10 +9538,29 @@
                         "x": 138.05499267578125,
                         "y": 118.91799926757812
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/attack/tile006.png",
                       "points": [],
                       "originPoint": {
@@ -9393,10 +9574,29 @@
                         "x": 138.05499267578125,
                         "y": 118.91799926757812
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/attack/tile007.png",
                       "points": [],
                       "originPoint": {
@@ -9410,10 +9610,29 @@
                         "x": 138.05499267578125,
                         "y": 118.91799926757812
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/attack/tile008.png",
                       "points": [],
                       "originPoint": {
@@ -9427,10 +9646,29 @@
                         "x": 138.05499267578125,
                         "y": 118.91799926757812
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/attack/tile009.png",
                       "points": [],
                       "originPoint": {
@@ -9444,10 +9682,29 @@
                         "x": 138.05499267578125,
                         "y": 118.91799926757812
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Monsters/Boss/attack/tile010.png",
                       "points": [],
                       "originPoint": {
@@ -9461,7 +9718,26 @@
                         "x": 138.05499267578125,
                         "y": 118.91799926757812
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 10,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 140
+                          },
+                          {
+                            "x": 140,
+                            "y": 10
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -9648,20 +9924,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -9684,20 +9960,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -9720,20 +9996,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -9756,20 +10032,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -9792,20 +10068,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -9828,20 +10104,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -9864,20 +10140,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -9912,20 +10188,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -9948,20 +10224,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -9984,20 +10260,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -10020,20 +10296,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -10056,20 +10332,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -10092,20 +10368,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -10140,20 +10416,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -10176,20 +10452,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -10212,20 +10488,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -10248,20 +10524,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -10284,20 +10560,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -10320,20 +10596,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -10356,20 +10632,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14.81719970703125,
-                            "y": 14.569976806640625
+                            "x": 7.251953125,
+                            "y": 12.697418212890625
                           },
                           {
-                            "x": 49.08795166015625,
-                            "y": 13.428985595703125
+                            "x": 57.46527099609375,
+                            "y": 16.1553955078125
                           },
                           {
-                            "x": 48.418212890625,
-                            "y": 71.229736328125
+                            "x": 57.92010498046875,
+                            "y": 71.01361083984375
                           },
                           {
-                            "x": 15.4705810546875,
-                            "y": 70.04364013671875
+                            "x": 7.762939453125,
+                            "y": 70.85635375976562
                           }
                         ]
                       ]
@@ -11276,6 +11552,21 @@
               "folded": false,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Movement",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
                 "b": 33,
                 "g": 211,
                 "r": 126,
@@ -11770,7 +12061,7 @@
             },
             {
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -11831,6 +12122,19 @@
                             "Hero",
                             "=",
                             "6"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "attack",
+                            "=",
+                            "0"
                           ],
                           "subInstructions": []
                         }
@@ -12705,7 +13009,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "DamagingAndKillingMobs",
+              "comment": "Damaging And KillingMobs",
               "comment2": ""
             },
             {
@@ -12954,6 +13258,190 @@
                 "textG": 255,
                 "textR": 255
               },
+              "comment": "Demon Spawn and Follow",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Score",
+                    ">",
+                    "10"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "demon",
+                    "Hero.PointX(\"demonX\")",
+                    "Hero.PointY(\"demonY\")",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceVers"
+                  },
+                  "parameters": [
+                    "demon",
+                    "Hero",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "demon",
+                    "<",
+                    "Hero.PointX(\"position\")"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "demon",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "demon",
+                    ">",
+                    "Hero.PointX(\"position\")"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "demon",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "demon",
+                    "Hero",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "Health",
+                    "1000",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0,
+                "textB": 255,
+                "textG": 255,
+                "textR": 255
+              },
               "comment": "Dead",
               "comment2": ""
             },
@@ -13000,14 +13488,35 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Health::Health::IsDead"
+                    "value": "BuiltinCommonInstructions::And"
                   },
-                  "parameters": [
-                    "Hero",
-                    "Health",
-                    ""
-                  ],
-                  "subInstructions": []
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::IsDead"
+                      },
+                      "parameters": [
+                        "Hero",
+                        "Health",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "devMode",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
                 }
               ],
               "actions": [
@@ -13138,7 +13647,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Platforms",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13346,7 +13855,7 @@
                       "parameters": [
                         "Skeleton",
                         "=",
-                        "2"
+                        "1"
                       ],
                       "subInstructions": []
                     },
@@ -13358,7 +13867,7 @@
                       "parameters": [
                         "",
                         "Skeleton",
-                        "Variable(randomX) + Random(StonePlatform.Width() - 60)",
+                        "Variable(randomX)+Random(StonePlatform.Width() - 60)",
                         "Variable(topY)-28",
                         ""
                       ],
@@ -13476,7 +13985,7 @@
                       "parameters": [
                         "",
                         "Coin",
-                        "Variable(randomX) + Random(StonePlatform.Width()+10)",
+                        "Variable(randomX) + Random(StonePlatform.Width()-30)",
                         "Variable(topY)-64",
                         ""
                       ],
@@ -13620,7 +14129,7 @@
                       "parameters": [
                         "",
                         "HealthPotion",
-                        "Variable(randomX) + Random(StonePlatform.Width()+10)",
+                        "Variable(randomX) + Random(StonePlatform.Width()-30)",
                         "Variable(topY) - 20",
                         ""
                       ],
@@ -14030,12 +14539,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ActivateBehavior"
+                    "value": "Health::Health::Heal"
                   },
                   "parameters": [
                     "Hero",
                     "Health",
-                    "no"
+                    "100",
+                    ""
                   ],
                   "subInstructions": []
                 }
