@@ -20,7 +20,7 @@
     "author": "SJK",
     "windowWidth": 720,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "/Users/stanleykenyon/gameDev/attackthespire/AttackTheSpire-FullGame/docs",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -2481,15 +2481,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "HitBox-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "HitBox-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "HitBox-1-0.png",
         "kind": "image",
         "metadata": "",
@@ -2667,6 +2658,60 @@
         "name": "assets/Monsters/horse/tile003.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TUTORIAL/jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/TUTORIAL/jump.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TUTORIAL/enemies.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/TUTORIAL/enemies.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TUTORIAL/demon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/TUTORIAL/demon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/SoundEffects/hero/jump.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SoundEffects/hero/jump.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TUTORIAL/pause.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/TUTORIAL/pause.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HitBox-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HitBox-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2696,6 +2741,789 @@
     }
   ],
   "layouts": [
+    {
+      "b": 12,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "SplashScreen",
+      "name": "SplashScreen",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 8,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 12,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.5
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 791,
+          "layer": "",
+          "locked": false,
+          "name": "castle",
+          "persistentUuid": "14cd5dfc-ab40-49c4-b1a3-afa1503f66d6",
+          "width": 727,
+          "x": 0,
+          "y": 0,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 110,
+          "layer": "",
+          "locked": false,
+          "name": "title",
+          "persistentUuid": "c6a4fb49-8313-432d-b2b7-23db9c1eccae",
+          "width": 684,
+          "x": 77,
+          "y": 36,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "title2",
+          "persistentUuid": "a792732d-46af-4f5f-954e-f4a8b120b767",
+          "width": 0,
+          "x": 75,
+          "y": 33,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "play",
+          "persistentUuid": "d03302aa-bc84-446c-96ad-ba5fe7f67e54",
+          "width": 0,
+          "x": 286,
+          "y": 304,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "settings",
+          "persistentUuid": "f51bbade-26b7-4d4c-9387-b570949bcb6d",
+          "width": 0,
+          "x": 262,
+          "y": 535,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "info",
+          "persistentUuid": "cfa9761c-d29f-4155-9144-0e94e55be56a",
+          "width": 0,
+          "x": 253,
+          "y": 411,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "castle",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "output-onlinepngtools (2).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "title2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Attack The Spire!",
+          "font": "assets/font/Angel wish.otf",
+          "characterSize": 100,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "title",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Attack The Spire!",
+          "font": "assets/font/Angel wish.otf",
+          "characterSize": 100,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "play",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Play",
+          "font": "assets/font/Angel wish.otf",
+          "characterSize": 80,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "settings",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Settings",
+          "font": "assets/font/Angel wish.otf",
+          "characterSize": 80,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "info",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Controls",
+          "font": "assets/font/Angel wish.otf",
+          "characterSize": 80,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "horse",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.07800000160932541,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/horse/tile000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/horse/tile001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/horse/tile002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Monsters/horse/tile003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "sound",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "sound",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets/SoundEffects/background/POL-chamber-of-secrets-short.wav",
+                "1",
+                "yes",
+                "70",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "play",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "play",
+                "\"133;3;19\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Game\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "play",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "play",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "info",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "info",
+                "\"133;3;19\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Instructions\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "info",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "info",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "settings",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "settings",
+                "\"133;3;19\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Settings\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "settings",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "settings",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 9756784,
+          "ambientLightColorG": 8323936,
+          "ambientLightColorR": 7837632,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
     {
       "b": 12,
       "disableInputWhenNotFocused": true,
@@ -2987,8 +3815,8 @@
           "name": "StonePlatform",
           "persistentUuid": "cb31769f-623d-4c22-8d95-655f33e7ac16",
           "width": 0,
-          "x": 274,
-          "y": 612,
+          "x": 386,
+          "y": 609,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -3057,13 +3885,13 @@
           "name": "TutorialTips",
           "persistentUuid": "97abe031-affc-4d99-b36e-7b2344cd3b08",
           "width": 297,
-          "x": 191,
-          "y": 110,
+          "x": 337,
+          "y": 47,
           "zOrder": 138,
           "numberProperties": [
             {
               "name": "animation",
-              "value": 3
+              "value": 5
             }
           ],
           "stringProperties": [],
@@ -3084,8 +3912,8 @@
           "name": "TutorialTips",
           "persistentUuid": "238cd9d6-866d-491d-9311-70eb4e88fa6f",
           "width": 0,
-          "x": 217,
-          "y": 233,
+          "x": 274,
+          "y": 278,
           "zOrder": 139,
           "numberProperties": [
             {
@@ -3111,30 +3939,8 @@
           "name": "StonePlatform",
           "persistentUuid": "5b81cd9d-f32c-46f8-8c26-8af40057d1c3",
           "width": 0,
-          "x": 447,
-          "y": 464,
-          "zOrder": 126,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "id",
-              "type": "string",
-              "value": "3"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatform",
-          "persistentUuid": "974a194d-5dac-4690-8062-2b8ae10fff14",
-          "width": 0,
-          "x": 108,
-          "y": 484,
+          "x": 488,
+          "y": 424,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -3153,10 +3959,10 @@
           "layer": "",
           "locked": false,
           "name": "StonePlatform",
-          "persistentUuid": "6c330b77-8bdb-4468-bad1-d4751bf03463",
+          "persistentUuid": "974a194d-5dac-4690-8062-2b8ae10fff14",
           "width": 0,
-          "x": 224,
-          "y": 316,
+          "x": 95,
+          "y": 506,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -3164,7 +3970,29 @@
             {
               "name": "id",
               "type": "string",
-              "value": "4"
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "StonePlatform",
+          "persistentUuid": "6c330b77-8bdb-4468-bad1-d4751bf03463",
+          "width": 0,
+          "x": 98,
+          "y": 296,
+          "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "string",
+              "value": "3"
             }
           ]
         },
@@ -3177,8 +4005,8 @@
           "name": "TutorialTips",
           "persistentUuid": "131b738b-b908-4206-9719-cc21ecd9073c",
           "width": 0,
-          "x": 318,
-          "y": 608,
+          "x": 295,
+          "y": 529,
           "zOrder": 140,
           "numberProperties": [
             {
@@ -3204,13 +4032,13 @@
           "name": "TutorialTips",
           "persistentUuid": "17286ea6-7efc-42a7-9e75-9fef1f12f7d1",
           "width": 0,
-          "x": 332,
-          "y": 442,
+          "x": 201,
+          "y": 408,
           "zOrder": 141,
           "numberProperties": [
             {
               "name": "animation",
-              "value": 5
+              "value": 3
             }
           ],
           "stringProperties": [],
@@ -3231,8 +4059,8 @@
           "name": "StonePlatform",
           "persistentUuid": "88ae1f29-40b9-4f79-a286-73436c244715",
           "width": 0,
-          "x": 464,
-          "y": 261,
+          "x": 476,
+          "y": 167,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -3240,7 +4068,7 @@
             {
               "name": "id",
               "type": "string",
-              "value": "5"
+              "value": "4"
             }
           ]
         },
@@ -3275,7 +4103,7 @@
           "name": "TutorialTips",
           "persistentUuid": "9c933343-9e27-4900-a5c1-7b7a38ed4c4b",
           "width": 200,
-          "x": 499,
+          "x": 491,
           "y": 668,
           "zOrder": 140,
           "numberProperties": [
@@ -3318,8 +4146,8 @@
           "name": "FinalScoreTitle",
           "persistentUuid": "010a33ea-65db-4491-9d40-c632e9b991ec",
           "width": 0,
-          "x": 239,
-          "y": 352,
+          "x": 222,
+          "y": 221,
           "zOrder": 151,
           "numberProperties": [],
           "stringProperties": [],
@@ -3334,8 +4162,8 @@
           "name": "FinalScore",
           "persistentUuid": "5c5a542e-93bb-4197-8170-0c779a677d9d",
           "width": 0,
-          "x": 385,
-          "y": 344,
+          "x": 357,
+          "y": 221,
           "zOrder": 152,
           "numberProperties": [],
           "stringProperties": [],
@@ -3350,8 +4178,8 @@
           "name": "BestScore",
           "persistentUuid": "1868fac9-3196-4942-bfea-d9b9e83c8008",
           "width": 279,
-          "x": 267,
-          "y": 417,
+          "x": 222,
+          "y": 309,
           "zOrder": 153,
           "numberProperties": [],
           "stringProperties": [],
@@ -3520,7 +4348,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 14,
+          "height": 20,
           "layer": "UI",
           "locked": false,
           "name": "HealthBar",
@@ -3557,42 +4385,10 @@
           "locked": false,
           "name": "YOUDIED",
           "persistentUuid": "ed9026d9-e949-4998-a139-52504e2ea213",
-          "width": 413,
-          "x": 143,
-          "y": 45,
+          "width": 579,
+          "x": 134,
+          "y": 25,
           "zOrder": 2006,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatform",
-          "persistentUuid": "466bb589-b00b-46d9-b7bd-658aabe990ce",
-          "width": 0,
-          "x": 176,
-          "y": 171,
-          "zOrder": 2010,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatform",
-          "persistentUuid": "ab941252-24eb-41af-a2a0-e573c34a863b",
-          "width": 0,
-          "x": 434,
-          "y": 131,
-          "zOrder": 2011,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3611,39 +4407,13 @@
           "zOrder": 2012,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatform",
-          "persistentUuid": "1f79bae4-beb5-4c5d-b05c-02e0b4c98b5a",
-          "width": 0,
-          "x": 498,
-          "y": -63,
-          "zOrder": 2013,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StonePlatform",
-          "persistentUuid": "4f2df27b-46eb-413a-aed6-7d967e8b49b8",
-          "width": 0,
-          "x": 124,
-          "y": -83,
-          "zOrder": 2014,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "string",
+              "value": "5"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -3670,8 +4440,8 @@
           "name": "DemonSkullSpawn",
           "persistentUuid": "908893bd-ca25-4959-9c63-d10fccabc975",
           "width": 0,
-          "x": 876,
-          "y": 712,
+          "x": 866,
+          "y": 710,
           "zOrder": 2017,
           "numberProperties": [],
           "stringProperties": [],
@@ -3743,22 +4513,156 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 300,
-          "layer": "GameOver",
+          "customSize": false,
+          "height": 0,
+          "layer": "",
           "locked": false,
-          "name": "fakedemon",
-          "persistentUuid": "8a1b3ac5-7071-455f-814e-02adcadb501e",
-          "width": 350,
-          "x": 337,
-          "y": 286,
-          "zOrder": 2021,
+          "name": "Skeleton",
+          "persistentUuid": "aaf3485b-daa5-4be6-8dd0-15d5ced94b35",
+          "width": 0,
+          "x": 143,
+          "y": 270,
+          "zOrder": 2022,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Coin",
+          "persistentUuid": "85bb1f83-66fa-4a8f-add4-0be8f384c67a",
+          "width": 0,
+          "x": 507,
+          "y": 113,
+          "zOrder": 2023,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 18,
+          "layer": "",
+          "locked": false,
+          "name": "HealthPotion",
+          "persistentUuid": "ce783f1c-c179-4176-be26-67787f3da68f",
+          "width": 18,
+          "x": 543,
+          "y": 406,
+          "zOrder": 2024,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "devMode",
+          "locked": false,
+          "name": "DEVMODE",
+          "persistentUuid": "4c1954a1-eec2-4604-9e28-b72d3f390b29",
+          "width": 0,
+          "x": 167,
+          "y": 661,
+          "zOrder": 2025,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "devMode",
+          "locked": false,
+          "name": "FPS",
+          "persistentUuid": "e8958df7-89b3-4658-b78f-f28c05d89e78",
+          "width": 0,
+          "x": 505,
+          "y": 13,
+          "zOrder": 2026,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "devMode",
+          "locked": false,
+          "name": "TimePlayed",
+          "persistentUuid": "9ba41930-a069-4420-b902-ccc3bffa667b",
+          "width": 0,
+          "x": 488,
+          "y": 81,
+          "zOrder": 2027,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "devMode",
+          "locked": false,
+          "name": "ObjectCount",
+          "persistentUuid": "2ada2d90-dade-4d2c-9e84-dc8002bd95b4",
+          "width": 0,
+          "x": 332,
+          "y": 48,
+          "zOrder": 2028,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TutorialTips",
+          "persistentUuid": "8b124df2-e550-468c-b648-efb656edf358",
+          "width": 0,
+          "x": 96,
+          "y": 148,
+          "zOrder": 2029,
           "numberProperties": [
             {
               "name": "animation",
-              "value": 3
+              "value": 6
             }
           ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "step",
+              "type": "string",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Coin",
+          "persistentUuid": "691dad56-b68e-4739-834d-bdabd1ee8783",
+          "width": 0,
+          "x": 216,
+          "y": -37,
+          "zOrder": 2030,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -3781,20 +4685,20 @@
             {
               "name": "Health",
               "type": "Health::Health",
-              "Health": 200,
-              "DamageCooldown": 3,
-              "MaxHealth": 200,
+              "Health": 250,
+              "DamageCooldown": 2.5,
+              "MaxHealth": 250,
               "IsJustDamaged": false,
               "CooldownActive": false
             },
             {
+              "jumpSpeed": 450,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "canGrabPlatforms": false,
               "ignoreDefaultControls": true,
               "xGrabTolerance": 20,
               "gravity": 700,
-              "jumpSpeed": 550,
               "maxFallingSpeed": 1500,
               "roundCoordinates": false,
               "acceleration": 1500,
@@ -6922,20 +7826,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -6958,20 +7862,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -6994,20 +7898,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7030,20 +7934,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7078,20 +7982,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7114,20 +8018,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7150,20 +8054,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7186,20 +8090,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7234,20 +8138,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7270,20 +8174,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7306,20 +8210,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7342,20 +8246,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7378,20 +8282,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7414,20 +8318,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7450,20 +8354,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7486,20 +8390,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7522,20 +8426,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7558,20 +8462,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -7594,20 +8498,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 71.1863021850586,
-                            "y": 49.51029968261719
+                            "x": 53.50030517578125,
+                            "y": 43.58001708984375
                           },
                           {
-                            "x": 92.39360046386719,
-                            "y": 48.025299072265625
+                            "x": 93.10638427734375,
+                            "y": 43.94279479980469
                           },
                           {
-                            "x": 91.73580169677734,
-                            "y": 101.41300201416016
+                            "x": 94.55767822265625,
+                            "y": 102.82635498046875
                           },
                           {
-                            "x": 64.51950073242188,
-                            "y": 101.6259994506836
+                            "x": 52.4244384765625,
+                            "y": 103.09722900390625
                           }
                         ]
                       ]
@@ -9461,20 +10365,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -9497,20 +10401,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -9533,20 +10437,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -9569,20 +10473,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -9605,20 +10509,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -9641,20 +10545,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -9677,20 +10581,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -9725,20 +10629,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -9761,20 +10665,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -9797,20 +10701,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -9833,20 +10737,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -9869,20 +10773,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -9905,20 +10809,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -9953,20 +10857,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -9989,20 +10893,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -10025,20 +10929,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -10061,20 +10965,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -10097,20 +11001,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -10133,20 +11037,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -10169,20 +11073,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7.251953125,
-                            "y": 12.697418212890625
+                            "x": 16.82037353515625,
+                            "y": 12.674118041992188
                           },
                           {
-                            "x": 57.46527099609375,
-                            "y": 16.1553955078125
+                            "x": 44.1031494140625,
+                            "y": 10.066162109375
                           },
                           {
-                            "x": 57.92010498046875,
-                            "y": 71.01361083984375
+                            "x": 44.318115234375,
+                            "y": 72.37295532226562
                           },
                           {
-                            "x": 7.762939453125,
-                            "y": 70.85635375976562
+                            "x": 20.1024169921875,
+                            "y": 70.77156066894531
                           }
                         ]
                       ]
@@ -10305,20 +11209,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 19.507099151611328,
-                            "y": 16.077899932861328
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 49.34280014038086,
-                            "y": 15.748100280761719
+                            "x": 64,
+                            "y": 0
                           },
                           {
-                            "x": 49.59349822998047,
-                            "y": 54.712100982666016
+                            "x": 64,
+                            "y": 64
                           },
                           {
-                            "x": 17.902000427246094,
-                            "y": 55.04859924316406
+                            "x": 0,
+                            "y": 64
                           }
                         ]
                       ]
@@ -10586,7 +11490,7 @@
               ]
             },
             {
-              "name": "jump!",
+              "name": "up",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -10595,70 +11499,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/TUTORIAL/UP.png",
+                      "image": "assets/TUTORIAL/jump.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 125.7808837890625,
-                        "y": 29.866973876953125
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
                         "x": 0,
                         "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "how high can you get?",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/TUTORIAL/SCORE.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 125.7808837890625,
-                        "y": 29.866973876953125
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "skeletons",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/TUTORIAL/SKELETONS.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 125.7808837890625,
-                        "y": 29.866973876953125
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -10688,6 +11534,93 @@
                         "name": "origine",
                         "x": 125.7808837890625,
                         "y": 29.866973876953125
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "skeletons",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/TUTORIAL/enemies.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "how high can you get?",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/TUTORIAL/demon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/TUTORIAL/pause.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -10972,7 +11905,7 @@
           "behaviors": [],
           "string": "YOU DIED!",
           "font": "assets/font/Angel wish.otf",
-          "characterSize": 100,
+          "characterSize": 110,
           "color": {
             "b": 27,
             "g": 2,
@@ -11020,20 +11953,77 @@
         {
           "bold": false,
           "italic": false,
-          "name": "test",
+          "name": "ObjectCount",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "tutorialtest",
+          "string": "OBJECT COUNT:",
           "font": "",
-          "characterSize": 20,
+          "characterSize": 30,
           "color": {
-            "b": 27,
-            "g": 2,
-            "r": 208
+            "b": 255,
+            "g": 74,
+            "r": 226
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "TimePlayed",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "TIME: ",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 74,
+            "r": 226
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "FPS",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "FPS: ",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 74,
+            "r": 226
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "DEVMODE",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "DEVELOPER MODE",
+          "font": "",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 74,
+            "r": 226
           }
         },
         {
@@ -11251,7 +12241,7 @@
                   "parameters": [
                     "",
                     "assets/SoundEffects/background/Kevin MacLeod - 8bit Dungeon Level.mp3",
-                    "0",
+                    "1",
                     "yes",
                     "20",
                     ""
@@ -11366,7 +12356,7 @@
                   "parameters": [
                     "randomPlatformDistance",
                     "=",
-                    "20*GlobalVariable(difficulty)"
+                    "20"
                   ],
                   "subInstructions": []
                 },
@@ -11414,7 +12404,7 @@
                   "parameters": [
                     "skeletonChance",
                     "=",
-                    "25*GlobalVariable(difficulty)"
+                    "20*GlobalVariable(difficulty)"
                   ],
                   "subInstructions": []
                 },
@@ -11426,7 +12416,7 @@
                   "parameters": [
                     "coinChance",
                     "=",
-                    "5"
+                    "10"
                   ],
                   "subInstructions": []
                 },
@@ -11462,7 +12452,7 @@
                   "parameters": [
                     "potionChance",
                     "=",
-                    "5"
+                    "12"
                   ],
                   "subInstructions": []
                 },
@@ -11473,6 +12463,44 @@
                   },
                   "parameters": [
                     "pause",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "timer",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "jumpcount",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "attack",
                     "=",
                     "0"
                   ],
@@ -11537,32 +12565,6 @@
                   },
                   "parameters": [
                     "DemonSkullSpawn"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Hero",
-                    "jumpcount",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Hero",
-                    "attack",
-                    "=",
-                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -11654,6 +12656,18 @@
                     "Hero.Y()",
                     "\"tutorial\"",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "timer",
+                    "+",
+                    "TimeDelta()"
                   ],
                   "subInstructions": []
                 }
@@ -12151,6 +13165,17 @@
                             "0"
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "HideLayer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"tutorial\""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -12168,7 +13193,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Play",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12216,6 +13241,18 @@
                   "parameters": [
                     "Hero",
                     "attack",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "pause",
                     "=",
                     "0"
                   ],
@@ -12455,6 +13492,14 @@
                     "PlatformerObject"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -12467,6 +13512,20 @@
                     "Hero",
                     "=",
                     "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/SoundEffects/hero/jump.mp3",
+                    "",
+                    "50",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -12687,7 +13746,7 @@
             },
             {
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -13314,7 +14373,7 @@
                   "parameters": [
                     "Hero",
                     "Health",
-                    "200",
+                    "500",
                     ""
                   ],
                   "subInstructions": []
@@ -13410,7 +14469,7 @@
                   "parameters": [
                     "Hero",
                     "Health",
-                    "100",
+                    "75",
                     ""
                   ],
                   "subInstructions": []
@@ -13425,7 +14484,7 @@
                     "assets/SoundEffects/hero/injury.wav",
                     "1",
                     "50",
-                    "60",
+                    "100",
                     ""
                   ],
                   "subInstructions": []
@@ -13537,7 +14596,7 @@
                     "assets/SoundEffects/hero/injury.wav",
                     "1",
                     "50",
-                    "60",
+                    "100",
                     ""
                   ],
                   "subInstructions": []
@@ -13622,7 +14681,7 @@
                     "assets/SoundEffects/hero/injury.wav",
                     "1",
                     "50",
-                    "60",
+                    "100",
                     ""
                   ],
                   "subInstructions": []
@@ -13846,6 +14905,30 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Score",
+                    "=",
+                    "\"Score: \" + ToString(Variable(Score))"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -13875,6 +14958,30 @@
                   "parameters": [
                     "Skeleton",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Score",
+                    "=",
+                    "\"Score: \" + ToString(Variable(Score))"
                   ],
                   "subInstructions": []
                 }
@@ -13991,7 +15098,7 @@
             },
             {
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -14017,7 +15124,7 @@
                   "parameters": [
                     "fireskull",
                     "Hero",
-                    "100*GlobalVariable(difficulty)",
+                    "120*GlobalVariable(difficulty)",
                     ""
                   ],
                   "subInstructions": []
@@ -14087,7 +15194,7 @@
                   "parameters": [
                     "demon",
                     "Hero",
-                    "75*GlobalVariable(difficulty)",
+                    "100*GlobalVariable(difficulty)",
                     ""
                   ],
                   "subInstructions": []
@@ -14196,7 +15303,7 @@
                       "parameters": [
                         "demon",
                         "Hero",
-                        "250",
+                        "200",
                         ""
                       ],
                       "subInstructions": []
@@ -14714,7 +15821,7 @@
             },
             {
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -15088,7 +16195,7 @@
                       "parameters": [
                         "",
                         "Skeleton",
-                        "Variable(randomX)+Random(StonePlatform.Width())/2",
+                        "Variable(randomX)+RandomInRange(30,StonePlatform.Width())-20",
                         "Variable(topY)-28",
                         ""
                       ],
@@ -15218,7 +16325,7 @@
                       "parameters": [
                         "",
                         "Coin",
-                        "Variable(randomX) + Random(StonePlatform.Width()-8)",
+                        "Variable(randomX) + RandomInRange(,20StonePlatform.Width()-10)",
                         "Variable(topY)-64",
                         ""
                       ],
@@ -15362,7 +16469,7 @@
                       "parameters": [
                         "",
                         "HealthPotion",
-                        "Variable(randomX) + Random(StonePlatform.Width()-8)",
+                        "Variable(randomX) + RandomInRange(20,StonePlatform.Width()-10)",
                         "Variable(topY) - 20",
                         ""
                       ],
@@ -15438,6 +16545,72 @@
                   },
                   "parameters": [
                     "StonePlatform",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "LeftWall",
+                    ">",
+                    "CameraY(\"\",0) + CameraHeight(\"\",0)/2 + 3000\n"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "LeftWall",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "RightWall",
+                    ">",
+                    "CameraY(\"\",0) + CameraHeight(\"\",0)/2 + 3000\n"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "RightWall",
                     ""
                   ],
                   "subInstructions": []
@@ -15619,7 +16792,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Dev tools toggle",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15764,17 +16937,6 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "DEVETXT2",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
                     "DemonSkullSpawn",
                     ""
                   ],
@@ -15788,8 +16950,79 @@
                   "parameters": [
                     "Hero",
                     "Health",
-                    "100",
+                    "1000",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"devMode\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "objectCount",
+                    "+",
+                    "Count(Skeleton)+Count(StonePlatform)+Count(Ghost)+Count(Spikes)+Count(demon)+Count(fireskull)+Count(Hero)+Count(LeftWall)+Count(RightWall)+Count(Coin)+Count(HealthPotion)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "FPS",
+                    "=",
+                    "\"FPS:\"+ ToString(round(1/TimeDelta()))"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "ObjectCount",
+                    "=",
+                    "\"OBJECT COUNT:\"+ ToString(Variable(objectCount))"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TimePlayed",
+                    "=",
+                    "\"TIME:\"+ ToString(round(Variable(timer)))"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "objectCount",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -15803,36 +17036,27 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "BuiltinCommonInstructions::Or"
+                        "value": "KeyPressed"
                       },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "PlatformBehavior::IsJumping"
-                          },
-                          "parameters": [
-                            "Hero",
-                            "PlatformerObject"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "PlatformBehavior::IsFalling"
-                          },
-                          "parameters": [
-                            "Hero",
-                            "PlatformerObject"
-                          ],
-                          "subInstructions": []
-                        }
-                      ]
+                      "parameters": [
+                        "",
+                        "Up"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Hero",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    },
                     {
                       "type": {
                         "inverted": false,
@@ -15841,6 +17065,40 @@
                       "parameters": [
                         "Hero",
                         "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Down"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Hero",
+                        "0",
+                        "200",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -15894,16 +17152,6 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "DEVETXT2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
                     "DemonSkullSpawn"
                   ],
                   "subInstructions": []
@@ -15917,6 +17165,17 @@
                     "Hero",
                     "Health",
                     "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"devMode\""
                   ],
                   "subInstructions": []
                 }
@@ -16178,7 +17437,31 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "pause",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": [
                 {
                   "disabled": false,
@@ -16253,17 +17536,6 @@
                         "FinalScore",
                         "=",
                         "SceneWindowWidth()/2 + 64"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "StopMusicCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "0"
                       ],
                       "subInstructions": []
                     },
@@ -16628,7 +17900,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Pause",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16702,6 +17974,105 @@
                   "parameters": [
                     "pause",
                     "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Pause\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "RePlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "pause",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Pause\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "pause",
+                    "=",
                     "1"
                   ],
                   "subInstructions": []
@@ -16727,6 +18098,17 @@
                   "parameters": [
                     "",
                     "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -16817,50 +18199,6 @@
                   "events": []
                 }
               ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "pause",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Pause\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeTimeScale"
-                  },
-                  "parameters": [
-                    "",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
             },
             {
               "disabled": false,
@@ -17306,6 +18644,17 @@
         {
           "ambientLightColorB": 1702453632,
           "ambientLightColorG": 6009760,
+          "ambientLightColorR": -2147483648,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "tutorial",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 6009760,
           "ambientLightColorR": 117440512,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
@@ -17315,13 +18664,13 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453632,
-          "ambientLightColorG": 6009760,
-          "ambientLightColorR": -2147483648,
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 9039360,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "name": "tutorial",
-          "visibility": true,
+          "name": "devMode",
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -17363,8 +18712,8 @@
     {
       "b": 12,
       "disableInputWhenNotFocused": true,
-      "mangledName": "SplashScreen",
-      "name": "SplashScreen",
+      "mangledName": "Instructions",
+      "name": "Instructions",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -17401,23 +18750,7 @@
           "width": 727,
           "x": 0,
           "y": 0,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 110,
-          "layer": "",
-          "locked": false,
-          "name": "title",
-          "persistentUuid": "c6a4fb49-8313-432d-b2b7-23db9c1eccae",
-          "width": 684,
-          "x": 77,
-          "y": 36,
-          "zOrder": 15,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17428,43 +18761,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "title2",
-          "persistentUuid": "a792732d-46af-4f5f-954e-f4a8b120b767",
-          "width": 0,
-          "x": 75,
-          "y": 33,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "play",
-          "persistentUuid": "d03302aa-bc84-446c-96ad-ba5fe7f67e54",
-          "width": 0,
-          "x": 286,
-          "y": 304,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "settings",
+          "name": "Player",
           "persistentUuid": "f51bbade-26b7-4d4c-9387-b570949bcb6d",
           "width": 0,
-          "x": 262,
-          "y": 535,
+          "x": 12,
+          "y": 137,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -17473,15 +18774,127 @@
         {
           "angle": 0,
           "customSize": false,
+          "height": 1000,
+          "layer": "",
+          "locked": false,
+          "name": "back",
+          "persistentUuid": "cfa9761c-d29f-4155-9144-0e94e55be56a",
+          "width": 1000,
+          "x": 7,
+          "y": 33,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "info",
-          "persistentUuid": "cfa9761c-d29f-4155-9144-0e94e55be56a",
+          "name": "tips",
+          "persistentUuid": "b0a5ffa5-b0a9-493e-bb3e-389000041c81",
           "width": 0,
-          "x": 253,
-          "y": 411,
-          "zOrder": 18,
+          "x": 12,
+          "y": 378,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BlackMask",
+          "persistentUuid": "15b37e63-46b8-45aa-80f5-313b48fb4320",
+          "width": 0,
+          "x": 396,
+          "y": 273,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BlackMask",
+          "persistentUuid": "617b683f-1582-4eb9-8d77-6a641258f91b",
+          "width": 0,
+          "x": 534,
+          "y": 311,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BlackMask",
+          "persistentUuid": "3d0b840e-a53c-4e41-9926-82317796245d",
+          "width": 0,
+          "x": 1022,
+          "y": 137,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 847,
+          "layer": "",
+          "locked": false,
+          "name": "BlackMask",
+          "persistentUuid": "daff1477-2d66-4ed1-b4bd-e214662500e9",
+          "width": 967,
+          "x": -51,
+          "y": -26,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 175,
+          "layer": "",
+          "locked": false,
+          "name": "playertips",
+          "persistentUuid": "90646360-671e-4636-92ed-13b7f2f247e6",
+          "width": 685,
+          "x": 12,
+          "y": 450,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120,
+          "layer": "",
+          "locked": false,
+          "name": "playercontrols2",
+          "persistentUuid": "f43bf890-3d3b-493c-a896-a07e255aebab",
+          "width": 697,
+          "x": 12,
+          "y": 216,
+          "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17530,35 +18943,16 @@
         {
           "bold": true,
           "italic": false,
-          "name": "title2",
+          "name": "tips",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Attack The Spire!",
+          "string": "Tips:",
           "font": "assets/font/Angel wish.otf",
-          "characterSize": 100,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "title",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Attack The Spire!",
-          "font": "assets/font/Angel wish.otf",
-          "characterSize": 100,
+          "characterSize": 60,
           "color": {
             "b": 255,
             "g": 255,
@@ -17568,16 +18962,16 @@
         {
           "bold": false,
           "italic": false,
-          "name": "play",
+          "name": "Player",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Play",
+          "string": "Player Controls:\n",
           "font": "assets/font/Angel wish.otf",
-          "characterSize": 80,
+          "characterSize": 60,
           "color": {
             "b": 255,
             "g": 255,
@@ -17585,45 +18979,7 @@
           }
         },
         {
-          "bold": false,
-          "italic": false,
-          "name": "settings",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Settings",
-          "font": "assets/font/Angel wish.otf",
-          "characterSize": 80,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "info",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Controls",
-          "font": "assets/font/Angel wish.otf",
-          "characterSize": 80,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "name": "horse",
+          "name": "BlackMask",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -17631,67 +18987,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "NewObject",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "timeBetweenFrames": 0.07800000160932541,
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/Monsters/horse/tile000.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Monsters/horse/tile001.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Monsters/horse/tile002.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Monsters/horse/tile003.png",
+                      "image": "assets/gameOver/BlackMask.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17711,6 +19016,82 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "back",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Back to Menu?",
+          "font": "assets/font/Angel wish.otf",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "playercontrols2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "> Press the 'Left' and 'Right' arrows keys to move the player left and right\n> Press the 'Up' arrow key once to jump, press again to double jump\n> Press the 'x' key to swing your sword and attack enemies\n> Press the 'p' key to pause the game\n> Press the 'k' key to view the developer mode (FPS, Object Count, Total Time Played)",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "playertips2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "> Health can be restored by collecting the red health potions.\n> There are three enemy types: Skeletons, Ghosts and the fearsome Demon!\n> Earn points by jumping on new platforms and collecting coins.\n> Be careful when you earn a lot of points! The Demon will chase and try catch you! Run! \n> Difficulty can be changed in the Settings page. Difficulty effects enemy spawn chance, speed of the demon and distance the between platforms.",
+          "font": "assets/font/Angel wish.otf",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "playertips",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "> Health can be restored by collecting the red health potions.\n> There are three enemy types: Skeletons (2 points), Ghosts (5 points) and the fearsome Demon! \n> Earn points by jumping on new platforms and collecting coins.\n> Be careful when you earn a lot of points! The Demon will chase and try catch you! Run! \n> The Demon fires skulls that chase you and will freeze you for a short while! Don't get caught!\n> Difficulty can be changed in the Settings page. Difficulty effects enemy spawn chance and speed of the demon.",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -17813,7 +19194,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "play",
+                "back",
                 "",
                 "",
                 ""
@@ -17828,7 +19209,7 @@
                 "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "play",
+                "back",
                 "\"133;3;19\""
               ],
               "subInstructions": []
@@ -17860,7 +19241,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Game\"",
+                    "\"SplashScreen\"",
                     ""
                   ],
                   "subInstructions": []
@@ -17869,252 +19250,6 @@
               "events": []
             }
           ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "play",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "play",
-                "\"255;255;255\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "info",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "info",
-                "\"133;3;19\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Instructions\"",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "info",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "info",
-                "\"255;255;255\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "settings",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "settings",
-                "\"133;3;19\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Settings\"",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "settings",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "settings",
-                "\"255;255;255\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [
@@ -18246,8 +19381,8 @@
           "name": "mute",
           "persistentUuid": "027224cf-f81e-4345-a482-25393b72f51e",
           "width": 0,
-          "x": 375,
-          "y": 217,
+          "x": 490,
+          "y": 218,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -18845,7 +19980,7 @@
                 "difficulty",
                 "setting",
                 "=",
-                "0"
+                "1"
               ],
               "subInstructions": []
             },
@@ -18900,7 +20035,7 @@
                 "difficulty",
                 "setting",
                 "=",
-                "1"
+                "2"
               ],
               "subInstructions": []
             },
@@ -19050,556 +20185,6 @@
             }
           ],
           "events": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 9756784,
-          "ambientLightColorG": 8323936,
-          "ambientLightColorR": 7837632,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": []
-    },
-    {
-      "b": 12,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Instructions",
-      "name": "Instructions",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 8,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 12,
-      "uiSettings": {
-        "grid": false,
-        "gridB": 255,
-        "gridG": 180,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridR": 158,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "snap": true,
-        "windowMask": false,
-        "zoomFactor": 0.5
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 791,
-          "layer": "",
-          "locked": false,
-          "name": "castle",
-          "persistentUuid": "14cd5dfc-ab40-49c4-b1a3-afa1503f66d6",
-          "width": 727,
-          "x": 0,
-          "y": 0,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "persistentUuid": "f51bbade-26b7-4d4c-9387-b570949bcb6d",
-          "width": 0,
-          "x": 12,
-          "y": 137,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 1000,
-          "layer": "",
-          "locked": false,
-          "name": "back",
-          "persistentUuid": "cfa9761c-d29f-4155-9144-0e94e55be56a",
-          "width": 1000,
-          "x": 7,
-          "y": 33,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "tips",
-          "persistentUuid": "b0a5ffa5-b0a9-493e-bb3e-389000041c81",
-          "width": 0,
-          "x": 10,
-          "y": 335,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BlackMask",
-          "persistentUuid": "15b37e63-46b8-45aa-80f5-313b48fb4320",
-          "width": 0,
-          "x": 396,
-          "y": 273,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BlackMask",
-          "persistentUuid": "617b683f-1582-4eb9-8d77-6a641258f91b",
-          "width": 0,
-          "x": 534,
-          "y": 311,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BlackMask",
-          "persistentUuid": "3d0b840e-a53c-4e41-9926-82317796245d",
-          "width": 0,
-          "x": 1022,
-          "y": 137,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 847,
-          "layer": "",
-          "locked": false,
-          "name": "BlackMask",
-          "persistentUuid": "daff1477-2d66-4ed1-b4bd-e214662500e9",
-          "width": 967,
-          "x": -51,
-          "y": -26,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 175,
-          "layer": "",
-          "locked": false,
-          "name": "playertips",
-          "persistentUuid": "90646360-671e-4636-92ed-13b7f2f247e6",
-          "width": 685,
-          "x": 14,
-          "y": 432,
-          "zOrder": 33,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "playercontrols2",
-          "persistentUuid": "f43bf890-3d3b-493c-a896-a07e255aebab",
-          "width": 0,
-          "x": 12,
-          "y": 216,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "name": "castle",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "output-onlinepngtools (2).png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "tips",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Tips:",
-          "font": "assets/font/Angel wish.otf",
-          "characterSize": 60,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Player",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Player Controls:\n",
-          "font": "assets/font/Angel wish.otf",
-          "characterSize": 60,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "name": "BlackMask",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewObject",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/gameOver/BlackMask.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "back",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Back to Menu?",
-          "font": "assets/font/Angel wish.otf",
-          "characterSize": 40,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "playercontrols2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "> Press the 'Left' and 'Right' arrows keys to move the player left and right\n> Press the 'Up' arrow key once to jump, press again to double jump\n> Press the 'x' key to swing your sword and attack enemies",
-          "font": "assets/font/Angel wish.otf",
-          "characterSize": 25,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "playertips",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "> Health can be restored by collecting the red health potions.\n> There are three enemy types: Skeletons, Ghosts and the fearsome Demon!\n> Earn points by jumping on new platforms and collecting coins.\n> Be careful when you earn a lot of points! The Demon will chase and try catch you! Run! \n> Difficulty can be changed in the Settings page. Difficulty effects enemy spawn chance, speed of the demon and distance the between platforms.",
-          "font": "assets/font/Angel wish.otf",
-          "characterSize": 25,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "sound",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVolumeSoundCanal"
-              },
-              "parameters": [
-                "",
-                "1",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "sound",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "assets/SoundEffects/background/POL-chamber-of-secrets-short.wav",
-                "1",
-                "yes",
-                "70",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "back",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "back",
-                "\"133;3;19\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"SplashScreen\"",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
         }
       ],
       "layers": [
