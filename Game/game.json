@@ -2855,7 +2855,7 @@
           "customSize": true,
           "height": 223,
           "layer": "Mountains",
-          "locked": false,
+          "locked": true,
           "name": "Bk2",
           "persistentUuid": "d13aa7d8-c21b-4ddc-b80c-296806c32801",
           "width": 1402,
@@ -2871,7 +2871,7 @@
           "customSize": true,
           "height": 96,
           "layer": "Forest",
-          "locked": false,
+          "locked": true,
           "name": "Bk3",
           "persistentUuid": "41c15001-c447-4c4b-871a-2a0c44b30b1a",
           "width": 1547,
@@ -2887,7 +2887,7 @@
           "customSize": true,
           "height": 99,
           "layer": "Town",
-          "locked": false,
+          "locked": true,
           "name": "Bk4",
           "persistentUuid": "3a2384e9-2e95-436e-8e5a-3332091df459",
           "width": 1015,
@@ -2903,7 +2903,7 @@
           "customSize": true,
           "height": 93,
           "layer": "Mountains",
-          "locked": false,
+          "locked": true,
           "name": "Bk3",
           "persistentUuid": "80a5923c-2c67-4fb8-99b7-73e88da3adcd",
           "width": 1515,
@@ -2935,7 +2935,7 @@
           "customSize": true,
           "height": 167,
           "layer": "Clouds",
-          "locked": false,
+          "locked": true,
           "name": "Clouds",
           "persistentUuid": "e9c34aa2-664a-40f6-a06b-de5539305c78",
           "width": 1172,
@@ -2951,7 +2951,7 @@
           "customSize": true,
           "height": 224,
           "layer": "Sky",
-          "locked": false,
+          "locked": true,
           "name": "testsky",
           "persistentUuid": "a70c2ec6-e215-44f3-937a-049a4263db22",
           "width": 1609,
@@ -3005,7 +3005,7 @@
           "customSize": true,
           "height": 720,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "RightWall",
           "persistentUuid": "390b5f56-06bb-450c-82fe-a8c2198fae21",
           "width": 64,
@@ -3021,29 +3021,13 @@
           "customSize": true,
           "height": 720,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "LeftWall",
           "persistentUuid": "dbd7099b-5c31-45a5-90d8-ab14945e1ee0",
           "width": 64,
           "x": 0,
           "y": 0,
           "zOrder": 120,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 41,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "persistentUuid": "734f28a7-d8bd-478b-b4ac-e777baaa9774",
-          "width": 44,
-          "x": 171,
-          "y": 508,
-          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3073,8 +3057,8 @@
           "name": "TutorialTips",
           "persistentUuid": "97abe031-affc-4d99-b36e-7b2344cd3b08",
           "width": 297,
-          "x": 93,
-          "y": 105,
+          "x": 191,
+          "y": 110,
           "zOrder": 138,
           "numberProperties": [
             {
@@ -3100,8 +3084,8 @@
           "name": "TutorialTips",
           "persistentUuid": "238cd9d6-866d-491d-9311-70eb4e88fa6f",
           "width": 0,
-          "x": 95,
-          "y": 208,
+          "x": 217,
+          "y": 233,
           "zOrder": 139,
           "numberProperties": [
             {
@@ -3149,8 +3133,8 @@
           "name": "StonePlatform",
           "persistentUuid": "974a194d-5dac-4690-8062-2b8ae10fff14",
           "width": 0,
-          "x": 127,
-          "y": 549,
+          "x": 108,
+          "y": 484,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -3171,8 +3155,8 @@
           "name": "StonePlatform",
           "persistentUuid": "6c330b77-8bdb-4468-bad1-d4751bf03463",
           "width": 0,
-          "x": 207,
-          "y": 362,
+          "x": 224,
+          "y": 316,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -3193,8 +3177,8 @@
           "name": "TutorialTips",
           "persistentUuid": "131b738b-b908-4206-9719-cc21ecd9073c",
           "width": 0,
-          "x": 185,
-          "y": 382,
+          "x": 318,
+          "y": 608,
           "zOrder": 140,
           "numberProperties": [
             {
@@ -3220,8 +3204,8 @@
           "name": "TutorialTips",
           "persistentUuid": "17286ea6-7efc-42a7-9e75-9fef1f12f7d1",
           "width": 0,
-          "x": 66,
-          "y": 288,
+          "x": 332,
+          "y": 442,
           "zOrder": 141,
           "numberProperties": [
             {
@@ -3269,8 +3253,8 @@
           "name": "TutorialTips",
           "persistentUuid": "0b2e5395-26e2-4277-b0f1-0b6bbc8ae6ab",
           "width": 200,
-          "x": 73,
-          "y": 436,
+          "x": 194,
+          "y": 666,
           "zOrder": 140,
           "numberProperties": [],
           "stringProperties": [],
@@ -3291,8 +3275,8 @@
           "name": "TutorialTips",
           "persistentUuid": "9c933343-9e27-4900-a5c1-7b7a38ed4c4b",
           "width": 200,
-          "x": 395,
-          "y": 440,
+          "x": 499,
+          "y": 668,
           "zOrder": 140,
           "numberProperties": [
             {
@@ -3376,41 +3360,9 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 53,
-          "layer": "tutorial",
-          "locked": false,
-          "name": "devText",
-          "persistentUuid": "d0a9d25f-e158-420d-9b26-29f3db1e6718",
-          "width": 409,
-          "x": 357,
-          "y": 666,
-          "zOrder": 155,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 77,
-          "layer": "tutorial",
-          "locked": false,
-          "name": "DEVETXT2",
-          "persistentUuid": "d98232ca-3e56-40bf-8ba1-aadabf0962e7",
-          "width": 352,
-          "x": 297,
-          "y": 6,
-          "zOrder": 156,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 96,
           "layer": "Forest",
-          "locked": false,
+          "locked": true,
           "name": "Bk3",
           "persistentUuid": "16f5eace-0f1a-4b5d-aa58-837ce2859642",
           "width": 1550,
@@ -3426,7 +3378,7 @@
           "customSize": true,
           "height": 99,
           "layer": "Clouds",
-          "locked": false,
+          "locked": true,
           "name": "Bk4",
           "persistentUuid": "7d0a5361-1b89-49e7-84cd-6f9bdf8c0bc8",
           "width": 1015,
@@ -3458,7 +3410,7 @@
           "customSize": true,
           "height": 223,
           "layer": "Mountains",
-          "locked": false,
+          "locked": true,
           "name": "Bk2",
           "persistentUuid": "720f8063-a61e-4228-9d00-e635d177152f",
           "width": 1402,
@@ -3490,7 +3442,7 @@
           "customSize": true,
           "height": 98,
           "layer": "FarBuildings",
-          "locked": false,
+          "locked": true,
           "name": "FarBuildings",
           "persistentUuid": "7cfae831-0314-4a1e-af9d-b973558c1433",
           "width": 434,
@@ -3506,7 +3458,7 @@
           "customSize": true,
           "height": 98,
           "layer": "FarBuildings",
-          "locked": false,
+          "locked": true,
           "name": "FarBuildings",
           "persistentUuid": "391180fe-34c9-4497-98bd-f540dc6345f8",
           "width": 434,
@@ -3522,7 +3474,7 @@
           "customSize": true,
           "height": 96,
           "layer": "Town",
-          "locked": false,
+          "locked": true,
           "name": "Bk3",
           "persistentUuid": "41263773-468d-4bc9-95cd-7c076b0f1e0f",
           "width": 1550,
@@ -3538,7 +3490,7 @@
           "customSize": true,
           "height": 224,
           "layer": "Sky",
-          "locked": false,
+          "locked": true,
           "name": "testsky",
           "persistentUuid": "0648990d-3e78-4924-bce5-708bd19380bc",
           "width": 1609,
@@ -3554,7 +3506,7 @@
           "customSize": true,
           "height": 167,
           "layer": "Clouds",
-          "locked": false,
+          "locked": true,
           "name": "Clouds",
           "persistentUuid": "c2588b6a-f29e-4dfa-9bf6-e226e0e5351c",
           "width": 1578,
@@ -3785,38 +3737,6 @@
           "x": -114,
           "y": -74,
           "zOrder": 2000,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 41,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "persistentUuid": "93747064-6335-4880-b611-c91973379f14",
-          "width": 44,
-          "x": 130,
-          "y": 502,
-          "zOrder": 100,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 41,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "persistentUuid": "2d2f4e90-5773-417e-b535-087000c754a5",
-          "width": 44,
-          "x": 213,
-          "y": 502,
-          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10621,8 +10541,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 125.7808837890625,
+                        "y": 29.866973876953125
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -10650,8 +10570,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 125.7808837890625,
+                        "y": 29.866973876953125
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -10679,8 +10599,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 125.7808837890625,
+                        "y": 29.866973876953125
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -10708,8 +10628,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 125.7808837890625,
+                        "y": 29.866973876953125
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -10737,8 +10657,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 125.7808837890625,
+                        "y": 29.866973876953125
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -10766,47 +10686,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "devText",
-          "tags": "text",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "output-onlinetexttools",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/devMode/output-onlinetexttools.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 487.4809875488281,
-                        "y": 26.499900817871094
+                        "x": 125.7808837890625,
+                        "y": 29.866973876953125
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -11137,6 +11018,25 @@
           }
         },
         {
+          "bold": false,
+          "italic": false,
+          "name": "test",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "tutorialtest",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
+        },
+        {
           "name": "Bk1",
           "tags": "",
           "type": "Sprite",
@@ -11437,16 +11337,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "TutorialTips"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ModVarScene"
                   },
                   "parameters": [
@@ -11476,7 +11366,7 @@
                   "parameters": [
                     "randomPlatformDistance",
                     "=",
-                    "20"
+                    "20*GlobalVariable(difficulty)"
                   ],
                   "subInstructions": []
                 },
@@ -11524,7 +11414,7 @@
                   "parameters": [
                     "skeletonChance",
                     "=",
-                    "25"
+                    "25*GlobalVariable(difficulty)"
                   ],
                   "subInstructions": []
                 },
@@ -11548,7 +11438,7 @@
                   "parameters": [
                     "ghostChance",
                     "=",
-                    "10"
+                    "10*GlobalVariable(difficulty)"
                   ],
                   "subInstructions": []
                 },
@@ -11596,6 +11486,16 @@
                   "parameters": [
                     "",
                     "\"GameOver\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "TutorialTips"
                   ],
                   "subInstructions": []
                 },
@@ -11740,6 +11640,20 @@
                     "demon.PointX(\"skull\")",
                     "=",
                     "demon.PointY(\"skull\")"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Hero.Y()",
+                    "\"tutorial\"",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -11966,7 +11880,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Tutorial",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11988,7 +11902,7 @@
             },
             {
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -12091,7 +12005,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -12254,7 +12168,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Play",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14103,7 +14017,7 @@
                   "parameters": [
                     "fireskull",
                     "Hero",
-                    "100",
+                    "100*GlobalVariable(difficulty)",
                     ""
                   ],
                   "subInstructions": []
@@ -14173,7 +14087,7 @@
                   "parameters": [
                     "demon",
                     "Hero",
-                    "75",
+                    "75*GlobalVariable(difficulty)",
                     ""
                   ],
                   "subInstructions": []
@@ -14966,8 +14880,8 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
-          "name": "Platforms",
+          "folded": false,
+          "name": "Spawn Platforms and Objects",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -15169,18 +15083,6 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ChangePlan"
-                      },
-                      "parameters": [
-                        "Skeleton",
-                        "=",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -15189,6 +15091,18 @@
                         "Variable(randomX)+Random(StonePlatform.Width())/2",
                         "Variable(topY)-28",
                         ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Skeleton",
+                        "=",
+                        "1"
                       ],
                       "subInstructions": []
                     }
@@ -16594,7 +16508,7 @@
                       },
                       "parameters": [
                         "restart",
-                        "\"133;3;19\""
+                        "\"208;2;27\""
                       ],
                       "subInstructions": []
                     }
@@ -16696,7 +16610,7 @@
                       },
                       "parameters": [
                         "menu",
-                        "\"133;3;19\""
+                        "\"208;2;27\""
                       ],
                       "subInstructions": []
                     }
@@ -16714,7 +16628,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Pause",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17287,7 +17201,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Sky",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -17298,7 +17212,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Mountains",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -17309,7 +17223,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Clouds",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -17320,7 +17234,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "FarBuildings",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -17331,7 +17245,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Forest",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -17342,18 +17256,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Town",
-          "visibility": false,
-          "cameras": [],
-          "effects": []
-        },
-        {
-          "ambientLightColorB": 1702453632,
-          "ambientLightColorG": 6009760,
-          "ambientLightColorR": -2147483648,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "tutorial",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -17413,12 +17316,23 @@
         },
         {
           "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 6009760,
+          "ambientLightColorR": -2147483648,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "tutorial",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 0,
           "ambientLightColorR": 1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "GameOver",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
@@ -19251,8 +19165,8 @@
           "name": "tips",
           "persistentUuid": "b0a5ffa5-b0a9-493e-bb3e-389000041c81",
           "width": 0,
-          "x": 16,
-          "y": 392,
+          "x": 10,
+          "y": 335,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -19318,6 +19232,38 @@
           "x": -51,
           "y": -26,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 175,
+          "layer": "",
+          "locked": false,
+          "name": "playertips",
+          "persistentUuid": "90646360-671e-4636-92ed-13b7f2f247e6",
+          "width": 685,
+          "x": 14,
+          "y": 432,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "playercontrols2",
+          "persistentUuid": "f43bf890-3d3b-493c-a896-a07e255aebab",
+          "width": 0,
+          "x": 12,
+          "y": 216,
+          "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19453,6 +19399,44 @@
           "string": "Back to Menu?",
           "font": "assets/font/Angel wish.otf",
           "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "playercontrols2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "> Press the 'Left' and 'Right' arrows keys to move the player left and right\n> Press the 'Up' arrow key once to jump, press again to double jump\n> Press the 'x' key to swing your sword and attack enemies",
+          "font": "assets/font/Angel wish.otf",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "playertips",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "> Health can be restored by collecting the red health potions.\n> There are three enemy types: Skeletons, Ghosts and the fearsome Demon!\n> Earn points by jumping on new platforms and collecting coins.\n> Be careful when you earn a lot of points! The Demon will chase and try catch you! Run! \n> Difficulty can be changed in the Settings page. Difficulty effects enemy spawn chance, speed of the demon and distance the between platforms.",
+          "font": "assets/font/Angel wish.otf",
+          "characterSize": 25,
           "color": {
             "b": 255,
             "g": 255,
