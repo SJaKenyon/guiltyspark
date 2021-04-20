@@ -4162,7 +4162,7 @@
           "name": "FinalScore",
           "persistentUuid": "5c5a542e-93bb-4197-8170-0c779a677d9d",
           "width": 0,
-          "x": 357,
+          "x": 348,
           "y": 221,
           "zOrder": 152,
           "numberProperties": [],
@@ -4649,22 +4649,6 @@
               "value": "4"
             }
           ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "persistentUuid": "691dad56-b68e-4739-834d-bdabd1ee8783",
-          "width": 0,
-          "x": 216,
-          "y": -37,
-          "zOrder": 2030,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -4692,9 +4676,9 @@
               "CooldownActive": false
             },
             {
-              "jumpSpeed": 450,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "jumpSpeed": 450,
               "canGrabPlatforms": false,
               "ignoreDefaultControls": true,
               "xGrabTolerance": 20,
@@ -12201,7 +12185,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Initialization",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12894,7 +12878,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Tutorial",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15689,7 +15673,7 @@
                     "assets/SoundEffects/hero/injury.wav",
                     "1",
                     "50",
-                    "60",
+                    "80",
                     ""
                   ],
                   "subInstructions": []
@@ -16195,7 +16179,7 @@
                       "parameters": [
                         "",
                         "Skeleton",
-                        "Variable(randomX)+RandomInRange(30,StonePlatform.Width())-20",
+                        "Variable(randomX)+RandomInRange(12,90)",
                         "Variable(topY)-28",
                         ""
                       ],
@@ -16325,7 +16309,7 @@
                       "parameters": [
                         "",
                         "Coin",
-                        "Variable(randomX) + RandomInRange(,20StonePlatform.Width()-10)",
+                        "Variable(randomX) + 40",
                         "Variable(topY)-64",
                         ""
                       ],
@@ -16469,7 +16453,7 @@
                       "parameters": [
                         "",
                         "HealthPotion",
-                        "Variable(randomX) + RandomInRange(20,StonePlatform.Width()-10)",
+                        "Variable(randomX) + RandomInRange(20,90)",
                         "Variable(topY) - 20",
                         ""
                       ],
@@ -17535,22 +17519,7 @@
                       "parameters": [
                         "FinalScore",
                         "=",
-                        "SceneWindowWidth()/2 + 64"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "assets/SoundEffects/death/evillaugh.swf.mp3",
-                        "1",
-                        "50",
-                        "60",
-                        ""
+                        "SceneWindowWidth()/2 "
                       ],
                       "subInstructions": []
                     },
@@ -17564,7 +17533,21 @@
                         "assets/SoundEffects/death/dark-souls-you-died-sound-effect_hm5sYFG.mp3",
                         "1",
                         "50",
-                        "60",
+                        "100",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/SoundEffects/death/evillaugh.swf.mp3",
+                        "",
+                        "",
                         ""
                       ],
                       "subInstructions": []
@@ -17661,7 +17644,7 @@
                           "parameters": [
                             "BestScore",
                             "=",
-                            "SceneWindowWidth()/2 - BestScore.Width()/2"
+                            "SceneWindowWidth()/2 - BestScore.Width()"
                           ],
                           "subInstructions": []
                         }
