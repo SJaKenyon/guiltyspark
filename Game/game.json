@@ -15264,14 +15264,15 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "PlaySound"
+                        "value": "PlaySoundCanal"
                       },
                       "parameters": [
                         "",
                         "assets/SoundEffects/monsters/hell-Mike_Koenig-144950046.mp3",
-                        "yes",
+                        "666",
                         "30",
-                        ""
+                        "30",
+                        "1.2"
                       ],
                       "subInstructions": []
                     }
@@ -17572,6 +17573,17 @@
                     "pause",
                     "=",
                     "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "666"
                   ],
                   "subInstructions": []
                 }
@@ -20499,7 +20511,7 @@
                 "globalsound",
                 "level",
                 "=",
-                "1"
+                "0"
               ],
               "subInstructions": []
             },
@@ -20554,7 +20566,7 @@
                 "globalsound",
                 "level",
                 "=",
-                "0"
+                "1"
               ],
               "subInstructions": []
             },
