@@ -12355,6 +12355,18 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "difficulty",
+                    "=",
+                    "GlobalVariable(diffculty)+1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "ModVarScene"
                   },
                   "parameters": [
@@ -12531,18 +12543,6 @@
                     "attack",
                     "=",
                     "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "difficulty",
-                    "=",
-                    "GlobalVariable(diffculty)+1"
                   ],
                   "subInstructions": []
                 },
