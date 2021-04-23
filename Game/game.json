@@ -3637,8 +3637,8 @@
           "name": "Score",
           "persistentUuid": "b4618a58-fd9c-404a-a339-267debf6e28a",
           "width": 0,
-          "x": 67,
-          "y": 19,
+          "x": 68,
+          "y": 17,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -11847,7 +11847,7 @@
         },
         {
           "bold": false,
-          "italic": false,
+          "italic": true,
           "name": "Score",
           "smoothed": true,
           "tags": "text",
@@ -11855,13 +11855,13 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "SCORE: 0",
+          "string": "Score: 0",
           "font": "",
-          "characterSize": 20,
+          "characterSize": 25,
           "color": {
-            "b": 27,
-            "g": 2,
-            "r": 208
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -15325,7 +15325,7 @@
                   },
                   "parameters": [
                     "demon",
-                    ">",
+                    "<=",
                     "Hero.PointX(\"position\")"
                   ],
                   "subInstructions": []
@@ -15339,7 +15339,73 @@
                   },
                   "parameters": [
                     "demon",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "fireskull",
+                    ">",
+                    "Hero.PointX(\"position\")"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "fireskull",
                     "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "fireskull",
+                    "<=",
+                    "Hero.PointX(\"position\")"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "fireskull",
+                    "yes"
                   ],
                   "subInstructions": []
                 }
@@ -19412,7 +19478,7 @@
           "persistentUuid": "8b1a6376-400d-419e-8479-b87387ec68f0",
           "width": 0,
           "x": 97,
-          "y": 355,
+          "y": 419,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -19443,9 +19509,41 @@
           "name": "difficulty",
           "persistentUuid": "f51e0502-32a8-4a92-a4d4-e5c368c81ba3",
           "width": 0,
-          "x": 348,
-          "y": 359,
+          "x": 310,
+          "y": 421,
           "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "globalsound",
+          "persistentUuid": "2c676983-8bde-4d5a-95b5-0876295bf7f4",
+          "width": 0,
+          "x": 370,
+          "y": 322,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "gloablsooundtitle",
+          "persistentUuid": "395ca297-9792-4518-9954-9605f34bb753",
+          "width": 0,
+          "x": 91,
+          "y": 321,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19567,6 +19665,50 @@
           "string": "Back to Menu?",
           "font": "assets/font/Angel wish.otf",
           "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "globalsound",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "name": "level",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "behaviors": [],
+          "string": "high",
+          "font": "assets/font/Angel wish.otf",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "gloablsooundtitle",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Volume level: ",
+          "font": "assets/font/Angel wish.otf",
+          "characterSize": 60,
           "color": {
             "b": 255,
             "g": 255,
@@ -19764,6 +19906,117 @@
               "events": []
             }
           ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "globalsound",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "globalsound",
+                "\"133;3;19\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "globalsound",
+                    "level",
+                    "=",
+                    "1-globalsound.Variable(level)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "globalsound",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "globalsound",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
           "disabled": false,
@@ -20048,7 +20301,7 @@
               "parameters": [
                 "difficulty",
                 "=",
-                "\"Normal\""
+                "\"normal\""
               ],
               "subInstructions": []
             },
@@ -20103,7 +20356,7 @@
               "parameters": [
                 "difficulty",
                 "=",
-                "\"High\""
+                "\"high\""
               ],
               "subInstructions": []
             },
@@ -20158,7 +20411,7 @@
               "parameters": [
                 "mute",
                 "=",
-                "\"No\""
+                "\"no\""
               ],
               "subInstructions": []
             },
@@ -20213,7 +20466,7 @@
               "parameters": [
                 "mute",
                 "=",
-                "\"Yes\""
+                "\"yes\""
               ],
               "subInstructions": []
             },
@@ -20226,6 +20479,116 @@
                 "sound",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "globalsound",
+                "level",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "globalsound",
+                "=",
+                "\"high\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "globalsound",
+                "level",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "globalsound",
+                "=",
+                "\"low\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "30"
               ],
               "subInstructions": []
             }
