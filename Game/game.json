@@ -2712,6 +2712,15 @@
         "name": "HitBox-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/SoundEffects/monsters/demon2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SoundEffects/monsters/demon2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4504,8 +4513,8 @@
           "name": "BlackMask",
           "persistentUuid": "97767629-b79a-4494-b226-eddfb30fe2f4",
           "width": 1000,
-          "x": -114,
-          "y": -74,
+          "x": -81,
+          "y": -49,
           "zOrder": 2000,
           "numberProperties": [],
           "stringProperties": [],
@@ -4649,6 +4658,22 @@
               "value": "4"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 109,
+          "layer": "Pause",
+          "locked": false,
+          "name": "PauseInfo",
+          "persistentUuid": "8538ca51-3b40-4bb9-bfed-dc98f73d434b",
+          "width": 643,
+          "x": 80,
+          "y": 23,
+          "zOrder": 2030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -7810,8 +7835,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -7822,8 +7847,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -7846,8 +7871,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -7858,8 +7883,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -7882,8 +7907,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -7894,8 +7919,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -7918,8 +7943,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -7930,8 +7955,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -7966,8 +7991,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -7978,8 +8003,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -8002,8 +8027,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -8014,8 +8039,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -8038,8 +8063,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -8050,8 +8075,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -8074,8 +8099,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -8086,8 +8111,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -8122,8 +8147,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -8134,8 +8159,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -8158,8 +8183,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -8170,8 +8195,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -8194,8 +8219,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -8206,8 +8231,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -8230,8 +8255,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -8242,8 +8267,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -8266,8 +8291,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -8278,8 +8303,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -8302,8 +8327,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -8314,8 +8339,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -8338,8 +8363,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -8350,8 +8375,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -8374,8 +8399,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -8386,8 +8411,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -8410,8 +8435,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -8422,8 +8447,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -8446,8 +8471,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -8458,8 +8483,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -8482,8 +8507,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 53.50030517578125,
-                            "y": 43.58001708984375
+                            "x": 47.7900390625,
+                            "y": 45.52510070800781
                           },
                           {
                             "x": 93.10638427734375,
@@ -8494,8 +8519,8 @@
                             "y": 102.82635498046875
                           },
                           {
-                            "x": 52.4244384765625,
-                            "y": 103.09722900390625
+                            "x": 47.3868408203125,
+                            "y": 101.03921508789062
                           }
                         ]
                       ]
@@ -12011,6 +12036,25 @@
           }
         },
         {
+          "bold": false,
+          "italic": false,
+          "name": "PauseInfo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Navigate the pause menu using the 'UP'/'DOWN' arrows\nPress 'ENTER' to select options",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
           "name": "Bk1",
           "tags": "",
           "type": "Sprite",
@@ -12185,7 +12229,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Initialization",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12400,7 +12444,7 @@
                   "parameters": [
                     "coinChance",
                     "=",
-                    "10"
+                    "7"
                   ],
                   "subInstructions": []
                 },
@@ -12424,7 +12468,7 @@
                   "parameters": [
                     "spikeChance",
                     "=",
-                    "20"
+                    "30"
                   ],
                   "subInstructions": []
                 },
@@ -12487,6 +12531,18 @@
                     "attack",
                     "=",
                     "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "difficulty",
+                    "=",
+                    "GlobalVariable(diffculty)+1"
                   ],
                   "subInstructions": []
                 },
@@ -12734,14 +12790,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySoundCanal"
+                    "value": "PlaySound"
                   },
                   "parameters": [
                     "",
                     "assets/SoundEffects/Coin.wav",
-                    "1",
                     "",
-                    "30",
+                    "",
                     ""
                   ],
                   "subInstructions": []
@@ -14365,14 +14420,10 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySoundCanal"
+                    "value": "Delete"
                   },
                   "parameters": [
-                    "",
-                    "assets/SoundEffects/potion.wav",
-                    "1",
-                    "50",
-                    "60",
+                    "HealthPotion",
                     ""
                   ],
                   "subInstructions": []
@@ -14380,10 +14431,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Delete"
+                    "value": "PlaySound"
                   },
                   "parameters": [
-                    "HealthPotion",
+                    "",
+                    "assets/SoundEffects/potion.wav",
+                    "",
+                    "70",
                     ""
                   ],
                   "subInstructions": []
@@ -14461,14 +14515,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySoundCanal"
+                    "value": "PlaySound"
                   },
                   "parameters": [
                     "",
                     "assets/SoundEffects/hero/injury.wav",
-                    "1",
-                    "50",
-                    "100",
+                    "",
+                    "",
                     ""
                   ],
                   "subInstructions": []
@@ -14573,14 +14626,27 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySoundCanal"
+                    "value": "PlaySound"
                   },
                   "parameters": [
                     "",
                     "assets/SoundEffects/hero/injury.wav",
-                    "1",
-                    "50",
-                    "100",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/SoundEffects/monsters/batattack.wav",
+                    "",
+                    "",
                     ""
                   ],
                   "subInstructions": []
@@ -14658,14 +14724,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySoundCanal"
+                    "value": "PlaySound"
                   },
                   "parameters": [
                     "",
                     "assets/SoundEffects/hero/injury.wav",
-                    "1",
-                    "50",
-                    "100",
+                    "",
+                    "",
                     ""
                   ],
                   "subInstructions": []
@@ -14754,14 +14819,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySoundCanal"
+                    "value": "PlaySound"
                   },
                   "parameters": [
                     "",
                     "assets/SoundEffects/monsters/batdeath.wav",
-                    "1",
-                    "50",
-                    "60",
+                    "",
+                    "",
                     ""
                   ],
                   "subInstructions": []
@@ -14847,14 +14911,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySoundCanal"
+                    "value": "PlaySound"
                   },
                   "parameters": [
                     "",
                     "assets/SoundEffects/monsters/skeletondeath.wav",
-                    "1",
-                    "50",
-                    "60",
+                    "",
+                    "",
                     ""
                   ],
                   "subInstructions": []
@@ -15065,90 +15128,19 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySoundCanal"
+                    "value": "PlaySound"
                   },
                   "parameters": [
                     "",
                     "assets/SoundEffects/monsters/Creepy_Laugh-Adam_Webb-235643261.mp3",
-                    "1",
-                    "50",
-                    "60",
+                    "",
+                    "",
                     ""
                   ],
                   "subInstructions": []
                 }
               ],
               "events": []
-            },
-            {
-              "disabled": false,
-              "folded": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "demon",
-                    "fireskull",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AddForceVers"
-                  },
-                  "parameters": [
-                    "fireskull",
-                    "Hero",
-                    "120*GlobalVariable(difficulty)",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": [],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "assets/SoundEffects/monsters/hell-Mike_Koenig-144950046.mp3",
-                        "666",
-                        "yes",
-                        "5",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
             },
             {
               "disabled": false,
@@ -15178,28 +15170,115 @@
                   "parameters": [
                     "demon",
                     "Hero",
-                    "100*GlobalVariable(difficulty)",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "assets/SoundEffects/monsters/Flapping Wings 3-SoundBible.com-1900341762.mp3",
-                    "1",
-                    "",
-                    "50",
+                    "90*GlobalVariable(difficulty)",
                     ""
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/SoundEffects/monsters/Flapping Wings 3-SoundBible.com-1900341762.mp3",
+                        "yes",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "demon",
+                    "fireskull",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceVers"
+                  },
+                  "parameters": [
+                    "fireskull",
+                    "Hero",
+                    "110*GlobalVariable(difficulty)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/SoundEffects/monsters/hell-Mike_Koenig-144950046.mp3",
+                        "yes",
+                        "30",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -15287,7 +15366,7 @@
                       "parameters": [
                         "demon",
                         "Hero",
-                        "200",
+                        "300",
                         ""
                       ],
                       "subInstructions": []
@@ -15477,14 +15556,13 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "PlaySoundCanal"
+                        "value": "PlaySound"
                       },
                       "parameters": [
                         "",
                         "assets/SoundEffects/monsters/demon1.wav",
-                        "1",
                         "",
-                        "50",
+                        "",
                         ""
                       ],
                       "subInstructions": []
@@ -15584,20 +15662,7 @@
                   "parameters": [
                     "Hero",
                     "Flash",
-                    "2",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Health::Health::Hit"
-                  },
-                  "parameters": [
-                    "Hero",
-                    "Health",
-                    "10",
+                    "0.5",
                     ""
                   ],
                   "subInstructions": []
@@ -15666,14 +15731,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySoundCanal"
+                    "value": "PlaySound"
                   },
                   "parameters": [
                     "",
                     "assets/SoundEffects/hero/injury.wav",
-                    "1",
-                    "50",
-                    "80",
+                    "",
+                    "",
                     ""
                   ],
                   "subInstructions": []
@@ -17526,14 +17590,13 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "PlaySoundCanal"
+                        "value": "PlaySound"
                       },
                       "parameters": [
                         "",
-                        "assets/SoundEffects/death/dark-souls-you-died-sound-effect_hm5sYFG.mp3",
-                        "1",
-                        "50",
-                        "100",
+                        "assets/SoundEffects/death/evillaugh.swf.mp3",
+                        "",
+                        "",
                         ""
                       ],
                       "subInstructions": []
@@ -17545,7 +17608,7 @@
                       },
                       "parameters": [
                         "",
-                        "assets/SoundEffects/death/evillaugh.swf.mp3",
+                        "assets/SoundEffects/death/dark-souls-you-died-sound-effect_hm5sYFG.mp3",
                         "",
                         "",
                         ""
@@ -19963,7 +20026,7 @@
                 "difficulty",
                 "setting",
                 "=",
-                "1"
+                "0"
               ],
               "subInstructions": []
             },
@@ -19997,7 +20060,7 @@
               "parameters": [
                 "difficulty",
                 "=",
-                "1"
+                "0"
               ],
               "subInstructions": []
             }
@@ -20018,7 +20081,7 @@
                 "difficulty",
                 "setting",
                 "=",
-                "2"
+                "1"
               ],
               "subInstructions": []
             },
@@ -20052,7 +20115,7 @@
               "parameters": [
                 "difficulty",
                 "=",
-                "2"
+                "1"
               ],
               "subInstructions": []
             }
